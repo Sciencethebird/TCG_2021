@@ -91,6 +91,7 @@ public:
 	reward slide_left() {
 		board prev = *this;
 		reward score = 0;
+		merge_count = 0;
 		for (int r = 0; r < 4; r++) {
 			auto& row = tile[r];
 			int top = 0, hold = 0;
@@ -104,6 +105,7 @@ public:
 						row[top++] = tile;
 						score += fib(tile);
 						hold = 0;
+						merge_count += 1;
 					} else {
 						row[top++] = hold;
 						hold = tile;
@@ -173,7 +175,7 @@ public:
 	void rotate_right() { transpose(); reflect_horizontal(); } // clockwise
 	void rotate_left() { transpose(); reflect_vertical(); } // counterclockwise
 	void reverse() { reflect_horizontal(); reflect_vertical(); }
-
+	int get_merget_count() { return merge_count; } 
 public:
 	friend std::ostream& operator <<(std::ostream& out, const board& b) {
 		out << "+------------------------+" << std::endl;
@@ -197,4 +199,5 @@ public:
 private:
 	grid tile;
 	data attr;
+	int merge_count;
 };

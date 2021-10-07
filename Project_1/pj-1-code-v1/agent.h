@@ -114,9 +114,9 @@ private:
 	std::array<int, 4> opcode;
 };
 
-class greedy_player : public agent {
+class reward_greedy_player : public agent {
 public:
-	greedy_player(const std::string& args = "") : agent(args), opcode({ 0, 1, 2, 3 }) {}
+	reward_greedy_player(const std::string& args = "") : agent(args), opcode({ 0, 1, 2, 3 }) {}
 
 	virtual action take_action(const board& before) {
 		//std::shuffle(opcode.begin(), opcode.end(), engine);
@@ -126,11 +126,72 @@ public:
 			board::reward reward = board(before).slide(op);
 			if (reward > reward_best){
 				reward_best = reward;
-				//std::cout << reward << ", "<< reward_best << std::endl;
 				op_best = op;
 			}
 		}
-		//std::cout << "best "<< reward_best << std::endl;
+		if (op_best != -1) return  action::slide(op_best);
+		else return action();
+	}
+
+private:
+	std::array<int, 4> opcode;
+};
+
+class merge_greedy_player : public agent {
+public:
+	merge_greedy_player(const std::string& args = "") : agent(args), opcode({ 0, 1, 2, 3 }) {}
+
+	virtual action take_action(const board& before) {
+		// std::shuffle(opcode.begin(), opcode.end(), engine);
+		int op_merge_best = -1;
+		int merge_best = -1;
+
+		for (int op : opcode) {
+			auto temp = board(before);
+			board::reward reward = temp.slide(op);
+			int merge_count = temp.get_merget_count();
+			//std::cout << "merge count" << merge_count << std::endl;
+			//std::cout << "op: " << op << "berfore:" << empty_cell_before << ", after:" << empty_cell << std::endl;
+			if (merge_count >= merge_best && reward > -1){
+				merge_best = merge_count;
+				op_merge_best = op;
+			}
+		}
+		//std::cout << op_reward_best << std::endl;
+		//if (op_space_best != -1) return  action::slide(op_space_best);
+		if (op_merge_best != -1) return  action::slide(op_merge_best);
+		else return action();
+	}
+
+private:
+	std::array<int, 4> opcode;
+};
+
+
+class two_step_greedy_player : public agent {
+public:
+	two_step_greedy_player(const std::string& args = "") : agent(args), opcode({ 0, 1, 2, 3 }) {}
+
+	virtual action take_action(const board& before) {
+		int op_best = -1;
+		board::reward reward_best = -1;
+
+		for (int op : opcode) {
+			auto temp = board(before);
+			board::reward reward = temp.slide(op);
+			board::reward reward_2nd_best = -1;
+
+			for (int op : opcode) {
+				auto temp2 = board(temp);
+				board::reward reward_2nd = temp2.slide(op);
+				if (reward_2nd > reward_2nd_best) reward_2nd_best = reward_2nd;
+			}
+			//std::cout << reward_2nd_best << std::endl;
+			if(reward + reward_2nd_best >= reward_best ){
+				op_best = op;
+				reward_best = reward + reward_2nd_best;
+			}
+		}
 		if (op_best != -1) return  action::slide(op_best);
 		else return action();
 	}
