@@ -56,7 +56,8 @@ int main(int argc, const char* argv[]) {
 		summary |= stat.is_finished();
 	}
 
-	player play(play_args);
+	//player play(play_args);
+	greedy_player play(play_args);
 	rndenv evil(evil_args);
 
 	while (!stat.is_finished()) {

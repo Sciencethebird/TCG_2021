@@ -58,7 +58,10 @@ To judge a statistic file "stat.txt" under a given speed limit:
 ```bash
 ./2584-judge --load=stat.txt --check --judge="speed-threshold=100000"
 ```
-
+To judge (One-liner)
+```bash
+cp stat.txt ../pj-1-judge-v1/stat.txt && ../pj-1-judge-v1/2584-judge --load=stat.txt --check
+```
 ## Author
 
 [Computer Games and Intelligence (CGI) Lab](https://cgilab.nctu.edu.tw/), NYCU, Taiwan

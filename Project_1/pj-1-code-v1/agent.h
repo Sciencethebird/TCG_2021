@@ -113,3 +113,28 @@ public:
 private:
 	std::array<int, 4> opcode;
 };
+
+class greedy_player : public agent {
+public:
+	greedy_player(const std::string& args = "") : agent(args), opcode({ 0, 1, 2, 3 }) {}
+
+	virtual action take_action(const board& before) {
+		//std::shuffle(opcode.begin(), opcode.end(), engine);
+		int op_best = -1;
+		board::reward reward_best = -1;
+		for (int op : opcode) {
+			board::reward reward = board(before).slide(op);
+			if (reward > reward_best){
+				reward_best = reward;
+				//std::cout << reward << ", "<< reward_best << std::endl;
+				op_best = op;
+			}
+		}
+		//std::cout << "best "<< reward_best << std::endl;
+		if (op_best != -1) return  action::slide(op_best);
+		else return action();
+	}
+
+private:
+	std::array<int, 4> opcode;
+};
