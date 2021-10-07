@@ -91,7 +91,7 @@ public:
 		for (size_t t = 0, c = 0; c < blk; c += stat[t++]) {
 			if (stat[t] == 0) continue;
 			unsigned accu = std::accumulate(std::begin(stat) + t, std::end(stat), 0);
-			std::cout << "\t" << ((1 << t) & -2u); // type
+			std::cout << "\t" << board::fib(t); // type
 			std::cout << "\t" << (accu * 100.0 / blk) << "%"; // win rate
 			std::cout << "\t" "(" << (stat[t] * 100.0 / blk) << "%" ")"; // percentage of ending
 			std::cout << std::endl;
