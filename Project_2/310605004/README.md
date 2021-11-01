@@ -39,29 +39,38 @@ To load and review the statistic result from a file:
 ./2048 --load=stat.txt
 ```
 
-## Judge
+## Advanced Usage
 
-TCG 2021 Project 1 Judger V20210927
-The provided judger, 2584-judge, can only be executed in the Linux environment.
-
-Before running the judger, make sure that it remains executable:
+To initialize the network, train the network for 100000 games, and save the weights to a file:
 ```bash
-chmod +x 2584-judge
+./2048 --total=100000 --block=1000 --limit=1000 --play="init save=weights.bin" # need to inherit from weight_agent
 ```
 
-To judge a statistic file "stat.txt":
+To load the weights from a file, train the network for 100000 games, and save the weights:
 ```bash
-./2584-judge --load=stat.txt --check
+./2048 --total=100000 --block=1000 --limit=1000 --play="load=weights.bin save=weights.bin" # need to inherit from weight_agent
 ```
 
-To judge a statistic file "stat.txt" under a given speed limit:
+To train the network for 1000 games, with a specific learning rate:
 ```bash
-./2584-judge --load=stat.txt --check --judge="speed-threshold=100000"
+./2048 --total=1000 --play="init alpha=0.0025" # need to inherit from weight_agent
 ```
-To judge (One-liner)
+
+To load the weights from a file, test the network for 1000 games, and save the statistic:
 ```bash
-cp stat.txt ../pj-1-judge-v1/stat.txt && ../pj-1-judge-v1/2584-judge --load=stat.txt --check
+./2048 --total=1000 --play="load=weights.bin alpha=0" --save="stat.txt" # need to inherit from weight_agent
 ```
+
+To perform a long training with periodic evaluations and network snapshots:
+```bash
+./2048 --total=0 --play="init save=weights.bin" # generate a clean network
+for i in {1..100}; do
+	./2048 --total=100000 --block=1000 --limit=1000 --play="load=weights.bin save=weights.bin alpha=0.0025" | tee -a train.log
+	./2048 --total=1000 --play="load=weights.bin alpha=0" --save="stat.txt"
+	tar zcvf weights.$(date +%Y%m%d-%H%M%S).tar.gz weights.bin train.log stat.txt
+done
+```
+
 ## Author
 
 [Computer Games and Intelligence (CGI) Lab](https://cgilab.nctu.edu.tw/), NYCU, Taiwan

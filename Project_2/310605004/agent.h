@@ -16,6 +16,7 @@
 #include <algorithm>
 #include "board.h"
 #include "action.h"
+#include "weight.h"
 #include <fstream>
 
 class agent {
@@ -67,6 +68,55 @@ protected:
 };
 
 /**
+<<<<<<< HEAD
+=======
+ * base agent for agents with weight tables and a learning rate
+ */
+class weight_agent : public agent {
+public:
+	weight_agent(const std::string& args = "") : agent(args), alpha(0) {
+		if (meta.find("init") != meta.end())
+			init_weights(meta["init"]);
+		if (meta.find("load") != meta.end())
+			load_weights(meta["load"]);
+		if (meta.find("alpha") != meta.end())
+			alpha = float(meta["alpha"]);
+	}
+	virtual ~weight_agent() {
+		if (meta.find("save") != meta.end())
+			save_weights(meta["save"]);
+	}
+
+protected:
+	virtual void init_weights(const std::string& info) {
+//		net.emplace_back(65536); // create an empty weight table with size 65536
+//		net.emplace_back(65536); // create an empty weight table with size 65536
+	}
+	virtual void load_weights(const std::string& path) {
+		std::ifstream in(path, std::ios::in | std::ios::binary);
+		if (!in.is_open()) std::exit(-1);
+		uint32_t size;
+		in.read(reinterpret_cast<char*>(&size), sizeof(size));
+		net.resize(size);
+		for (weight& w : net) in >> w;
+		in.close();
+	}
+	virtual void save_weights(const std::string& path) {
+		std::ofstream out(path, std::ios::out | std::ios::binary | std::ios::trunc);
+		if (!out.is_open()) std::exit(-1);
+		uint32_t size = net.size();
+		out.write(reinterpret_cast<char*>(&size), sizeof(size));
+		for (weight& w : net) out << w;
+		out.close();
+	}
+
+protected:
+	std::vector<weight> net;
+	float alpha;
+};
+
+/**
+>>>>>>> input
  * random environment
  * add a new random tile to an empty cell
  * 2-tile: 90%
