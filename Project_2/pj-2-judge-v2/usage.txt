@@ -1,0 +1,11 @@
+TCG 2021 Project 2 Judger V20211022
+The provided judger, 2584-judge, can only be executed in the Linux environment.
+
+Before running the judger, make sure that it remains executable:
+$ chmod +x 2584-judge
+
+To judge a statistic file "stat.txt":
+$ ./2584-judge --load=stat.txt --total=0 --check --judge="version=2"
+
+To judge a statistic file "stat.txt" under a given speed limit:
+$ ./2584-judge --load=stat.txt --total=0 --check --judge="version=2 speed-threshold=50000"

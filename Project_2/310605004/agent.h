@@ -68,13 +68,11 @@ protected:
 };
 
 /**
-<<<<<<< HEAD
-=======
  * base agent for agents with weight tables and a learning rate
  */
-class weight_agent : public agent {
+class td_player : public agent {
 public:
-	weight_agent(const std::string& args = "") : agent(args), alpha(0) {
+	td_player(const std::string& args = "") : agent(args), alpha(0) {
 		if (meta.find("init") != meta.end())
 			init_weights(meta["init"]);
 		if (meta.find("load") != meta.end())
@@ -82,15 +80,88 @@ public:
 		if (meta.find("alpha") != meta.end())
 			alpha = float(meta["alpha"]);
 	}
-	virtual ~weight_agent() {
+	virtual ~td_player() {
 		if (meta.find("save") != meta.end())
 			save_weights(meta["save"]);
 	}
+	virtual action take_action(const board& before) {
+		int best_op = -1;
+		int best_reward = -1;
+		float best_value = -100000;
+		board best_after;
+		for(int op : {0, 1, 2, 3}) {
+			board after = before;
+			int reward = after.slide(op);
+			if(reward == -1) continue;
+			float value = estimate_value(after);
+			if(reward + value > best_reward + best_value){
+				best_reward = reward;
+				best_value = value;
+				best_op = op;
+				best_after = after;
+			}
+		}
+		if(best_op != -1){
+			replay_buffer.push_back({best_reward, best_after});
+		}
+		return action::slide(best_op);
+	}
 
+	struct step
+	{
+		int reward;
+		board after;
+	};
+	
+	int extract_feature(const board& after, int a, int b, int c, int d) const {
+		return after(a) * 25 * 25 * 25 + after(b) * 25 * 25 + after(c) * 25 + after(d);
+	}
+	float estimate_value(const board& after) const {
+		float value = 0;
+		value += net[0][extract_feature(after, 0, 1, 2, 3)];
+		value += net[1][extract_feature(after, 4, 5, 6, 7)];
+		value += net[2][extract_feature(after, 8, 9, 10, 11)];
+		value += net[3][extract_feature(after, 12, 13, 14, 15)];
+		value += net[4][extract_feature(after, 0, 4, 8, 12)];
+		value += net[5][extract_feature(after, 1, 5, 9, 13)];
+		value += net[6][extract_feature(after, 2, 6, 10, 14)];
+		value += net[7][extract_feature(after, 3, 7, 11, 15)];	
+		return value;
+	}
+	void adjust_value(const board& after, float target) {
+		float current = estimate_value(after);
+		float error = target - current;
+		float adjust = alpha * error;
+		net[0][extract_feature(after, 0, 1, 2, 3)] += adjust;
+		net[1][extract_feature(after, 4, 5, 6, 7)] += adjust;
+		net[2][extract_feature(after, 8, 9, 10, 11)] += adjust;
+		net[3][extract_feature(after, 12, 13, 14, 15)] += adjust;
+		net[4][extract_feature(after, 0, 4, 8, 12)] += adjust;
+		net[5][extract_feature(after, 1, 5, 9, 13)] += adjust;
+		net[6][extract_feature(after, 2, 6, 10, 14)] += adjust;
+		net[7][extract_feature(after, 3, 7, 11, 15)] += adjust;
+	}
+	virtual void open_episode(const std::string & flag = ""){
+		replay_buffer.clear();
+	}
+	virtual void close_episode(const std::string& flag = ""){
+		if(replay_buffer.empty()) return;
+		if (alpha == 0) return;
+		adjust_value(replay_buffer[replay_buffer.size() - 1].after, 0);
+		for(int t = replay_buffer.size() -2; t >= 0; t--) {
+			adjust_value(replay_buffer[t].after, replay_buffer[t+1].reward + estimate_value(replay_buffer[t+1].after));
+		}
+	}
 protected:
 	virtual void init_weights(const std::string& info) {
-//		net.emplace_back(65536); // create an empty weight table with size 65536
-//		net.emplace_back(65536); // create an empty weight table with size 65536
+		net.emplace_back(25 * 25 * 25 * 25); // tuple 0: first line 
+		net.emplace_back(25 * 25 * 25 * 25); 
+		net.emplace_back(25 * 25 * 25 * 25); 
+		net.emplace_back(25 * 25 * 25 * 25); 
+		net.emplace_back(25 * 25 * 25 * 25); 
+		net.emplace_back(25 * 25 * 25 * 25); 
+		net.emplace_back(25 * 25 * 25 * 25); 
+		net.emplace_back(25 * 25 * 25 * 25); 
 	}
 	virtual void load_weights(const std::string& path) {
 		std::ifstream in(path, std::ios::in | std::ios::binary);
@@ -113,10 +184,10 @@ protected:
 protected:
 	std::vector<weight> net;
 	float alpha;
+	std::vector<step> replay_buffer;
 };
 
 /**
->>>>>>> input
  * random environment
  * add a new random tile to an empty cell
  * 2-tile: 90%
