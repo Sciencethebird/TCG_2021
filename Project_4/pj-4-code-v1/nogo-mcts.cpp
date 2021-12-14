@@ -63,8 +63,8 @@ int main(int argc, const char* argv[]) {
 		summary |= stat.is_finished();
 	}
 
-	mcts_player black("name=black " + black_args + " role=black");
-	mcts_player white("name=white " + white_args + " role=white");
+	player black("name=black " + black_args + " role=black");
+	player white("name=white " + white_args + " role=white");
 	//player black("name=black " + black_args + " role=black");
 	//player white("name=white " + white_args + " role=white");
 
