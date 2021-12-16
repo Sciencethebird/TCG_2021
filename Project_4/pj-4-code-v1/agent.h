@@ -23,13 +23,14 @@
 #include "action.h"
 #include "node.h"
 
-#define EXPLOR_CONST 1.2
+#define EXPLOR_CONST 0.5
 
+std::mutex shuffle_mutex;
 class agent {
 public:
 	agent(const std::string& args = "") {
 		
-		std::stringstream ss("name=unknown role=unknown search=random worker=1" + args); // "name=unknown...." gets replace if there's new value
+		std::stringstream ss("name=unknown role=unknown search=random worker=1 exploration=1.0 timeout=9999999 N=-1" + args); // "name=unknown...." gets replace if there's new value
 		for (std::string pair; ss >> pair; ) {
 			std::string key = pair.substr(0, pair.find('=')); 
 			std::string value = pair.substr(pair.find('=') + 1);
@@ -51,6 +52,8 @@ public:
 	virtual std::string search() const { return property("search"); }
 	virtual int timeout() const { return std::stoi(property("timeout")); }
 	virtual int worker() const { return std::stoi(property("worker")); }
+	virtual double exploration() const { return std::stof(property("exploration")); }
+	virtual double simulation_N() const { return std::stoi(property("N")); }
 	//search=MCTS timeout=1000
 
 protected:
@@ -120,7 +123,7 @@ public:
 	enum search_methods { RANDAM = 0, MCTS = 1 };
 public:
 	player(const std::string& args = ""): random_agent(args),
-		space(board::size_x * board::size_y), opponent_space(board::size_x * board::size_y), me(board::empty), opponent(board::empty) {
+		space(board::size_x * board::size_y), opponent_space(board::size_x * board::size_y), space_index(board::size_x * board::size_y), me(board::empty), opponent(board::empty) {
 		if (name().find_first_of("[]():; ") != std::string::npos)
 			throw std::invalid_argument("invalid name: " + name());
 		if (role() == "black") {
@@ -140,6 +143,8 @@ public:
 		// init opponent action space
 		for (size_t i = 0; i < opponent_space.size(); i++)
 			opponent_space[i] = action::place(i, opponent);
+		for (size_t i = 0; i < space_index.size(); i++)
+			space_index[i] = i;
 
 		// assign node random engine
 		node::engine = engine;
@@ -149,6 +154,10 @@ public:
 			time_limit = timeout();
 			search_method = player::MCTS;
 			worker_num = worker();
+			simulation_limit = simulation_N();
+			exploration_const = exploration();
+			//std::cout << exploration_const << std::endl;
+			//std::cin.get();
 		} 
 	}
 	virtual action take_action(const board& state) {
@@ -187,30 +196,52 @@ public:
 			workers[i].join();
 		}
 		
-
 		std::map<action::place, int> majority_voting;
-
+		std::map<action::place, int> majority_visit_count;
 		for(auto root: roots){
-			double best_value = -1 * std::numeric_limits<double>::infinity();
-			action::place best_action = action();
+			//double best_winrate = -1 * std::numeric_limits<double>::infinity();
+			//unsigned long long best_value = 0;
+			//action::place best_action = action();
 			// search root's child for best-value action
 			for(auto child: root->children){
 				//printf("[%f, %d/%d], ", child->get_winrate(), child->win_count, child->visit_count);
-				if(child->get_winrate() > best_value){
-					best_value = child->get_winrate();
-					best_action =  child->applied_action;
-				}
+				//if(child->get_winrate() > best_value){
+				//	best_value = child->get_winrate();
+				//	best_action =  child->applied_action;
+				//}
+				//printf("winrate, visit count: %f, %lld, %d\n",child->get_winrate(), child->visit_count, root->children.size());
+				//if(child->visit_count >= best_value){
+				//	if(child->get_winrate() >= best_winrate){
+				//	
+				//		best_winrate = child->get_winrate();
+				//		best_value = child->visit_count;
+				//		best_action = child->applied_action;
+				//	}
+				//}
+				majority_visit_count[child->applied_action]+=child->visit_count;
 			}
-			majority_voting[best_action]++;
+			//majority_voting[best_action]++;
+			
 		}
 		action::place best_action = action();
-		int highest_vote = 0;
-		for(auto act:majority_voting){
-			if(act.second>highest_vote){
-				highest_vote = act.second;
+		//int highest_vote = 0;
+		//for(auto act:majority_voting){
+		//	std::cout << "action: " << act.first << " , ac: " << act.second << std::endl;
+		//	if(act.second>highest_vote){
+		//		highest_vote = act.second;
+		//		best_action = act.first;
+		//	}
+		//}
+		int highest_count = 0;
+		for(auto act:majority_visit_count){
+			std::cout << "action: " << act.first << " , ac: " << act.second << std::endl;
+			if(act.second>highest_count){
+				highest_count = act.second;
 				best_action = act.first;
 			}
 		}
+		//std::cout << "best: " << highest_count << std::endl;
+		//std::cout << "==============\n\n" << std::endl;
 
 		// free memory of mcts trees
 		for(auto root: roots){
@@ -221,29 +252,38 @@ public:
 	}
 	void run_mcts(node* root){
 		auto start_time = std::chrono::high_resolution_clock::now().time_since_epoch().count();   
-		int simulation_count = 0;
+		int sim_count = 0;
+		//std::cout << simulation_limit << std::endl;
+		//std::cin.get();
+		std::vector<action::place> local_space = space;
+		std::vector<action::place> local_opponent_space = opponent_space;
+
 		while(1){
-			mcts(root);
-			simulation_count++;
+			mcts(root, &local_space, &local_opponent_space);
+			sim_count++;
 			//std::cout <<simulation_count << std::endl;
 			auto curr_time = std::chrono::high_resolution_clock::now().time_since_epoch().count(); 
 			auto duration = (curr_time - start_time) / 1000000; // msec
+			
 			if(duration > time_limit) break;
+			if((simulation_limit) > 0 && (sim_count > simulation_limit)) break;
 		}
-		printf("MCTS: %d simulation done\n", simulation_count);
+		auto curr_time = std::chrono::high_resolution_clock::now().time_since_epoch().count(); 
+		auto duration = (curr_time - start_time) / 1000000; // msec
+		printf("MCTS: %d simulation done, duration: %ld\n", sim_count, duration);
 	}
-	void mcts(node* root){
+	void mcts(node* root, std::vector<action::place>* local_space , std::vector<action::place>* local_opponent_space ){
 		//std::cout <<"\nnew search, state = " << root->win_count <<"/" << root->visit_count << std::endl;
 		node* best_leaf = select(root);
 		node*  new_leaf = expand(best_leaf);
-		int score = simulate(new_leaf);
+		int score = simulate(new_leaf, local_space, local_opponent_space);
 		back_propagation(new_leaf, score);
 	}
 
 	node::node_ptr select(node::node_ptr curr){
 		while(1){
 			if(curr->is_fully_expanded() && !curr->is_terminal_node()){
-				curr = get_best_child(curr, EXPLOR_CONST);
+				curr = get_best_child(curr);
 			} else{
 				break; // find a 
 			}
@@ -257,27 +297,40 @@ public:
 		
 	}
 	// int simulate(board state, board::piece_type who){
-	int simulate(node::node_ptr new_leaf){
+	int simulate(node::node_ptr new_leaf, std::vector<action::place>* local_space , std::vector<action::place>* local_opponent_space ){
 		//std::cout << "\n\n\n\n\n\n\n\nbefore simulation\n" << new_leaf->state << std::endl;
 		int	score;
 		board state = new_leaf->state;
 		board::piece_type who, next;
 		who = new_leaf->opponent; // start simulation from opponet 
+
+		// create local space to prevent shuffle racing problem
+		//std::shuffle(space.begin(), space.end(), engine);
+		//std::shuffle(opponent_space.begin(), opponent_space.end(), engine);
+
+		
+		//std::vector<int> local_space_index = space_index;
+		std::vector<action::place>* curr_space;
+		std::shuffle(local_opponent_space->begin(), local_opponent_space->end(), engine);
+		std::shuffle(local_space->begin(), local_space->end(), engine);
+		//int steps = 0;
+
 		while(1){
-			std::vector<action::place> curr_space;
+			
 			if(who == me){
-				curr_space = space;
+				curr_space = local_space;
 				next = opponent;
 			} else { // opponent
-				curr_space = opponent_space;
+				curr_space = local_opponent_space;
 				next = me;
 			} 
 
 			int terminate = 1;
 
 			// takes random action
-			std::shuffle(curr_space.begin(), curr_space.end(), engine);
-			for (const action::place& move : curr_space) {
+			//std::shuffle(curr_space->begin(), curr_space->end(), engine);
+
+			for (const action::place& move : (*curr_space)) {
 				if (move.apply(state) == board::legal){
 					terminate = 0;
 					break;
@@ -290,6 +343,11 @@ public:
 			}
 			who = next;
 		}
+		
+		// shuffle original space again to prevent same shuffle order
+		//std::lock_guard<std::mutex> guard(shuffle_mutex); 
+		//std::shuffle(space.begin(), space.end(), engine);
+		//std::shuffle(opponent_space.begin(), opponent_space.end(), engine);
 		//std::cout << "simulation result: "<< score  << "\n" << state << std::endl;
 		return score;
 	}
@@ -315,12 +373,12 @@ private:
 			root->children.pop_back();
 		}
 	}
-	node::node_ptr get_best_child(node::node_ptr curr, double exploration_const){
+	node::node_ptr get_best_child(node::node_ptr curr){
 		double best_value = -1 * std::numeric_limits<double>::infinity();
 		std::vector<node::node_ptr> best_nodes;
 		for(auto child: curr->children){
 			// UCB
-			double node_value = child->win_count / child->visit_count +
+			double node_value = (double) child->win_count / (double) child->visit_count +
 				exploration_const * sqrt(2*log(curr->visit_count) / child->visit_count);
 			if(node_value > best_value){
 				best_value = node_value;
@@ -337,11 +395,13 @@ private:
 private:
 	std::vector<action::place> space;
 	std::vector<action::place> opponent_space; // move space of white
+	std::vector<int> space_index;
 	board::piece_type me;
 	board::piece_type opponent;
-	
+	float exploration_const;
 	int time_limit;
 	int search_method;
 	int worker_num;
+	int simulation_limit;
 };
 

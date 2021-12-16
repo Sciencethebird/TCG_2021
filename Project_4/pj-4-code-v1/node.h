@@ -4,6 +4,8 @@
 #include <string>
 #include <memory>
 #include <iostream>
+#include <mutex>
+
 
 board::piece_type opponent_of(board::piece_type me){
     if(me == board::black) return board::white;
