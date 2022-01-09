@@ -1,0 +1,162 @@
+B<< HollowNoGo-Demo: /home/sciencethebird/Desktop/TCG_2021/Project_4/pj-4-judge-v1/./nogo --shell --name=Hollow-Black --black=search=MCTS N=12000 worker=8 exploration=0.5 
+B<< 
+B>> protocol_version
+B<< = 2
+B<< 
+B>> name
+B<< = Hollow-Black
+B<< 
+B>> version
+B<< = 2021
+B<< 
+B>> list_commands
+B<< = play
+B<< genmove
+B<< clear_board
+B<< showboard
+B<< boardsize
+B<< name
+B<< version
+B<< protocol_version
+B<< list_commands
+B<< quit
+B<< 
+B<< 
+W>> protocol_version
+W<< HollowNoGo-Demo: ./nogo --shell --name=Hollow --white=search=MCTS N=12000 worker=8 exploration=0.5 --black=search=MCTS N=12000 worker=8 exploration=0.5 
+W<< 
+W<< = 2
+W<< 
+W>> name
+W<< = Hollow
+W<< 
+W>> version
+W<< = 2021
+W<< 
+W>> list_commands
+W<< = play
+W<< genmove
+W<< clear_board
+W<< showboard
+W<< boardsize
+W<< name
+W<< version
+W<< protocol_version
+W<< list_commands
+W<< quit
+W<< 
+W<< 
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+============================================
+Game 0
+============================================
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+B>> genmove b
+B<< MCTS: 12001 simulation done, duration: 1309
+B<< MCTS: 12001 simulation done, duration: 1314
+B<< MCTS: 12001 simulation done, duration: 1333
+B<< MCTS: 12001 simulation done, duration: 1345
+B<< MCTS: 12001 simulation done, duration: 1351
+B<< MCTS: 12001 simulation done, duration: 1360
+B<< MCTS: 12001 simulation done, duration: 1364
+B<< MCTS: 12001 simulation done, duration: 1384
+B<< action: ;B[ai] , ac: 1748
+B<< action: ;B[ah] , ac: 1176
+B<< action: ;B[ag] , ac: 1202
+B<< action: ;B[af] , ac: 1092
+B<< action: ;B[ae] , ac: 907
+B<< action: ;B[ad] , ac: 1416
+B<< action: ;B[ac] , ac: 1483
+B<< action: ;B[ab] , ac: 1317
+B<< action: ;B[aa] , ac: 1507
+B<< action: ;B[bi] , ac: 1255
+B<< action: ;B[bh] , ac: 1211
+B<< action: ;B[bg] , ac: 907
+B<< action: ;B[bf] , ac: 1461
+B<< action: ;B[be] , ac: 1181
+B<< action: ;B[bd] , ac: 1693
+B<< action: ;B[bc] , ac: 1351
+B<< action: ;B[bb] , ac: 1219
+B<< action: ;B[ba] , ac: 1482
+B<< action: ;B[ci] , ac: 1415
+B<< action: ;B[ch] , ac: 1352
+B<< action: ;B[cg] , ac: 1299
+B<< action: ;B[cf] , ac: 1253
+B<< action: ;B[ce] , ac: 1118
+B<< action: ;B[cd] , ac: 1255
+B<< action: ;B[cc] , ac: 1654
+B<< action: ;B[cb] , ac: 1328
+B<< action: ;B[ca] , ac: 1807
+B<< action: ;B[di] , ac: 1241
+B<< action: ;B[dh] , ac: 1064
+B<< action: ;B[dg] , ac: 1176
+B<< action: ;B[dc] , ac: 1446
+B<< action: ;B[db] , ac: 1026
+B<< action: ;B[da] , ac: 1273
+B<< action: ;B[ei] , ac: 1313
+B<< action: ;B[eh] , ac: 1180
+B<< action: ;B[eg] , ac: 1302
+B<< action: ;B[ec] , ac: 1468
+B<< action: ;B[eb] , ac: 1345
+B<< action: ;B[ea] , ac: 1332
+B<< action: ;B[fi] , ac: 1779
+B<< action: ;B[fh] , ac: 1332
+B<< action: ;B[fg] , ac: 1159
+B<< action: ;B[fc] , ac: 1590
+B<< action: ;B[fb] , ac: 1116
+B<< action: ;B[fa] , ac: 1158
+B<< action: ;B[gi] , ac: 1648
+B<< action: ;B[gh] , ac: 1053
+B<< action: ;B[gg] , ac: 1391
+B<< action: ;B[gf] , ac: 1075
+B<< action: ;B[ge] , ac: 1777
+B<< action: ;B[gd] , ac: 1077
+B<< action: ;B[gc] , ac: 1680
+B<< action: ;B[gb] , ac: 1295
+B<< action: ;B[ga] , ac: 946
+B<< action: ;B[hi] , ac: 1335
+B<< action: ;B[hh] , ac: 1496
+B<< action: ;B[hg] , ac: 1645
+B<< action: ;B[hf] , ac: 1051
+B<< action: ;B[he] , ac: 973
+B<< action: ;B[hd] , ac: 1292
+B<< action: ;B[hc] , ac: 1055
+B<< action: ;B[hb] , ac: 1322
+B<< action: ;B[ha] , ac: 1657
+B<< action: ;B[ii] , ac: 1825
+B<< action: ;B[ih] , ac: 1324
+B<< action: ;B[ig] , ac: 1277
+B<< action: ;B[if] , ac: 1662
+B<< action: ;B[ie] , ac: 1076
+B<< action: ;B[id] , ac: 1212
+B<< action: ;B[ic] , ac: 1317
+B<< action: ;B[ib] , ac: 1437
+B<< action: ;B[ia] , ac: 1721
+B<< = J1
+B<< 
+W>> play B J1
+W<< = 
+W<< 
+W>> genmove w

@@ -1,0 +1,1705 @@
+B>> protocol_version
+B<< HollowNoGo-Demo: ./nogo --shell --name=Hollow --white=search=MCTS N=12000 worker=56 exploration=0.5 --black=search=MCTS N=12000 worker=56 exploration=0.5 
+B<< 
+B<< = 2
+B<< 
+B>> name
+B<< = Hollow
+B<< 
+B>> version
+B<< = 2021
+B<< 
+B>> list_commands
+B<< = play
+B<< genmove
+B<< clear_board
+B<< showboard
+B<< boardsize
+B<< name
+B<< version
+B<< protocol_version
+B<< list_commands
+B<< quit
+B<< 
+B<< 
+W>> protocol_version
+W<< HollowNoGo-Demo: /home/sciencethebird/Desktop/TCG_2021/Project_4/pj-4-judge-v1/./nogo --shell --name=Hollow-White --white=search=MCTS N=12000 worker=8 exploration=0.5 
+W<< 
+W<< = 2
+W<< 
+W>> name
+W<< = Hollow-White
+W<< 
+W>> version
+W<< = 2021
+W<< 
+W>> list_commands
+W<< = play
+W<< genmove
+W<< clear_board
+W<< showboard
+W<< boardsize
+W<< name
+W<< version
+W<< protocol_version
+W<< list_commands
+W<< quit
+W<< 
+W<< 
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+============================================
+Game 0
+============================================
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+B>> genmove b
+B<< MCTS: 12001 simulation done, duration: 3470
+B<< MCTS: 12001 simulation done, duration: 3517
+B<< MCTS: 12001 simulation done, duration: 3526
+B<< MCTS: 12001 simulation done, duration: 3546
+B<< MCTS: 12001 simulation done, duration: 3561
+B<< MCTS: 12001 simulation done, duration: 3563
+B<< MCTS: 12001 simulation done, duration: 3566
+B<< MCTS: 12001 simulation done, duration: 3572
+B<< MCTS: 12001 simulation done, duration: 3570
+B<< MCTS: 12001 simulation done, duration: 3586
+B<< MCTS: 12001 simulation done, duration: 3576
+B<< MCTS: 12001 simulation done, duration: 3584
+B<< MCTS: 12001 simulation done, duration: 3593
+B<< MCTS: 12001 simulation done, duration: 3608
+B<< MCTS: 12001 simulation done, duration: 3607
+B<< MCTS: 12001 simulation done, duration: 3597
+B<< MCTS: 12001 simulation done, duration: 3599
+B<< MCTS: 12001 simulation done, duration: 3613
+B<< MCTS: 12001 simulation done, duration: 3608
+B<< MCTS: 12001 simulation done, duration: 3642
+B<< MCTS: 12001 simulation done, duration: 3646
+B<< MCTS: 12001 simulation done, duration: 3656
+B<< MCTS: 12001 simulation done, duration: 3692
+B<< MCTS: 12001 simulation done, duration: 3700
+B<< MCTS: 12001 simulation done, duration: 3694
+B<< MCTS: 12001 simulation done, duration: 3697
+B<< MCTS: 12001 simulation done, duration: 3703
+B<< MCTS: 12001 simulation done, duration: 3743
+B<< MCTS: 12001 simulation done, duration: 3788
+B<< MCTS: 12001 simulation done, duration: 3799
+B<< MCTS: 12001 simulation done, duration: 3808
+B<< MCTS: 12001 simulation done, duration: 3811
+B<< MCTS: 12001 simulation done, duration: 3828
+B<< MCTS: 12001 simulation done, duration: 3835
+B<< MCTS: 12001 simulation done, duration: 3842
+B<< MCTS: 12001 simulation done, duration: 3849
+B<< MCTS: 12001 simulation done, duration: 3854
+B<< MCTS: 12001 simulation done, duration: 3859
+B<< MCTS: 12001 simulation done, duration: 3863
+B<< MCTS: 12001 simulation done, duration: 3886
+B<< MCTS: 12001 simulation done, duration: 3894
+B<< MCTS: 12001 simulation done, duration: 3904
+B<< MCTS: 12001 simulation done, duration: 3910
+B<< MCTS: 12001 simulation done, duration: 3912
+B<< MCTS: 12001 simulation done, duration: 3915
+B<< MCTS: 12001 simulation done, duration: 3915
+B<< MCTS: 12001 simulation done, duration: 3905
+B<< MCTS: 12001 simulation done, duration: 3927
+B<< MCTS: 12001 simulation done, duration: 3934
+B<< MCTS: 12001 simulation done, duration: 3921
+B<< MCTS: 12001 simulation done, duration: 3947
+B<< MCTS: 12001 simulation done, duration: 3951
+B<< MCTS: 12001 simulation done, duration: 3956
+B<< MCTS: 12001 simulation done, duration: 3947
+B<< MCTS: 12001 simulation done, duration: 3961
+B<< MCTS: 12001 simulation done, duration: 3964
+B<< action: ;B[ai] , ac: 9900
+B<< action: ;B[ah] , ac: 10179
+B<< action: ;B[ag] , ac: 8621
+B<< action: ;B[af] , ac: 10052
+B<< action: ;B[ae] , ac: 8634
+B<< action: ;B[ad] , ac: 9786
+B<< action: ;B[ac] , ac: 9141
+B<< action: ;B[ab] , ac: 9036
+B<< action: ;B[aa] , ac: 10482
+B<< action: ;B[bi] , ac: 10814
+B<< action: ;B[bh] , ac: 9258
+B<< action: ;B[bg] , ac: 8356
+B<< action: ;B[bf] , ac: 9273
+B<< action: ;B[be] , ac: 8434
+B<< action: ;B[bd] , ac: 8665
+B<< action: ;B[bc] , ac: 8504
+B<< action: ;B[bb] , ac: 8570
+B<< action: ;B[ba] , ac: 10059
+B<< action: ;B[ci] , ac: 9409
+B<< action: ;B[ch] , ac: 8661
+B<< action: ;B[cg] , ac: 9323
+B<< action: ;B[cf] , ac: 9980
+B<< action: ;B[ce] , ac: 9420
+B<< action: ;B[cd] , ac: 9511
+B<< action: ;B[cc] , ac: 9422
+B<< action: ;B[cb] , ac: 8642
+B<< action: ;B[ca] , ac: 9521
+B<< action: ;B[di] , ac: 9856
+B<< action: ;B[dh] , ac: 8900
+B<< action: ;B[dg] , ac: 8691
+B<< action: ;B[dc] , ac: 10247
+B<< action: ;B[db] , ac: 8466
+B<< action: ;B[da] , ac: 9397
+B<< action: ;B[ei] , ac: 10047
+B<< action: ;B[eh] , ac: 8349
+B<< action: ;B[eg] , ac: 9736
+B<< action: ;B[ec] , ac: 9752
+B<< action: ;B[eb] , ac: 7645
+B<< action: ;B[ea] , ac: 9282
+B<< action: ;B[fi] , ac: 9028
+B<< action: ;B[fh] , ac: 9216
+B<< action: ;B[fg] , ac: 9815
+B<< action: ;B[fc] , ac: 9161
+B<< action: ;B[fb] , ac: 8186
+B<< action: ;B[fa] , ac: 9534
+B<< action: ;B[gi] , ac: 10496
+B<< action: ;B[gh] , ac: 8432
+B<< action: ;B[gg] , ac: 9271
+B<< action: ;B[gf] , ac: 9439
+B<< action: ;B[ge] , ac: 10314
+B<< action: ;B[gd] , ac: 9838
+B<< action: ;B[gc] , ac: 8051
+B<< action: ;B[gb] , ac: 8406
+B<< action: ;B[ga] , ac: 9734
+B<< action: ;B[hi] , ac: 9614
+B<< action: ;B[hh] , ac: 8698
+B<< action: ;B[hg] , ac: 7813
+B<< action: ;B[hf] , ac: 8879
+B<< action: ;B[he] , ac: 8725
+B<< action: ;B[hd] , ac: 8268
+B<< action: ;B[hc] , ac: 8543
+B<< action: ;B[hb] , ac: 8715
+B<< action: ;B[ha] , ac: 10814
+B<< action: ;B[ii] , ac: 9887
+B<< action: ;B[ih] , ac: 10683
+B<< action: ;B[ig] , ac: 9678
+B<< action: ;B[if] , ac: 9631
+B<< action: ;B[ie] , ac: 9830
+B<< action: ;B[id] , ac: 10199
+B<< action: ;B[ic] , ac: 11093
+B<< action: ;B[ib] , ac: 9606
+B<< action: ;B[ia] , ac: 10438
+B<< = J7
+B<< 
+W>> play B J7
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 12001 simulation done, duration: 1298
+W<< MCTS: 12001 simulation done, duration: 1311
+W<< MCTS: 12001 simulation done, duration: 1332
+W<< MCTS: 12001 simulation done, duration: 1336
+W<< MCTS: 12001 simulation done, duration: 1343
+W<< MCTS: 12001 simulation done, duration: 1344
+W<< MCTS: 12001 simulation done, duration: 1352
+W<< MCTS: 12001 simulation done, duration: 1353
+W<< action: ;W[ai] , ac: 1910
+W<< action: ;W[ah] , ac: 1275
+W<< action: ;W[ag] , ac: 1106
+W<< action: ;W[af] , ac: 1124
+W<< action: ;W[ae] , ac: 1149
+W<< action: ;W[ad] , ac: 1767
+W<< action: ;W[ac] , ac: 1156
+W<< action: ;W[ab] , ac: 1303
+W<< action: ;W[aa] , ac: 1842
+W<< action: ;W[bi] , ac: 1538
+W<< action: ;W[bh] , ac: 1166
+W<< action: ;W[bg] , ac: 1592
+W<< action: ;W[bf] , ac: 976
+W<< action: ;W[be] , ac: 984
+W<< action: ;W[bd] , ac: 1605
+W<< action: ;W[bc] , ac: 1048
+W<< action: ;W[bb] , ac: 1179
+W<< action: ;W[ba] , ac: 1314
+W<< action: ;W[ci] , ac: 1957
+W<< action: ;W[ch] , ac: 1231
+W<< action: ;W[cg] , ac: 1579
+W<< action: ;W[cf] , ac: 1292
+W<< action: ;W[ce] , ac: 1589
+W<< action: ;W[cd] , ac: 1257
+W<< action: ;W[cc] , ac: 1323
+W<< action: ;W[cb] , ac: 1408
+W<< action: ;W[ca] , ac: 1289
+W<< action: ;W[di] , ac: 1235
+W<< action: ;W[dh] , ac: 1438
+W<< action: ;W[dg] , ac: 1325
+W<< action: ;W[dc] , ac: 2071
+W<< action: ;W[db] , ac: 1484
+W<< action: ;W[da] , ac: 1355
+W<< action: ;W[ei] , ac: 1172
+W<< action: ;W[eh] , ac: 1469
+W<< action: ;W[eg] , ac: 1300
+W<< action: ;W[ec] , ac: 1376
+W<< action: ;W[eb] , ac: 973
+W<< action: ;W[ea] , ac: 1335
+W<< action: ;W[fi] , ac: 888
+W<< action: ;W[fh] , ac: 1639
+W<< action: ;W[fg] , ac: 1718
+W<< action: ;W[fc] , ac: 1366
+W<< action: ;W[fb] , ac: 1129
+W<< action: ;W[fa] , ac: 1583
+W<< action: ;W[gi] , ac: 1661
+W<< action: ;W[gh] , ac: 921
+W<< action: ;W[gg] , ac: 1274
+W<< action: ;W[gf] , ac: 1344
+W<< action: ;W[ge] , ac: 1255
+W<< action: ;W[gd] , ac: 1074
+W<< action: ;W[gc] , ac: 1433
+W<< action: ;W[gb] , ac: 1444
+W<< action: ;W[ga] , ac: 1232
+W<< action: ;W[hi] , ac: 1302
+W<< action: ;W[hh] , ac: 1359
+W<< action: ;W[hg] , ac: 1140
+W<< action: ;W[hf] , ac: 1304
+W<< action: ;W[he] , ac: 1098
+W<< action: ;W[hd] , ac: 1155
+W<< action: ;W[hc] , ac: 964
+W<< action: ;W[hb] , ac: 1268
+W<< action: ;W[ha] , ac: 1728
+W<< action: ;W[ii] , ac: 1217
+W<< action: ;W[ih] , ac: 1174
+W<< action: ;W[ig] , ac: 1703
+W<< action: ;W[if] , ac: 1297
+W<< action: ;W[ie] , ac: 1195
+W<< action: ;W[id] , ac: 1229
+W<< action: ;W[ib] , ac: 1743
+W<< action: ;W[ia] , ac: 1679
+W<< = D7
+W<< 
+B>> play W D7
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 12001 simulation done, duration: 3284
+B<< MCTS: 12001 simulation done, duration: 3289
+B<< MCTS: 12001 simulation done, duration: 3289
+B<< MCTS: 12001 simulation done, duration: 3290
+B<< MCTS: 12001 simulation done, duration: 3300
+B<< MCTS: 12001 simulation done, duration: 3300
+B<< MCTS: 12001 simulation done, duration: 3300
+B<< MCTS: 12001 simulation done, duration: 3304
+B<< MCTS: 12001 simulation done, duration: 3304
+B<< MCTS: 12001 simulation done, duration: 3297
+B<< MCTS: 12001 simulation done, duration: 3297
+B<< MCTS: 12001 simulation done, duration: 3310
+B<< MCTS: 12001 simulation done, duration: 3311
+B<< MCTS: 12001 simulation done, duration: 3313
+B<< MCTS: 12001 simulation done, duration: 3316
+B<< MCTS: 12001 simulation done, duration: 3303
+B<< MCTS: 12001 simulation done, duration: 3304
+B<< MCTS: 12001 simulation done, duration: 3322
+B<< MCTS: 12001 simulation done, duration: 3306
+B<< MCTS: 12001 simulation done, duration: 3328
+B<< MCTS: 12001 simulation done, duration: 3325
+B<< MCTS: 12001 simulation done, duration: 3342
+B<< MCTS: 12001 simulation done, duration: 3335
+B<< MCTS: 12001 simulation done, duration: 3332
+B<< MCTS: 12001 simulation done, duration: 3337
+B<< MCTS: 12001 simulation done, duration: 3334
+B<< MCTS: 12001 simulation done, duration: 3375
+B<< MCTS: 12001 simulation done, duration: 3405
+B<< MCTS: 12001 simulation done, duration: 3727
+B<< MCTS: 12001 simulation done, duration: 3754
+B<< MCTS: 12001 simulation done, duration: 3859
+B<< MCTS: 12001 simulation done, duration: 3862
+B<< MCTS: 12001 simulation done, duration: 3866
+B<< MCTS: 12001 simulation done, duration: 3865
+B<< MCTS: 12001 simulation done, duration: 3857
+B<< MCTS: 12001 simulation done, duration: 3871
+B<< MCTS: 12001 simulation done, duration: 3866
+B<< MCTS: 12001 simulation done, duration: 3861
+B<< MCTS: 12001 simulation done, duration: 3876
+B<< MCTS: 12001 simulation done, duration: 3864
+B<< MCTS: 12001 simulation done, duration: 3866
+B<< MCTS: 12001 simulation done, duration: 3877
+B<< MCTS: 12001 simulation done, duration: 3872
+B<< MCTS: 12001 simulation done, duration: 3866
+B<< MCTS: 12001 simulation done, duration: 3884
+B<< MCTS: 12001 simulation done, duration: 3884
+B<< MCTS: 12001 simulation done, duration: 3881
+B<< MCTS: 12001 simulation done, duration: 3896
+B<< MCTS: 12001 simulation done, duration: 3899
+B<< MCTS: 12001 simulation done, duration: 3907
+B<< MCTS: 12001 simulation done, duration: 3906
+B<< MCTS: 12001 simulation done, duration: 3893
+B<< MCTS: 12001 simulation done, duration: 3900
+B<< MCTS: 12001 simulation done, duration: 3921
+B<< MCTS: 12001 simulation done, duration: 3935
+B<< MCTS: 12001 simulation done, duration: 3947
+B<< action: ;B[ai] , ac: 10444
+B<< action: ;B[ah] , ac: 10548
+B<< action: ;B[ag] , ac: 10374
+B<< action: ;B[af] , ac: 10040
+B<< action: ;B[ae] , ac: 9611
+B<< action: ;B[ad] , ac: 10044
+B<< action: ;B[ac] , ac: 9988
+B<< action: ;B[ab] , ac: 10516
+B<< action: ;B[aa] , ac: 9169
+B<< action: ;B[bi] , ac: 9719
+B<< action: ;B[bh] , ac: 8077
+B<< action: ;B[bg] , ac: 8767
+B<< action: ;B[bf] , ac: 8969
+B<< action: ;B[be] , ac: 8439
+B<< action: ;B[bd] , ac: 9383
+B<< action: ;B[bc] , ac: 9313
+B<< action: ;B[bb] , ac: 9123
+B<< action: ;B[ba] , ac: 9608
+B<< action: ;B[ci] , ac: 10565
+B<< action: ;B[ch] , ac: 8678
+B<< action: ;B[cg] , ac: 9851
+B<< action: ;B[cf] , ac: 8875
+B<< action: ;B[ce] , ac: 9780
+B<< action: ;B[cd] , ac: 9818
+B<< action: ;B[cc] , ac: 8869
+B<< action: ;B[cb] , ac: 8018
+B<< action: ;B[ca] , ac: 10832
+B<< action: ;B[di] , ac: 10104
+B<< action: ;B[dh] , ac: 8124
+B<< action: ;B[dg] , ac: 8743
+B<< action: ;B[db] , ac: 7229
+B<< action: ;B[da] , ac: 10492
+B<< action: ;B[ei] , ac: 10343
+B<< action: ;B[eh] , ac: 7936
+B<< action: ;B[eg] , ac: 10276
+B<< action: ;B[ec] , ac: 10913
+B<< action: ;B[eb] , ac: 9502
+B<< action: ;B[ea] , ac: 10681
+B<< action: ;B[fi] , ac: 10259
+B<< action: ;B[fh] , ac: 8871
+B<< action: ;B[fg] , ac: 10113
+B<< action: ;B[fc] , ac: 10014
+B<< action: ;B[fb] , ac: 8708
+B<< action: ;B[fa] , ac: 11177
+B<< action: ;B[gi] , ac: 9767
+B<< action: ;B[gh] , ac: 9104
+B<< action: ;B[gg] , ac: 10721
+B<< action: ;B[gf] , ac: 10009
+B<< action: ;B[ge] , ac: 9961
+B<< action: ;B[gd] , ac: 9095
+B<< action: ;B[gc] , ac: 9452
+B<< action: ;B[gb] , ac: 9551
+B<< action: ;B[ga] , ac: 9971
+B<< action: ;B[hi] , ac: 10165
+B<< action: ;B[hh] , ac: 9622
+B<< action: ;B[hg] , ac: 9089
+B<< action: ;B[hf] , ac: 9354
+B<< action: ;B[he] , ac: 8848
+B<< action: ;B[hd] , ac: 9971
+B<< action: ;B[hc] , ac: 8706
+B<< action: ;B[hb] , ac: 8692
+B<< action: ;B[ha] , ac: 11302
+B<< action: ;B[ii] , ac: 11443
+B<< action: ;B[ih] , ac: 9558
+B<< action: ;B[ig] , ac: 9063
+B<< action: ;B[if] , ac: 9848
+B<< action: ;B[ie] , ac: 10547
+B<< action: ;B[id] , ac: 9018
+B<< action: ;B[ib] , ac: 8173
+B<< action: ;B[ia] , ac: 10123
+B<< = J1
+B<< 
+W>> play B J1
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 12001 simulation done, duration: 1222
+W<< MCTS: 12001 simulation done, duration: 1235
+W<< MCTS: 12001 simulation done, duration: 1235
+W<< MCTS: 12001 simulation done, duration: 1242
+W<< MCTS: 12001 simulation done, duration: 1251
+W<< MCTS: 12001 simulation done, duration: 1257
+W<< MCTS: 12001 simulation done, duration: 1262
+W<< MCTS: 12001 simulation done, duration: 1265
+W<< action: ;W[ai] , ac: 1268
+W<< action: ;W[ah] , ac: 1907
+W<< action: ;W[ag] , ac: 859
+W<< action: ;W[af] , ac: 1247
+W<< action: ;W[ae] , ac: 1080
+W<< action: ;W[ad] , ac: 1421
+W<< action: ;W[ac] , ac: 1322
+W<< action: ;W[ab] , ac: 1400
+W<< action: ;W[aa] , ac: 1645
+W<< action: ;W[bi] , ac: 1406
+W<< action: ;W[bh] , ac: 1200
+W<< action: ;W[bg] , ac: 1169
+W<< action: ;W[bf] , ac: 1273
+W<< action: ;W[be] , ac: 1543
+W<< action: ;W[bd] , ac: 1245
+W<< action: ;W[bc] , ac: 1181
+W<< action: ;W[bb] , ac: 1074
+W<< action: ;W[ba] , ac: 1845
+W<< action: ;W[ci] , ac: 1066
+W<< action: ;W[ch] , ac: 1094
+W<< action: ;W[cg] , ac: 1618
+W<< action: ;W[cf] , ac: 1831
+W<< action: ;W[ce] , ac: 2216
+W<< action: ;W[cd] , ac: 1674
+W<< action: ;W[cc] , ac: 1198
+W<< action: ;W[cb] , ac: 1526
+W<< action: ;W[ca] , ac: 1520
+W<< action: ;W[di] , ac: 1608
+W<< action: ;W[dh] , ac: 1415
+W<< action: ;W[dg] , ac: 1727
+W<< action: ;W[db] , ac: 1536
+W<< action: ;W[da] , ac: 1497
+W<< action: ;W[ei] , ac: 1527
+W<< action: ;W[eh] , ac: 1079
+W<< action: ;W[eg] , ac: 1440
+W<< action: ;W[ec] , ac: 1279
+W<< action: ;W[eb] , ac: 1395
+W<< action: ;W[ea] , ac: 1345
+W<< action: ;W[fi] , ac: 1552
+W<< action: ;W[fh] , ac: 928
+W<< action: ;W[fg] , ac: 1480
+W<< action: ;W[fc] , ac: 1679
+W<< action: ;W[fb] , ac: 1246
+W<< action: ;W[fa] , ac: 1685
+W<< action: ;W[gi] , ac: 1456
+W<< action: ;W[gh] , ac: 1811
+W<< action: ;W[gg] , ac: 921
+W<< action: ;W[gf] , ac: 1406
+W<< action: ;W[ge] , ac: 1644
+W<< action: ;W[gd] , ac: 1237
+W<< action: ;W[gc] , ac: 1303
+W<< action: ;W[gb] , ac: 1186
+W<< action: ;W[ga] , ac: 1564
+W<< action: ;W[hi] , ac: 1573
+W<< action: ;W[hh] , ac: 1193
+W<< action: ;W[hg] , ac: 1142
+W<< action: ;W[hf] , ac: 964
+W<< action: ;W[he] , ac: 1387
+W<< action: ;W[hd] , ac: 1384
+W<< action: ;W[hc] , ac: 1016
+W<< action: ;W[hb] , ac: 1619
+W<< action: ;W[ha] , ac: 1463
+W<< action: ;W[ih] , ac: 961
+W<< action: ;W[ig] , ac: 1017
+W<< action: ;W[if] , ac: 1589
+W<< action: ;W[ie] , ac: 1454
+W<< action: ;W[id] , ac: 1447
+W<< action: ;W[ib] , ac: 1265
+W<< action: ;W[ia] , ac: 1760
+W<< = C5
+W<< 
+B>> play W C5
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 12001 simulation done, duration: 3271
+B<< MCTS: 12001 simulation done, duration: 3276
+B<< MCTS: 12001 simulation done, duration: 3274
+B<< MCTS: 12001 simulation done, duration: 3285
+B<< MCTS: 12001 simulation done, duration: 3299
+B<< MCTS: 12001 simulation done, duration: 3300
+B<< MCTS: 12001 simulation done, duration: 3300
+B<< MCTS: 12001 simulation done, duration: 3294
+B<< MCTS: 12001 simulation done, duration: 3314
+B<< MCTS: 12001 simulation done, duration: 3319
+B<< MCTS: 12001 simulation done, duration: 3319
+B<< MCTS: 12001 simulation done, duration: 3299
+B<< MCTS: 12001 simulation done, duration: 3321
+B<< MCTS: 12001 simulation done, duration: 3315
+B<< MCTS: 12001 simulation done, duration: 3326
+B<< MCTS: 12001 simulation done, duration: 3320
+B<< MCTS: 12001 simulation done, duration: 3321
+B<< MCTS: 12001 simulation done, duration: 3335
+B<< MCTS: 12001 simulation done, duration: 3327
+B<< MCTS: 12001 simulation done, duration: 3338
+B<< MCTS: 12001 simulation done, duration: 3341
+B<< MCTS: 12001 simulation done, duration: 3327
+B<< MCTS: 12001 simulation done, duration: 3388
+B<< MCTS: 12001 simulation done, duration: 3395
+B<< MCTS: 12001 simulation done, duration: 3409
+B<< MCTS: 12001 simulation done, duration: 3528
+B<< MCTS: 12001 simulation done, duration: 3529
+B<< MCTS: 12001 simulation done, duration: 3564
+B<< MCTS: 12001 simulation done, duration: 3592
+B<< MCTS: 12001 simulation done, duration: 3621
+B<< MCTS: 12001 simulation done, duration: 3643
+B<< MCTS: 12001 simulation done, duration: 3628
+B<< MCTS: 12001 simulation done, duration: 3648
+B<< MCTS: 12001 simulation done, duration: 3633
+B<< MCTS: 12001 simulation done, duration: 3666
+B<< MCTS: 12001 simulation done, duration: 3683
+B<< MCTS: 12001 simulation done, duration: 3705
+B<< MCTS: 12001 simulation done, duration: 3748
+B<< MCTS: 12001 simulation done, duration: 3742
+B<< MCTS: 12001 simulation done, duration: 3801
+B<< MCTS: 12001 simulation done, duration: 3802
+B<< MCTS: 12001 simulation done, duration: 3816
+B<< MCTS: 12001 simulation done, duration: 3830
+B<< MCTS: 12001 simulation done, duration: 3831
+B<< MCTS: 12001 simulation done, duration: 3855
+B<< MCTS: 12001 simulation done, duration: 3844
+B<< MCTS: 12001 simulation done, duration: 3865
+B<< MCTS: 12001 simulation done, duration: 3865
+B<< MCTS: 12001 simulation done, duration: 3878
+B<< MCTS: 12001 simulation done, duration: 3883
+B<< MCTS: 12001 simulation done, duration: 3877
+B<< MCTS: 12001 simulation done, duration: 3891
+B<< MCTS: 12001 simulation done, duration: 3920
+B<< MCTS: 12001 simulation done, duration: 3946
+B<< MCTS: 12001 simulation done, duration: 3939
+B<< MCTS: 12001 simulation done, duration: 3948
+B<< action: ;B[ai] , ac: 11569
+B<< action: ;B[ah] , ac: 10413
+B<< action: ;B[ag] , ac: 10637
+B<< action: ;B[af] , ac: 9743
+B<< action: ;B[ae] , ac: 9765
+B<< action: ;B[ad] , ac: 10436
+B<< action: ;B[ac] , ac: 10677
+B<< action: ;B[ab] , ac: 10915
+B<< action: ;B[aa] , ac: 10949
+B<< action: ;B[bi] , ac: 10434
+B<< action: ;B[bh] , ac: 8293
+B<< action: ;B[bg] , ac: 9884
+B<< action: ;B[bf] , ac: 9499
+B<< action: ;B[be] , ac: 9214
+B<< action: ;B[bd] , ac: 9463
+B<< action: ;B[bc] , ac: 9112
+B<< action: ;B[bb] , ac: 9285
+B<< action: ;B[ba] , ac: 10201
+B<< action: ;B[ci] , ac: 10185
+B<< action: ;B[ch] , ac: 9665
+B<< action: ;B[cg] , ac: 11673
+B<< action: ;B[cf] , ac: 10838
+B<< action: ;B[cd] , ac: 11137
+B<< action: ;B[cc] , ac: 9509
+B<< action: ;B[cb] , ac: 8200
+B<< action: ;B[ca] , ac: 10307
+B<< action: ;B[di] , ac: 9014
+B<< action: ;B[dh] , ac: 8745
+B<< action: ;B[dg] , ac: 9594
+B<< action: ;B[db] , ac: 8187
+B<< action: ;B[da] , ac: 10410
+B<< action: ;B[ei] , ac: 9936
+B<< action: ;B[eh] , ac: 9904
+B<< action: ;B[eg] , ac: 11166
+B<< action: ;B[ec] , ac: 11044
+B<< action: ;B[eb] , ac: 9570
+B<< action: ;B[ea] , ac: 10238
+B<< action: ;B[fi] , ac: 9767
+B<< action: ;B[fh] , ac: 7883
+B<< action: ;B[fg] , ac: 9664
+B<< action: ;B[fc] , ac: 10298
+B<< action: ;B[fb] , ac: 9417
+B<< action: ;B[fa] , ac: 10765
+B<< action: ;B[gi] , ac: 9323
+B<< action: ;B[gh] , ac: 8961
+B<< action: ;B[gg] , ac: 10593
+B<< action: ;B[gf] , ac: 11323
+B<< action: ;B[ge] , ac: 10417
+B<< action: ;B[gd] , ac: 9679
+B<< action: ;B[gc] , ac: 9162
+B<< action: ;B[gb] , ac: 9145
+B<< action: ;B[ga] , ac: 11765
+B<< action: ;B[hi] , ac: 8079
+B<< action: ;B[hh] , ac: 9579
+B<< action: ;B[hg] , ac: 10096
+B<< action: ;B[hf] , ac: 10023
+B<< action: ;B[he] , ac: 9443
+B<< action: ;B[hd] , ac: 10296
+B<< action: ;B[hc] , ac: 8370
+B<< action: ;B[hb] , ac: 9843
+B<< action: ;B[ha] , ac: 11550
+B<< action: ;B[ih] , ac: 7332
+B<< action: ;B[ig] , ac: 9814
+B<< action: ;B[if] , ac: 9378
+B<< action: ;B[ie] , ac: 10928
+B<< action: ;B[id] , ac: 8133
+B<< action: ;B[ib] , ac: 9305
+B<< action: ;B[ia] , ac: 11914
+B<< = J9
+B<< 
+W>> play B J9
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 12001 simulation done, duration: 1206
+W<< MCTS: 12001 simulation done, duration: 1216
+W<< MCTS: 12001 simulation done, duration: 1229
+W<< MCTS: 12001 simulation done, duration: 1231
+W<< MCTS: 12001 simulation done, duration: 1246
+W<< MCTS: 12001 simulation done, duration: 1247
+W<< MCTS: 12001 simulation done, duration: 1251
+W<< MCTS: 12001 simulation done, duration: 1257
+W<< action: ;W[ai] , ac: 1599
+W<< action: ;W[ah] , ac: 1551
+W<< action: ;W[ag] , ac: 1655
+W<< action: ;W[af] , ac: 1681
+W<< action: ;W[ae] , ac: 1667
+W<< action: ;W[ad] , ac: 2014
+W<< action: ;W[ac] , ac: 1431
+W<< action: ;W[ab] , ac: 1443
+W<< action: ;W[aa] , ac: 1704
+W<< action: ;W[bi] , ac: 2437
+W<< action: ;W[bh] , ac: 944
+W<< action: ;W[bg] , ac: 1357
+W<< action: ;W[bf] , ac: 1645
+W<< action: ;W[be] , ac: 1212
+W<< action: ;W[bd] , ac: 1562
+W<< action: ;W[bc] , ac: 1299
+W<< action: ;W[bb] , ac: 1488
+W<< action: ;W[ba] , ac: 1120
+W<< action: ;W[ci] , ac: 1723
+W<< action: ;W[ch] , ac: 1268
+W<< action: ;W[cg] , ac: 1504
+W<< action: ;W[cf] , ac: 1189
+W<< action: ;W[cd] , ac: 834
+W<< action: ;W[cc] , ac: 1378
+W<< action: ;W[cb] , ac: 1139
+W<< action: ;W[ca] , ac: 1681
+W<< action: ;W[di] , ac: 1372
+W<< action: ;W[dh] , ac: 1541
+W<< action: ;W[dg] , ac: 1198
+W<< action: ;W[db] , ac: 1350
+W<< action: ;W[da] , ac: 920
+W<< action: ;W[ei] , ac: 1487
+W<< action: ;W[eh] , ac: 1895
+W<< action: ;W[eg] , ac: 1512
+W<< action: ;W[ec] , ac: 1097
+W<< action: ;W[eb] , ac: 1639
+W<< action: ;W[ea] , ac: 1582
+W<< action: ;W[fi] , ac: 1439
+W<< action: ;W[fh] , ac: 1696
+W<< action: ;W[fg] , ac: 1409
+W<< action: ;W[fc] , ac: 1495
+W<< action: ;W[fb] , ac: 1271
+W<< action: ;W[fa] , ac: 1466
+W<< action: ;W[gi] , ac: 1142
+W<< action: ;W[gh] , ac: 1370
+W<< action: ;W[gg] , ac: 2128
+W<< action: ;W[gf] , ac: 1619
+W<< action: ;W[ge] , ac: 1208
+W<< action: ;W[gd] , ac: 1228
+W<< action: ;W[gc] , ac: 1641
+W<< action: ;W[gb] , ac: 1302
+W<< action: ;W[ga] , ac: 1337
+W<< action: ;W[hi] , ac: 1542
+W<< action: ;W[hh] , ac: 1045
+W<< action: ;W[hg] , ac: 1356
+W<< action: ;W[hf] , ac: 1398
+W<< action: ;W[he] , ac: 1348
+W<< action: ;W[hd] , ac: 1294
+W<< action: ;W[hc] , ac: 1375
+W<< action: ;W[hb] , ac: 1324
+W<< action: ;W[ha] , ac: 1527
+W<< action: ;W[ih] , ac: 1317
+W<< action: ;W[ig] , ac: 1177
+W<< action: ;W[if] , ac: 1643
+W<< action: ;W[ie] , ac: 1387
+W<< action: ;W[id] , ac: 1336
+W<< action: ;W[ib] , ac: 1070
+W<< = B1
+W<< 
+B>> play W B1
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 12001 simulation done, duration: 3249
+B<< MCTS: 12001 simulation done, duration: 3257
+B<< MCTS: 12001 simulation done, duration: 3263
+B<< MCTS: 12001 simulation done, duration: 3272
+B<< MCTS: 12001 simulation done, duration: 3271
+B<< MCTS: 12001 simulation done, duration: 3267
+B<< MCTS: 12001 simulation done, duration: 3269
+B<< MCTS: 12001 simulation done, duration: 3288
+B<< MCTS: 12001 simulation done, duration: 3278
+B<< MCTS: 12001 simulation done, duration: 3295
+B<< MCTS: 12001 simulation done, duration: 3286
+B<< MCTS: 12001 simulation done, duration: 3283
+B<< MCTS: 12001 simulation done, duration: 3280
+B<< MCTS: 12001 simulation done, duration: 3300
+B<< MCTS: 12001 simulation done, duration: 3299
+B<< MCTS: 12001 simulation done, duration: 3275
+B<< MCTS: 12001 simulation done, duration: 3296
+B<< MCTS: 12001 simulation done, duration: 3290
+B<< MCTS: 12001 simulation done, duration: 3294
+B<< MCTS: 12001 simulation done, duration: 3312
+B<< MCTS: 12001 simulation done, duration: 3292
+B<< MCTS: 12001 simulation done, duration: 3301
+B<< MCTS: 12001 simulation done, duration: 3293
+B<< MCTS: 12001 simulation done, duration: 3320
+B<< MCTS: 12001 simulation done, duration: 3304
+B<< MCTS: 12001 simulation done, duration: 3319
+B<< MCTS: 12001 simulation done, duration: 3340
+B<< MCTS: 12001 simulation done, duration: 3365
+B<< MCTS: 12001 simulation done, duration: 3721
+B<< MCTS: 12001 simulation done, duration: 3772
+B<< MCTS: 12001 simulation done, duration: 3794
+B<< MCTS: 12001 simulation done, duration: 3798
+B<< MCTS: 12001 simulation done, duration: 3836
+B<< MCTS: 12001 simulation done, duration: 3828
+B<< MCTS: 12001 simulation done, duration: 3843
+B<< MCTS: 12001 simulation done, duration: 3833
+B<< MCTS: 12001 simulation done, duration: 3826
+B<< MCTS: 12001 simulation done, duration: 3845
+B<< MCTS: 12001 simulation done, duration: 3857
+B<< MCTS: 12001 simulation done, duration: 3862
+B<< MCTS: 12001 simulation done, duration: 3853
+B<< MCTS: 12001 simulation done, duration: 3867
+B<< MCTS: 12001 simulation done, duration: 3867
+B<< MCTS: 12001 simulation done, duration: 3868
+B<< MCTS: 12001 simulation done, duration: 3842
+B<< MCTS: 12001 simulation done, duration: 3860
+B<< MCTS: 12001 simulation done, duration: 3846
+B<< MCTS: 12001 simulation done, duration: 3850
+B<< MCTS: 12001 simulation done, duration: 3853
+B<< MCTS: 12001 simulation done, duration: 3878
+B<< MCTS: 12001 simulation done, duration: 3895
+B<< MCTS: 12001 simulation done, duration: 3892
+B<< MCTS: 12001 simulation done, duration: 3886
+B<< MCTS: 12001 simulation done, duration: 3882
+B<< MCTS: 12001 simulation done, duration: 3888
+B<< MCTS: 12001 simulation done, duration: 3883
+B<< action: ;B[ai] , ac: 11575
+B<< action: ;B[ah] , ac: 10403
+B<< action: ;B[ag] , ac: 10654
+B<< action: ;B[af] , ac: 12393
+B<< action: ;B[ae] , ac: 10714
+B<< action: ;B[ad] , ac: 10523
+B<< action: ;B[ac] , ac: 10275
+B<< action: ;B[ab] , ac: 11345
+B<< action: ;B[aa] , ac: 13227
+B<< action: ;B[bh] , ac: 8891
+B<< action: ;B[bg] , ac: 11470
+B<< action: ;B[bf] , ac: 9918
+B<< action: ;B[be] , ac: 9617
+B<< action: ;B[bd] , ac: 9983
+B<< action: ;B[bc] , ac: 9924
+B<< action: ;B[bb] , ac: 10141
+B<< action: ;B[ba] , ac: 10761
+B<< action: ;B[ci] , ac: 11623
+B<< action: ;B[ch] , ac: 10417
+B<< action: ;B[cg] , ac: 10010
+B<< action: ;B[cf] , ac: 11629
+B<< action: ;B[cd] , ac: 11228
+B<< action: ;B[cc] , ac: 9301
+B<< action: ;B[cb] , ac: 10154
+B<< action: ;B[ca] , ac: 11070
+B<< action: ;B[di] , ac: 10594
+B<< action: ;B[dh] , ac: 9045
+B<< action: ;B[dg] , ac: 11730
+B<< action: ;B[db] , ac: 8750
+B<< action: ;B[da] , ac: 10637
+B<< action: ;B[ei] , ac: 10527
+B<< action: ;B[eh] , ac: 8594
+B<< action: ;B[eg] , ac: 10915
+B<< action: ;B[ec] , ac: 11844
+B<< action: ;B[eb] , ac: 9988
+B<< action: ;B[ea] , ac: 10079
+B<< action: ;B[fi] , ac: 11316
+B<< action: ;B[fh] , ac: 8437
+B<< action: ;B[fg] , ac: 10180
+B<< action: ;B[fc] , ac: 11191
+B<< action: ;B[fb] , ac: 9604
+B<< action: ;B[fa] , ac: 11780
+B<< action: ;B[gi] , ac: 10631
+B<< action: ;B[gh] , ac: 9733
+B<< action: ;B[gg] , ac: 8825
+B<< action: ;B[gf] , ac: 10854
+B<< action: ;B[ge] , ac: 10651
+B<< action: ;B[gd] , ac: 11288
+B<< action: ;B[gc] , ac: 9500
+B<< action: ;B[gb] , ac: 8955
+B<< action: ;B[ga] , ac: 9575
+B<< action: ;B[hi] , ac: 8279
+B<< action: ;B[hh] , ac: 9915
+B<< action: ;B[hg] , ac: 9502
+B<< action: ;B[hf] , ac: 11017
+B<< action: ;B[he] , ac: 9553
+B<< action: ;B[hd] , ac: 8340
+B<< action: ;B[hc] , ac: 8992
+B<< action: ;B[hb] , ac: 10593
+B<< action: ;B[ha] , ac: 8904
+B<< action: ;B[ih] , ac: 7734
+B<< action: ;B[ig] , ac: 10017
+B<< action: ;B[if] , ac: 10588
+B<< action: ;B[ie] , ac: 10390
+B<< action: ;B[id] , ac: 8761
+B<< action: ;B[ib] , ac: 7002
+B<< = A9
+B<< 
+W>> play B A9
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 12001 simulation done, duration: 1308
+W<< MCTS: 12001 simulation done, duration: 1315
+W<< MCTS: 12001 simulation done, duration: 1316
+W<< MCTS: 12001 simulation done, duration: 1319
+W<< MCTS: 12001 simulation done, duration: 1321
+W<< MCTS: 12001 simulation done, duration: 1327
+W<< MCTS: 12001 simulation done, duration: 1338
+W<< MCTS: 12001 simulation done, duration: 1341
+W<< action: ;W[ai] , ac: 1432
+W<< action: ;W[ah] , ac: 2522
+W<< action: ;W[ag] , ac: 1376
+W<< action: ;W[af] , ac: 1767
+W<< action: ;W[ae] , ac: 988
+W<< action: ;W[ad] , ac: 1482
+W<< action: ;W[ac] , ac: 1235
+W<< action: ;W[ab] , ac: 1400
+W<< action: ;W[bh] , ac: 1712
+W<< action: ;W[bg] , ac: 1375
+W<< action: ;W[bf] , ac: 1574
+W<< action: ;W[be] , ac: 1207
+W<< action: ;W[bd] , ac: 1508
+W<< action: ;W[bc] , ac: 1298
+W<< action: ;W[bb] , ac: 1839
+W<< action: ;W[ba] , ac: 1496
+W<< action: ;W[ci] , ac: 1029
+W<< action: ;W[ch] , ac: 1805
+W<< action: ;W[cg] , ac: 1895
+W<< action: ;W[cf] , ac: 1427
+W<< action: ;W[cd] , ac: 1296
+W<< action: ;W[cc] , ac: 1300
+W<< action: ;W[cb] , ac: 1346
+W<< action: ;W[ca] , ac: 1347
+W<< action: ;W[di] , ac: 1583
+W<< action: ;W[dh] , ac: 1396
+W<< action: ;W[dg] , ac: 1561
+W<< action: ;W[db] , ac: 1160
+W<< action: ;W[da] , ac: 1536
+W<< action: ;W[ei] , ac: 1686
+W<< action: ;W[eh] , ac: 1430
+W<< action: ;W[eg] , ac: 1787
+W<< action: ;W[ec] , ac: 1037
+W<< action: ;W[eb] , ac: 1353
+W<< action: ;W[ea] , ac: 1473
+W<< action: ;W[fi] , ac: 1502
+W<< action: ;W[fh] , ac: 1559
+W<< action: ;W[fg] , ac: 1654
+W<< action: ;W[fc] , ac: 1929
+W<< action: ;W[fb] , ac: 1499
+W<< action: ;W[fa] , ac: 1670
+W<< action: ;W[gi] , ac: 1295
+W<< action: ;W[gh] , ac: 1654
+W<< action: ;W[gg] , ac: 1511
+W<< action: ;W[gf] , ac: 1690
+W<< action: ;W[ge] , ac: 1368
+W<< action: ;W[gd] , ac: 1385
+W<< action: ;W[gc] , ac: 1626
+W<< action: ;W[gb] , ac: 1239
+W<< action: ;W[ga] , ac: 1533
+W<< action: ;W[hi] , ac: 1513
+W<< action: ;W[hh] , ac: 1878
+W<< action: ;W[hg] , ac: 1508
+W<< action: ;W[hf] , ac: 1131
+W<< action: ;W[he] , ac: 1547
+W<< action: ;W[hd] , ac: 839
+W<< action: ;W[hc] , ac: 1096
+W<< action: ;W[hb] , ac: 1646
+W<< action: ;W[ha] , ac: 1609
+W<< action: ;W[ih] , ac: 1327
+W<< action: ;W[ig] , ac: 1122
+W<< action: ;W[if] , ac: 1469
+W<< action: ;W[ie] , ac: 1242
+W<< action: ;W[id] , ac: 1952
+W<< action: ;W[ib] , ac: 1357
+W<< = A2
+W<< 
+B>> play W A2
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 12001 simulation done, duration: 3226
+B<< MCTS: 12001 simulation done, duration: 3235
+B<< MCTS: 12001 simulation done, duration: 3237
+B<< MCTS: 12001 simulation done, duration: 3245
+B<< MCTS: 12001 simulation done, duration: 3244
+B<< MCTS: 12001 simulation done, duration: 3248
+B<< MCTS: 12001 simulation done, duration: 3249
+B<< MCTS: 12001 simulation done, duration: 3265
+B<< MCTS: 12001 simulation done, duration: 3258
+B<< MCTS: 12001 simulation done, duration: 3277
+B<< MCTS: 12001 simulation done, duration: 3279
+B<< MCTS: 12001 simulation done, duration: 3267
+B<< MCTS: 12001 simulation done, duration: 3265
+B<< MCTS: 12001 simulation done, duration: 3276
+B<< MCTS: 12001 simulation done, duration: 3291
+B<< MCTS: 12001 simulation done, duration: 3266
+B<< MCTS: 12001 simulation done, duration: 3278
+B<< MCTS: 12001 simulation done, duration: 3281
+B<< MCTS: 12001 simulation done, duration: 3299
+B<< MCTS: 12001 simulation done, duration: 3301
+B<< MCTS: 12001 simulation done, duration: 3289
+B<< MCTS: 12001 simulation done, duration: 3295
+B<< MCTS: 12001 simulation done, duration: 3309
+B<< MCTS: 12001 simulation done, duration: 3325
+B<< MCTS: 12001 simulation done, duration: 3343
+B<< MCTS: 12001 simulation done, duration: 3389
+B<< MCTS: 12001 simulation done, duration: 3478
+B<< MCTS: 12001 simulation done, duration: 3505
+B<< MCTS: 12001 simulation done, duration: 3511
+B<< MCTS: 12001 simulation done, duration: 3533
+B<< MCTS: 12001 simulation done, duration: 3553
+B<< MCTS: 12001 simulation done, duration: 3686
+B<< MCTS: 12001 simulation done, duration: 3738
+B<< MCTS: 12001 simulation done, duration: 3746
+B<< MCTS: 12001 simulation done, duration: 3747
+B<< MCTS: 12001 simulation done, duration: 3774
+B<< MCTS: 12001 simulation done, duration: 3802
+B<< MCTS: 12001 simulation done, duration: 3813
+B<< MCTS: 12001 simulation done, duration: 3812
+B<< MCTS: 12001 simulation done, duration: 3803
+B<< MCTS: 12001 simulation done, duration: 3819
+B<< MCTS: 12001 simulation done, duration: 3822
+B<< MCTS: 12001 simulation done, duration: 3835
+B<< MCTS: 12001 simulation done, duration: 3837
+B<< MCTS: 12001 simulation done, duration: 3838
+B<< MCTS: 12001 simulation done, duration: 3862
+B<< MCTS: 12001 simulation done, duration: 3854
+B<< MCTS: 12001 simulation done, duration: 3868
+B<< MCTS: 12001 simulation done, duration: 3849
+B<< MCTS: 12001 simulation done, duration: 3875
+B<< MCTS: 12001 simulation done, duration: 3854
+B<< MCTS: 12001 simulation done, duration: 3870
+B<< MCTS: 12001 simulation done, duration: 3887
+B<< MCTS: 12001 simulation done, duration: 3893
+B<< MCTS: 12001 simulation done, duration: 3904
+B<< MCTS: 12001 simulation done, duration: 3912
+B<< action: ;B[ag] , ac: 12220
+B<< action: ;B[af] , ac: 11507
+B<< action: ;B[ae] , ac: 12131
+B<< action: ;B[ad] , ac: 12556
+B<< action: ;B[ac] , ac: 9817
+B<< action: ;B[ab] , ac: 8643
+B<< action: ;B[bh] , ac: 12076
+B<< action: ;B[bg] , ac: 11232
+B<< action: ;B[bf] , ac: 10957
+B<< action: ;B[be] , ac: 10099
+B<< action: ;B[bd] , ac: 10806
+B<< action: ;B[bc] , ac: 9137
+B<< action: ;B[bb] , ac: 9522
+B<< action: ;B[ba] , ac: 8758
+B<< action: ;B[ci] , ac: 11101
+B<< action: ;B[ch] , ac: 10276
+B<< action: ;B[cg] , ac: 11287
+B<< action: ;B[cf] , ac: 10516
+B<< action: ;B[cd] , ac: 11133
+B<< action: ;B[cc] , ac: 11081
+B<< action: ;B[cb] , ac: 9551
+B<< action: ;B[ca] , ac: 10822
+B<< action: ;B[di] , ac: 11592
+B<< action: ;B[dh] , ac: 9458
+B<< action: ;B[dg] , ac: 11913
+B<< action: ;B[db] , ac: 9986
+B<< action: ;B[da] , ac: 11939
+B<< action: ;B[ei] , ac: 10950
+B<< action: ;B[eh] , ac: 10269
+B<< action: ;B[eg] , ac: 12232
+B<< action: ;B[ec] , ac: 11577
+B<< action: ;B[eb] , ac: 9859
+B<< action: ;B[ea] , ac: 11365
+B<< action: ;B[fi] , ac: 11006
+B<< action: ;B[fh] , ac: 10417
+B<< action: ;B[fg] , ac: 11359
+B<< action: ;B[fc] , ac: 11472
+B<< action: ;B[fb] , ac: 9839
+B<< action: ;B[fa] , ac: 12122
+B<< action: ;B[gi] , ac: 11337
+B<< action: ;B[gh] , ac: 10434
+B<< action: ;B[gg] , ac: 10617
+B<< action: ;B[gf] , ac: 11065
+B<< action: ;B[ge] , ac: 12381
+B<< action: ;B[gd] , ac: 10409
+B<< action: ;B[gc] , ac: 10395
+B<< action: ;B[gb] , ac: 10197
+B<< action: ;B[ga] , ac: 10877
+B<< action: ;B[hi] , ac: 8665
+B<< action: ;B[hh] , ac: 10752
+B<< action: ;B[hg] , ac: 10606
+B<< action: ;B[hf] , ac: 10126
+B<< action: ;B[he] , ac: 9835
+B<< action: ;B[hd] , ac: 11199
+B<< action: ;B[hc] , ac: 8745
+B<< action: ;B[hb] , ac: 13083
+B<< action: ;B[ha] , ac: 8963
+B<< action: ;B[ih] , ac: 8926
+B<< action: ;B[ig] , ac: 11784
+B<< action: ;B[if] , ac: 11223
+B<< action: ;B[ie] , ac: 11067
+B<< action: ;B[id] , ac: 9510
+B<< action: ;B[ib] , ac: 7277
+B<< = H8
+B<< 
+W>> play B H8
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 12001 simulation done, duration: 1196
+W<< MCTS: 12001 simulation done, duration: 1201
+W<< MCTS: 12001 simulation done, duration: 1224
+W<< MCTS: 12001 simulation done, duration: 1227
+W<< MCTS: 12001 simulation done, duration: 1261
+W<< MCTS: 12001 simulation done, duration: 1270
+W<< MCTS: 12001 simulation done, duration: 1276
+W<< MCTS: 12001 simulation done, duration: 1294
+W<< action: ;W[ai] , ac: 939
+W<< action: ;W[ag] , ac: 936
+W<< action: ;W[af] , ac: 1594
+W<< action: ;W[ae] , ac: 1428
+W<< action: ;W[ad] , ac: 1438
+W<< action: ;W[ac] , ac: 1230
+W<< action: ;W[ab] , ac: 1288
+W<< action: ;W[bh] , ac: 953
+W<< action: ;W[bg] , ac: 1887
+W<< action: ;W[bf] , ac: 1731
+W<< action: ;W[be] , ac: 1315
+W<< action: ;W[bd] , ac: 1506
+W<< action: ;W[bc] , ac: 1224
+W<< action: ;W[bb] , ac: 1141
+W<< action: ;W[ba] , ac: 1366
+W<< action: ;W[ci] , ac: 1896
+W<< action: ;W[ch] , ac: 2038
+W<< action: ;W[cg] , ac: 1449
+W<< action: ;W[cf] , ac: 1473
+W<< action: ;W[cd] , ac: 1731
+W<< action: ;W[cc] , ac: 1199
+W<< action: ;W[cb] , ac: 1658
+W<< action: ;W[ca] , ac: 1410
+W<< action: ;W[di] , ac: 1990
+W<< action: ;W[dh] , ac: 1420
+W<< action: ;W[dg] , ac: 1830
+W<< action: ;W[db] , ac: 1004
+W<< action: ;W[da] , ac: 1524
+W<< action: ;W[ei] , ac: 1829
+W<< action: ;W[eh] , ac: 1782
+W<< action: ;W[eg] , ac: 2214
+W<< action: ;W[ec] , ac: 1125
+W<< action: ;W[eb] , ac: 1713
+W<< action: ;W[ea] , ac: 1456
+W<< action: ;W[fi] , ac: 1691
+W<< action: ;W[fh] , ac: 1544
+W<< action: ;W[fg] , ac: 1967
+W<< action: ;W[fc] , ac: 1736
+W<< action: ;W[fb] , ac: 1461
+W<< action: ;W[fa] , ac: 1764
+W<< action: ;W[gi] , ac: 1204
+W<< action: ;W[gh] , ac: 1289
+W<< action: ;W[gg] , ac: 1253
+W<< action: ;W[gf] , ac: 1614
+W<< action: ;W[ge] , ac: 1123
+W<< action: ;W[gd] , ac: 1901
+W<< action: ;W[gc] , ac: 1790
+W<< action: ;W[gb] , ac: 1625
+W<< action: ;W[ga] , ac: 1728
+W<< action: ;W[hi] , ac: 1864
+W<< action: ;W[hh] , ac: 1233
+W<< action: ;W[hg] , ac: 1451
+W<< action: ;W[hf] , ac: 1314
+W<< action: ;W[he] , ac: 1629
+W<< action: ;W[hd] , ac: 1908
+W<< action: ;W[hc] , ac: 2070
+W<< action: ;W[ha] , ac: 1972
+W<< action: ;W[ih] , ac: 1778
+W<< action: ;W[ig] , ac: 1661
+W<< action: ;W[if] , ac: 1424
+W<< action: ;W[ie] , ac: 1717
+W<< action: ;W[id] , ac: 1580
+W<< = E3
+W<< 
+B>> play W E3
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 12001 simulation done, duration: 3235
+B<< MCTS: 12001 simulation done, duration: 3240
+B<< MCTS: 12001 simulation done, duration: 3250
+B<< MCTS: 12001 simulation done, duration: 3254
+B<< MCTS: 12001 simulation done, duration: 3252
+B<< MCTS: 12001 simulation done, duration: 3259
+B<< MCTS: 12001 simulation done, duration: 3245
+B<< MCTS: 12001 simulation done, duration: 3247
+B<< MCTS: 12001 simulation done, duration: 3265
+B<< MCTS: 12001 simulation done, duration: 3269
+B<< MCTS: 12001 simulation done, duration: 3268
+B<< MCTS: 12001 simulation done, duration: 3272
+B<< MCTS: 12001 simulation done, duration: 3262
+B<< MCTS: 12001 simulation done, duration: 3260
+B<< MCTS: 12001 simulation done, duration: 3267
+B<< MCTS: 12001 simulation done, duration: 3263
+B<< MCTS: 12001 simulation done, duration: 3271
+B<< MCTS: 12001 simulation done, duration: 3286
+B<< MCTS: 12001 simulation done, duration: 3264
+B<< MCTS: 12001 simulation done, duration: 3287
+B<< MCTS: 12001 simulation done, duration: 3291
+B<< MCTS: 12001 simulation done, duration: 3268
+B<< MCTS: 12001 simulation done, duration: 3295
+B<< MCTS: 12001 simulation done, duration: 3282
+B<< MCTS: 12001 simulation done, duration: 3289
+B<< MCTS: 12001 simulation done, duration: 3308
+B<< MCTS: 12001 simulation done, duration: 3333
+B<< MCTS: 12001 simulation done, duration: 3334
+B<< MCTS: 12001 simulation done, duration: 3635
+B<< MCTS: 12001 simulation done, duration: 3636
+B<< MCTS: 12001 simulation done, duration: 3638
+B<< MCTS: 12001 simulation done, duration: 3678
+B<< MCTS: 12001 simulation done, duration: 3688
+B<< MCTS: 12001 simulation done, duration: 3674
+B<< MCTS: 12001 simulation done, duration: 3679
+B<< MCTS: 12001 simulation done, duration: 3698
+B<< MCTS: 12001 simulation done, duration: 3760
+B<< MCTS: 12001 simulation done, duration: 3762
+B<< MCTS: 12001 simulation done, duration: 3789
+B<< MCTS: 12001 simulation done, duration: 3779
+B<< MCTS: 12001 simulation done, duration: 3794
+B<< MCTS: 12001 simulation done, duration: 3818
+B<< MCTS: 12001 simulation done, duration: 3826
+B<< MCTS: 12001 simulation done, duration: 3801
+B<< MCTS: 12001 simulation done, duration: 3803
+B<< MCTS: 12001 simulation done, duration: 3818
+B<< MCTS: 12001 simulation done, duration: 3834
+B<< MCTS: 12001 simulation done, duration: 3826
+B<< MCTS: 12001 simulation done, duration: 3829
+B<< MCTS: 12001 simulation done, duration: 3838
+B<< MCTS: 12001 simulation done, duration: 3840
+B<< MCTS: 12001 simulation done, duration: 3860
+B<< MCTS: 12001 simulation done, duration: 3852
+B<< MCTS: 12001 simulation done, duration: 3855
+B<< MCTS: 12001 simulation done, duration: 3843
+B<< MCTS: 12001 simulation done, duration: 3858
+B<< action: ;B[ag] , ac: 12386
+B<< action: ;B[af] , ac: 12867
+B<< action: ;B[ae] , ac: 11471
+B<< action: ;B[ad] , ac: 12114
+B<< action: ;B[ac] , ac: 11137
+B<< action: ;B[ab] , ac: 8843
+B<< action: ;B[bh] , ac: 12548
+B<< action: ;B[bg] , ac: 11429
+B<< action: ;B[bf] , ac: 11102
+B<< action: ;B[be] , ac: 10516
+B<< action: ;B[bd] , ac: 9182
+B<< action: ;B[bc] , ac: 9095
+B<< action: ;B[bb] , ac: 9134
+B<< action: ;B[ba] , ac: 9496
+B<< action: ;B[ci] , ac: 13965
+B<< action: ;B[ch] , ac: 11149
+B<< action: ;B[cg] , ac: 11405
+B<< action: ;B[cf] , ac: 10404
+B<< action: ;B[cd] , ac: 12739
+B<< action: ;B[cc] , ac: 11424
+B<< action: ;B[cb] , ac: 9801
+B<< action: ;B[ca] , ac: 11907
+B<< action: ;B[di] , ac: 12720
+B<< action: ;B[dh] , ac: 11499
+B<< action: ;B[dg] , ac: 10848
+B<< action: ;B[db] , ac: 9998
+B<< action: ;B[da] , ac: 12113
+B<< action: ;B[ei] , ac: 11537
+B<< action: ;B[eh] , ac: 8647
+B<< action: ;B[ec] , ac: 11821
+B<< action: ;B[eb] , ac: 10437
+B<< action: ;B[ea] , ac: 13103
+B<< action: ;B[fi] , ac: 11283
+B<< action: ;B[fh] , ac: 9640
+B<< action: ;B[fg] , ac: 11125
+B<< action: ;B[fc] , ac: 12097
+B<< action: ;B[fb] , ac: 10530
+B<< action: ;B[fa] , ac: 11527
+B<< action: ;B[gi] , ac: 11745
+B<< action: ;B[gh] , ac: 9700
+B<< action: ;B[gg] , ac: 11087
+B<< action: ;B[gf] , ac: 11620
+B<< action: ;B[ge] , ac: 11192
+B<< action: ;B[gd] , ac: 11457
+B<< action: ;B[gc] , ac: 13701
+B<< action: ;B[gb] , ac: 9748
+B<< action: ;B[ga] , ac: 19125
+B<< action: ;B[hi] , ac: 9184
+B<< action: ;B[hh] , ac: 11061
+B<< action: ;B[hg] , ac: 10894
+B<< action: ;B[hf] , ac: 9631
+B<< action: ;B[he] , ac: 10175
+B<< action: ;B[hd] , ac: 11027
+B<< action: ;B[hc] , ac: 9037
+B<< action: ;B[ha] , ac: 9714
+B<< action: ;B[ih] , ac: 8746
+B<< action: ;B[ig] , ac: 12297
+B<< action: ;B[if] , ac: 12229
+B<< action: ;B[ie] , ac: 11143
+B<< action: ;B[id] , ac: 8965
+B<< action: ;B[ib] , ac: 5539
+B<< = G9
+B<< 
+W>> play B G9
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 12001 simulation done, duration: 1265
+W<< MCTS: 12001 simulation done, duration: 1268
+W<< MCTS: 12001 simulation done, duration: 1276
+W<< MCTS: 12001 simulation done, duration: 1279
+W<< MCTS: 12001 simulation done, duration: 1287
+W<< MCTS: 12001 simulation done, duration: 1290
+W<< MCTS: 12001 simulation done, duration: 1295
+W<< MCTS: 12001 simulation done, duration: 1320
+W<< action: ;W[ai] , ac: 903
+W<< action: ;W[ag] , ac: 1782
+W<< action: ;W[af] , ac: 1545
+W<< action: ;W[ae] , ac: 2190
+W<< action: ;W[ad] , ac: 1682
+W<< action: ;W[ac] , ac: 1792
+W<< action: ;W[ab] , ac: 1346
+W<< action: ;W[bh] , ac: 1398
+W<< action: ;W[bg] , ac: 1575
+W<< action: ;W[bf] , ac: 1389
+W<< action: ;W[be] , ac: 1256
+W<< action: ;W[bd] , ac: 1921
+W<< action: ;W[bc] , ac: 1655
+W<< action: ;W[bb] , ac: 1463
+W<< action: ;W[ba] , ac: 1820
+W<< action: ;W[ci] , ac: 1470
+W<< action: ;W[ch] , ac: 2087
+W<< action: ;W[cg] , ac: 1785
+W<< action: ;W[cf] , ac: 1333
+W<< action: ;W[cd] , ac: 1383
+W<< action: ;W[cc] , ac: 1262
+W<< action: ;W[cb] , ac: 1367
+W<< action: ;W[ca] , ac: 1689
+W<< action: ;W[di] , ac: 2183
+W<< action: ;W[dh] , ac: 1893
+W<< action: ;W[dg] , ac: 1064
+W<< action: ;W[db] , ac: 1289
+W<< action: ;W[da] , ac: 1371
+W<< action: ;W[ei] , ac: 1916
+W<< action: ;W[eh] , ac: 1380
+W<< action: ;W[ec] , ac: 1497
+W<< action: ;W[eb] , ac: 2017
+W<< action: ;W[ea] , ac: 1729
+W<< action: ;W[fi] , ac: 1512
+W<< action: ;W[fh] , ac: 1261
+W<< action: ;W[fg] , ac: 1245
+W<< action: ;W[fc] , ac: 1779
+W<< action: ;W[fb] , ac: 1359
+W<< action: ;W[fa] , ac: 2350
+W<< action: ;W[gi] , ac: 1937
+W<< action: ;W[gh] , ac: 1489
+W<< action: ;W[gg] , ac: 2182
+W<< action: ;W[gf] , ac: 1635
+W<< action: ;W[ge] , ac: 1813
+W<< action: ;W[gd] , ac: 2307
+W<< action: ;W[gc] , ac: 1471
+W<< action: ;W[gb] , ac: 1806
+W<< action: ;W[hi] , ac: 1630
+W<< action: ;W[hh] , ac: 1460
+W<< action: ;W[hg] , ac: 1580
+W<< action: ;W[hf] , ac: 1516
+W<< action: ;W[he] , ac: 1567
+W<< action: ;W[hd] , ac: 1359
+W<< action: ;W[hc] , ac: 2124
+W<< action: ;W[ih] , ac: 1874
+W<< action: ;W[ig] , ac: 1292
+W<< action: ;W[if] , ac: 1811
+W<< action: ;W[ie] , ac: 1638
+W<< action: ;W[id] , ac: 1579
+W<< = F9
+W<< 
+B>> play W F9
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 12001 simulation done, duration: 3210
+B<< MCTS: 12001 simulation done, duration: 3230
+B<< MCTS: 12001 simulation done, duration: 3233
+B<< MCTS: 12001 simulation done, duration: 3220
+B<< MCTS: 12001 simulation done, duration: 3237
+B<< MCTS: 12001 simulation done, duration: 3234
+B<< MCTS: 12001 simulation done, duration: 3239
+B<< MCTS: 12001 simulation done, duration: 3245
+B<< MCTS: 12001 simulation done, duration: 3220
+B<< MCTS: 12001 simulation done, duration: 3247
+B<< MCTS: 12001 simulation done, duration: 3232
+B<< MCTS: 12001 simulation done, duration: 3232
+B<< MCTS: 12001 simulation done, duration: 3242
+B<< MCTS: 12001 simulation done, duration: 3251
+B<< MCTS: 12001 simulation done, duration: 3249
+B<< MCTS: 12001 simulation done, duration: 3239
+B<< MCTS: 12001 simulation done, duration: 3248
+B<< MCTS: 12001 simulation done, duration: 3232
+B<< MCTS: 12001 simulation done, duration: 3258
+B<< MCTS: 12001 simulation done, duration: 3252
+B<< MCTS: 12001 simulation done, duration: 3236
+B<< MCTS: 12001 simulation done, duration: 3259
+B<< MCTS: 12001 simulation done, duration: 3264
+B<< MCTS: 12001 simulation done, duration: 3293
+B<< MCTS: 12001 simulation done, duration: 3287
+B<< MCTS: 12001 simulation done, duration: 3289
+B<< MCTS: 12001 simulation done, duration: 3334
+B<< MCTS: 12001 simulation done, duration: 3459
+B<< MCTS: 12001 simulation done, duration: 3495
+B<< MCTS: 12001 simulation done, duration: 3666
+B<< MCTS: 12001 simulation done, duration: 3724
+B<< MCTS: 12001 simulation done, duration: 3771
+B<< MCTS: 12001 simulation done, duration: 3776
+B<< MCTS: 12001 simulation done, duration: 3790
+B<< MCTS: 12001 simulation done, duration: 3788
+B<< MCTS: 12001 simulation done, duration: 3785
+B<< MCTS: 12001 simulation done, duration: 3790
+B<< MCTS: 12001 simulation done, duration: 3776
+B<< MCTS: 12001 simulation done, duration: 3811
+B<< MCTS: 12001 simulation done, duration: 3804
+B<< MCTS: 12001 simulation done, duration: 3796
+B<< MCTS: 12001 simulation done, duration: 3791
+B<< MCTS: 12001 simulation done, duration: 3810
+B<< MCTS: 12001 simulation done, duration: 3814
+B<< MCTS: 12001 simulation done, duration: 3827
+B<< MCTS: 12001 simulation done, duration: 3827
+B<< MCTS: 12001 simulation done, duration: 3819
+B<< MCTS: 12001 simulation done, duration: 3834
+B<< MCTS: 12001 simulation done, duration: 3835
+B<< MCTS: 12001 simulation done, duration: 3809
+B<< MCTS: 12001 simulation done, duration: 3843
+B<< MCTS: 12001 simulation done, duration: 3818
+B<< MCTS: 12001 simulation done, duration: 3822
+B<< MCTS: 12001 simulation done, duration: 3835
+B<< MCTS: 12001 simulation done, duration: 3838
+B<< MCTS: 12001 simulation done, duration: 3839
+B<< action: ;B[ag] , ac: 13705
+B<< action: ;B[af] , ac: 13115
+B<< action: ;B[ae] , ac: 12754
+B<< action: ;B[ad] , ac: 12393
+B<< action: ;B[ac] , ac: 11112
+B<< action: ;B[ab] , ac: 9387
+B<< action: ;B[bh] , ac: 12363
+B<< action: ;B[bg] , ac: 10903
+B<< action: ;B[bf] , ac: 10129
+B<< action: ;B[be] , ac: 9677
+B<< action: ;B[bd] , ac: 9724
+B<< action: ;B[bc] , ac: 11136
+B<< action: ;B[bb] , ac: 9112
+B<< action: ;B[ba] , ac: 9019
+B<< action: ;B[ci] , ac: 14038
+B<< action: ;B[ch] , ac: 10817
+B<< action: ;B[cg] , ac: 12506
+B<< action: ;B[cf] , ac: 12211
+B<< action: ;B[cd] , ac: 13169
+B<< action: ;B[cc] , ac: 11815
+B<< action: ;B[cb] , ac: 10697
+B<< action: ;B[ca] , ac: 10752
+B<< action: ;B[di] , ac: 13179
+B<< action: ;B[dh] , ac: 10681
+B<< action: ;B[dg] , ac: 11896
+B<< action: ;B[db] , ac: 9311
+B<< action: ;B[da] , ac: 12353
+B<< action: ;B[ei] , ac: 12508
+B<< action: ;B[eh] , ac: 9604
+B<< action: ;B[ec] , ac: 12816
+B<< action: ;B[eb] , ac: 11728
+B<< action: ;B[ea] , ac: 10925
+B<< action: ;B[fi] , ac: 10676
+B<< action: ;B[fh] , ac: 11176
+B<< action: ;B[fg] , ac: 12257
+B<< action: ;B[fc] , ac: 12425
+B<< action: ;B[fb] , ac: 10690
+B<< action: ;B[gi] , ac: 11574
+B<< action: ;B[gh] , ac: 9436
+B<< action: ;B[gg] , ac: 10895
+B<< action: ;B[gf] , ac: 14486
+B<< action: ;B[ge] , ac: 12567
+B<< action: ;B[gd] , ac: 11191
+B<< action: ;B[gc] , ac: 17798
+B<< action: ;B[gb] , ac: 11176
+B<< action: ;B[hi] , ac: 9279
+B<< action: ;B[hh] , ac: 10531
+B<< action: ;B[hg] , ac: 11514
+B<< action: ;B[hf] , ac: 11375
+B<< action: ;B[he] , ac: 11018
+B<< action: ;B[hd] , ac: 12884
+B<< action: ;B[hc] , ac: 10773
+B<< action: ;B[ha] , ac: 6136
+B<< action: ;B[ih] , ac: 9846
+B<< action: ;B[ig] , ac: 11512
+B<< action: ;B[if] , ac: 13664
+B<< action: ;B[ie] , ac: 12826
+B<< action: ;B[id] , ac: 12307
+B<< action: ;B[ib] , ac: 6509
+B<< = G7
+B<< 
+W>> play B G7
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 12001 simulation done, duration: 1188
+W<< MCTS: 12001 simulation done, duration: 1195
+W<< MCTS: 12001 simulation done, duration: 1197
+W<< MCTS: 12001 simulation done, duration: 1208
+W<< MCTS: 12001 simulation done, duration: 1218
+W<< MCTS: 12001 simulation done, duration: 1218
+W<< MCTS: 12001 simulation done, duration: 1219
+W<< MCTS: 12001 simulation done, duration: 1248
+W<< action: ;W[ai] , ac: 905
+W<< action: ;W[ag] , ac: 2013
+W<< action: ;W[af] , ac: 2266
+W<< action: ;W[ae] , ac: 1376
+W<< action: ;W[ad] , ac: 1810
+W<< action: ;W[ac] , ac: 1506
+W<< action: ;W[ab] , ac: 1760
+W<< action: ;W[bh] , ac: 1656
+W<< action: ;W[bg] , ac: 2284
+W<< action: ;W[bf] , ac: 1663
+W<< action: ;W[be] , ac: 1273
+W<< action: ;W[bd] , ac: 1745
+W<< action: ;W[bc] , ac: 1595
+W<< action: ;W[bb] , ac: 1304
+W<< action: ;W[ba] , ac: 2013
+W<< action: ;W[ci] , ac: 1821
+W<< action: ;W[ch] , ac: 2565
+W<< action: ;W[cg] , ac: 2122
+W<< action: ;W[cf] , ac: 1394
+W<< action: ;W[cd] , ac: 1172
+W<< action: ;W[cc] , ac: 1578
+W<< action: ;W[cb] , ac: 1677
+W<< action: ;W[ca] , ac: 1866
+W<< action: ;W[di] , ac: 2081
+W<< action: ;W[dh] , ac: 2228
+W<< action: ;W[dg] , ac: 1321
+W<< action: ;W[db] , ac: 1460
+W<< action: ;W[da] , ac: 1476
+W<< action: ;W[ei] , ac: 1718
+W<< action: ;W[eh] , ac: 1577
+W<< action: ;W[ec] , ac: 1525
+W<< action: ;W[eb] , ac: 2130
+W<< action: ;W[ea] , ac: 1413
+W<< action: ;W[fi] , ac: 1576
+W<< action: ;W[fh] , ac: 1789
+W<< action: ;W[fg] , ac: 1161
+W<< action: ;W[fc] , ac: 1989
+W<< action: ;W[fb] , ac: 1387
+W<< action: ;W[gi] , ac: 1611
+W<< action: ;W[gh] , ac: 1498
+W<< action: ;W[gg] , ac: 1855
+W<< action: ;W[gf] , ac: 1582
+W<< action: ;W[ge] , ac: 2054
+W<< action: ;W[gd] , ac: 1734
+W<< action: ;W[gb] , ac: 1713
+W<< action: ;W[hi] , ac: 1962
+W<< action: ;W[hh] , ac: 1319
+W<< action: ;W[hg] , ac: 1399
+W<< action: ;W[hf] , ac: 1651
+W<< action: ;W[he] , ac: 1711
+W<< action: ;W[hd] , ac: 1280
+W<< action: ;W[hc] , ac: 2172
+W<< action: ;W[ih] , ac: 1581
+W<< action: ;W[ig] , ac: 1845
+W<< action: ;W[if] , ac: 1478
+W<< action: ;W[ie] , ac: 1933
+W<< action: ;W[id] , ac: 1435
+W<< = C2
+W<< 
+B>> play W C2
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 12001 simulation done, duration: 3198
+B<< MCTS: 12001 simulation done, duration: 3205
+B<< MCTS: 12001 simulation done, duration: 3216
+B<< MCTS: 12001 simulation done, duration: 3216
+B<< MCTS: 12001 simulation done, duration: 3220
+B<< MCTS: 12001 simulation done, duration: 3223
+B<< MCTS: 12001 simulation done, duration: 3207
+B<< MCTS: 12001 simulation done, duration: 3240
+B<< MCTS: 12001 simulation done, duration: 3225
+B<< MCTS: 12001 simulation done, duration: 3229
+B<< MCTS: 12001 simulation done, duration: 3228
+B<< MCTS: 12001 simulation done, duration: 3222
+B<< MCTS: 12001 simulation done, duration: 3232
+B<< MCTS: 12001 simulation done, duration: 3226
+B<< MCTS: 12001 simulation done, duration: 3231
+B<< MCTS: 12001 simulation done, duration: 3235
+B<< MCTS: 12001 simulation done, duration: 3228
+B<< MCTS: 12001 simulation done, duration: 3227
+B<< MCTS: 12001 simulation done, duration: 3257
+B<< MCTS: 12001 simulation done, duration: 3230
+B<< MCTS: 12001 simulation done, duration: 3249
+B<< MCTS: 12001 simulation done, duration: 3267
+B<< MCTS: 12001 simulation done, duration: 3252
+B<< MCTS: 12001 simulation done, duration: 3260
+B<< MCTS: 12001 simulation done, duration: 3263
+B<< MCTS: 12001 simulation done, duration: 3282
+B<< MCTS: 12001 simulation done, duration: 3292
+B<< MCTS: 12001 simulation done, duration: 3353
+B<< MCTS: 12001 simulation done, duration: 3595
+B<< MCTS: 12001 simulation done, duration: 3609
+B<< MCTS: 12001 simulation done, duration: 3619
+B<< MCTS: 12001 simulation done, duration: 3631
+B<< MCTS: 12001 simulation done, duration: 3639
+B<< MCTS: 12001 simulation done, duration: 3737
+B<< MCTS: 12001 simulation done, duration: 3761
+B<< MCTS: 12001 simulation done, duration: 3785
+B<< MCTS: 12001 simulation done, duration: 3777
+B<< MCTS: 12001 simulation done, duration: 3801
+B<< MCTS: 12001 simulation done, duration: 3802
+B<< MCTS: 12001 simulation done, duration: 3792
+B<< MCTS: 12001 simulation done, duration: 3808
+B<< MCTS: 12001 simulation done, duration: 3812
+B<< MCTS: 12001 simulation done, duration: 3798
+B<< MCTS: 12001 simulation done, duration: 3799
+B<< MCTS: 12001 simulation done, duration: 3803
+B<< MCTS: 12001 simulation done, duration: 3820
+B<< MCTS: 12001 simulation done, duration: 3822
+B<< MCTS: 12001 simulation done, duration: 3799
+B<< MCTS: 12001 simulation done, duration: 3844
+B<< MCTS: 12001 simulation done, duration: 3817
+B<< MCTS: 12001 simulation done, duration: 3846
+B<< MCTS: 12001 simulation done, duration: 3831
+B<< MCTS: 12001 simulation done, duration: 3820
+B<< MCTS: 12001 simulation done, duration: 3828
+B<< MCTS: 12001 simulation done, duration: 3829
+B<< MCTS: 12001 simulation done, duration: 3865
+B<< action: ;B[ag] , ac: 14891
+B<< action: ;B[af] , ac: 12489
+B<< action: ;B[ae] , ac: 12711
+B<< action: ;B[ad] , ac: 12028
+B<< action: ;B[ac] , ac: 11183
+B<< action: ;B[ab] , ac: 9577
+B<< action: ;B[bh] , ac: 15133
+B<< action: ;B[bg] , ac: 13025
+B<< action: ;B[bf] , ac: 10778
+B<< action: ;B[be] , ac: 10071
+B<< action: ;B[bd] , ac: 10712
+B<< action: ;B[bc] , ac: 11330
+B<< action: ;B[bb] , ac: 11267
+B<< action: ;B[ba] , ac: 9457
+B<< action: ;B[ci] , ac: 16659
+B<< action: ;B[cg] , ac: 13524
+B<< action: ;B[cf] , ac: 12399
+B<< action: ;B[cd] , ac: 14698
+B<< action: ;B[cc] , ac: 12122
+B<< action: ;B[cb] , ac: 10734
+B<< action: ;B[ca] , ac: 11890
+B<< action: ;B[di] , ac: 13036
+B<< action: ;B[dh] , ac: 11441
+B<< action: ;B[dg] , ac: 12965
+B<< action: ;B[db] , ac: 11441
+B<< action: ;B[da] , ac: 12356
+B<< action: ;B[ei] , ac: 13274
+B<< action: ;B[eh] , ac: 9014
+B<< action: ;B[ec] , ac: 11737
+B<< action: ;B[eb] , ac: 12110
+B<< action: ;B[ea] , ac: 11207
+B<< action: ;B[fi] , ac: 10892
+B<< action: ;B[fh] , ac: 10833
+B<< action: ;B[fg] , ac: 12398
+B<< action: ;B[fc] , ac: 10187
+B<< action: ;B[fb] , ac: 14822
+B<< action: ;B[gi] , ac: 11250
+B<< action: ;B[gh] , ac: 10704
+B<< action: ;B[gg] , ac: 12734
+B<< action: ;B[gf] , ac: 12619
+B<< action: ;B[ge] , ac: 12072
+B<< action: ;B[gd] , ac: 10333
+B<< action: ;B[gb] , ac: 10250
+B<< action: ;B[hi] , ac: 8855
+B<< action: ;B[hh] , ac: 10091
+B<< action: ;B[hg] , ac: 11258
+B<< action: ;B[hf] , ac: 12133
+B<< action: ;B[he] , ac: 12311
+B<< action: ;B[hd] , ac: 22778
+B<< action: ;B[hc] , ac: 8961
+B<< action: ;B[ha] , ac: 5393
+B<< action: ;B[ih] , ac: 9531
+B<< action: ;B[ig] , ac: 12027
+B<< action: ;B[if] , ac: 13663
+B<< action: ;B[ie] , ac: 12688
+B<< action: ;B[id] , ac: 11788
+B<< action: ;B[ib] , ac: 6226
+B<< = H6
+B<< 
+W>> play B H6
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 12001 simulation done, duration: 1297
+W<< MCTS: 12001 simulation done, duration: 1299
+W<< MCTS: 12001 simulation done, duration: 1301
+W<< MCTS: 12001 simulation done, duration: 1324
+W<< MCTS: 12001 simulation done, duration: 1326
+W<< MCTS: 12001 simulation done, duration: 1329
+W<< MCTS: 12001 simulation done, duration: 1332
+W<< MCTS: 12001 simulation done, duration: 1342
+W<< action: ;W[ai] , ac: 1003
+W<< action: ;W[ag] , ac: 2077
+W<< action: ;W[af] , ac: 1574
+W<< action: ;W[ae] , ac: 1342
+W<< action: ;W[ad] , ac: 1672
+W<< action: ;W[ac] , ac: 1541
+W<< action: ;W[ab] , ac: 1632
+W<< action: ;W[bh] , ac: 1633
+W<< action: ;W[bg] , ac: 3682
+W<< action: ;W[bf] , ac: 1734
+W<< action: ;W[be] , ac: 1604
+W<< action: ;W[bd] , ac: 1954
+W<< action: ;W[bc] , ac: 1912
+W<< action: ;W[bb] , ac: 1558
+W<< action: ;W[ba] , ac: 1798
+W<< action: ;W[ci] , ac: 1325
+W<< action: ;W[cg] , ac: 1646
+W<< action: ;W[cf] , ac: 1624
+W<< action: ;W[cd] , ac: 1351
+W<< action: ;W[cc] , ac: 1483
+W<< action: ;W[cb] , ac: 1308
+W<< action: ;W[ca] , ac: 1768
+W<< action: ;W[di] , ac: 2491
+W<< action: ;W[dh] , ac: 1714
+W<< action: ;W[dg] , ac: 1509
+W<< action: ;W[db] , ac: 1447
+W<< action: ;W[da] , ac: 1825
+W<< action: ;W[ei] , ac: 1732
+W<< action: ;W[eh] , ac: 1685
+W<< action: ;W[ec] , ac: 1609
+W<< action: ;W[eb] , ac: 1971
+W<< action: ;W[ea] , ac: 1360
+W<< action: ;W[fi] , ac: 1582
+W<< action: ;W[fh] , ac: 1373
+W<< action: ;W[fg] , ac: 1359
+W<< action: ;W[fc] , ac: 1647
+W<< action: ;W[fb] , ac: 1434
+W<< action: ;W[gi] , ac: 2451
+W<< action: ;W[gh] , ac: 1656
+W<< action: ;W[gg] , ac: 1825
+W<< action: ;W[gf] , ac: 1837
+W<< action: ;W[ge] , ac: 2567
+W<< action: ;W[gd] , ac: 2816
+W<< action: ;W[gb] , ac: 1457
+W<< action: ;W[hi] , ac: 1844
+W<< action: ;W[hh] , ac: 1555
+W<< action: ;W[hg] , ac: 2185
+W<< action: ;W[hf] , ac: 1598
+W<< action: ;W[he] , ac: 2415
+W<< action: ;W[ih] , ac: 1736
+W<< action: ;W[ig] , ac: 1762
+W<< action: ;W[if] , ac: 1796
+W<< action: ;W[ie] , ac: 1629
+W<< action: ;W[id] , ac: 2920
+W<< = B3
+W<< 
+B>> play W B3
+B>> final_score
+W>> final_score
+W<< = unknown command
+W<< 

@@ -1,18 +1,35 @@
 #!/bin/bash
+rm -f nogo
+cp ../pj-4-code-v1/nogo-mcts ./nogo
+
 echo "GoGui-TwoGTP Launcher V20211112"
 # commands for player 1
-P1B='./nogo --shell --name="Hollow-Black" --black="mcts T=1000"'
-P1W='./nogo --shell --name="Hollow-White" --white="mcts T=1000"'
+#P1B='./nogo --shell --name="Hollow-Black" --black="search=MCTS N=15000 timeout=1000 worker=1"'
+#P1W='./nogo --shell --name="Hollow-White" --white="search=MCTS N=15000 timeout=1000 worker=1"'
+#P1B='./nogo-visit-2 --shell --name="Hollow-Black" --black="search=MCTS N=10000 worker=4 exploration=0.5"'
+#P1W='./nogo-visit-2 --shell --name="Hollow-White" --white="search=MCTS N=10000 worker=4 exploration=0.5"'
+#P1B='./nogo-mcts-stable --shell --name="Hollow-Black" --black="search=MCTS N=10000 worker=1 exploration=0.5"'
+#P1W='./nogo-mcts-stable --shell --name="Hollow-White" --white="search=MCTS N=10000 worker=1 exploration=0.5"'
+#P1B='./nogo --shell --name="Hollow-Black" --black="search=MCTS N=12000 worker=1 exploration=0.5"'
+#P1W='./nogo --shell --name="Hollow-White" --white="search=MCTS N=12000 worker=1 exploration=0.5"'
 # commands for local player 2
-P2B='./nogo-judge --shell --name="Judge-Weak-Black" --black="weak"'
-P2W='./nogo-judge --shell --name="Judge-Weak-White" --white="weak"'
+#P2B='./nogo --shell --name="Hollow-Black" --black="search=MCTS N=10000 worker=1 exploration=1.0'
+#P2W='./nogo --shell --name="Hollow-White" --white="search=MCTS N=10000 worker=1 exploration=1.0"'
+#P2B='./nogo --shell --name="Hollow-Black" --black="mcts T=1"'
+#P2W='./nogo --shell --name="Hollow-White" --white="mcts T=1"'
+P1B='./nogo --shell --name="Hollow-Black" --black="search=MCTS N=12000 worker=8 exploration=0.5"'
+P1W='./nogo --shell --name="Hollow-White" --white="search=MCTS N=12000 worker=8 exploration=0.5"'
+#P2B='./nogo-judge --shell --name="Judge-Weak-Black" --black="weak"'
+#P2W='./nogo-judge --shell --name="Judge-Weak-White" --white="weak"'
 # commands for remote player 2
 #P2B="gogui-client tcglinux1 10000"
 #P2W="gogui-client tcglinux1 10000"
+P2B="gogui-client 203.145.221.102 7777"
+P2W="gogui-client 203.145.221.102 7777"
 
 # other settings
-games=${1:-10} # total games to play
-timelimit=36 # total thinking time in second
+games=${1:-20} # total games to play
+timelimit=120 # total thinking time in second
 configs="-size 9 -komi 0 -auto -games $((games/2)) -verbose" # gogui-twogtp
 
 # set up environment
