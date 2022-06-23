@@ -1,0 +1,1322 @@
+B<< HollowNoGo-Demo: /home/sciencethebird/Desktop/TCG_2021/Project_4/pj-4-judge-v1/./nogo --shell --name=Hollow-Black --black=search=MCTS total_time=280000 worker=16 exploration=0.5 
+B<< 
+B<< 280000, 421.296
+B<< time: 15166
+B<< time: 14745
+B<< time: 14324
+B>> protocol_version
+B<< time: 13902
+B<< time: 13481
+B<< time: 13060
+B<< time: 12638
+B<< time: 12217
+B<< time: 11796
+B<< time: 11375
+B<< time: 10953
+B<< time: 10532
+B<< time: 10111
+B<< time: 9689
+B<< time: 9268
+B<< time: 8847
+B<< time: 8425
+B<< time: 8004
+B<< time: 7583
+B<< time: 7162
+B<< time: 6740
+B<< time: 6319
+B<< time: 5898
+B<< time: 5476
+B<< time: 5055
+B<< time: 4634
+B<< time: 4212
+B<< time: 3791
+B<< time: 3370
+B<< time: 2949
+B<< time: 2527
+B<< time: 2106
+B<< time: 1685
+B<< time: 1263
+B<< time: 842
+B<< time: 421
+B<< = 2
+B<< 
+B>> name
+B<< = Hollow-Black
+B<< 
+B>> version
+B<< = 2021
+B<< 
+B>> list_commands
+B<< = play
+B<< genmove
+B<< clear_board
+B<< showboard
+B<< boardsize
+B<< name
+B<< version
+B<< protocol_version
+B<< list_commands
+B<< quit
+B<< 
+B<< 
+W>> protocol_version
+W<< HollowNoGo-Demo: ./nogo --shell --name=ZhengYi --black=mcts N=10000 c=0.5 timer=y choose=visit_count num_worker=4 --white=mcts N=10000 c=0.5 timer=y choose=visit_count num_worker=4 
+W<< 
+W<< = 2
+W<< 
+W>> name
+W<< = ZhengYi
+W<< 
+W>> version
+W<< = 2021
+W<< 
+W>> list_commands
+W<< = play
+W<< genmove
+W<< clear_board
+W<< showboard
+W<< boardsize
+W<< name
+W<< version
+W<< protocol_version
+W<< list_commands
+W<< quit
+W<< 
+W<< 
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+============================================
+Game 0
+============================================
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+B>> genmove b
+B<< MCTS: 184790 simulation done, duration: 15167
+B<< MCTS: 185021 simulation done, duration: 15167
+B<< MCTS: 183658 simulation done, duration: 15167
+B<< MCTS: 181269 simulation done, duration: 15167
+B<< MCTS: 183504 simulation done, duration: 15167
+B<< MCTS: 183623 simulation done, duration: 15167
+B<< MCTS: 181025 simulation done, duration: 15167
+B<< MCTS: 184706 simulation done, duration: 15167
+B<< MCTS: 180945 simulation done, duration: 15167
+B<< MCTS: 185248 simulation done, duration: 15167
+B<< MCTS: 184008 simulation done, duration: 15167
+B<< MCTS: 182781 simulation done, duration: 15167
+B<< MCTS: 183194 simulation done, duration: 15167
+B<< MCTS: 182273 simulation done, duration: 15167
+B<< MCTS: 185135 simulation done, duration: 15167
+B<< MCTS: 183716 simulation done, duration: 15167
+B<< step: 0
+B<< best action;B[aa]best count: 60735
+B<< memory release time: 796
+B<< = A9
+B<< 
+W>> play B A9
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :15
+W<< time_limit :15
+W<< time_limit :15
+W<< time_limit :15
+W<< total_count: 239914
+W<< total_count: 240298
+W<< total_count: 239161
+W<< total_count: 240807
+W<< = A1
+W<< 
+B>> play W A1
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 181660 simulation done, duration: 14746
+B<< MCTS: 181019 simulation done, duration: 14746
+B<< MCTS: 181035 simulation done, duration: 14746
+B<< MCTS: 180654 simulation done, duration: 14746
+B<< MCTS: 182960 simulation done, duration: 14746
+B<< MCTS: 177455 simulation done, duration: 14746
+B<< MCTS: 178525 simulation done, duration: 14746
+B<< MCTS: 176739 simulation done, duration: 14746
+B<< MCTS: 182572 simulation done, duration: 14746
+B<< MCTS: 180560 simulation done, duration: 14746
+B<< MCTS: 178457 simulation done, duration: 14746
+B<< MCTS: 178998 simulation done, duration: 14746
+B<< MCTS: 180346 simulation done, duration: 14746
+B<< MCTS: 178612 simulation done, duration: 14746
+B<< MCTS: 177606 simulation done, duration: 14746
+B<< MCTS: 182369 simulation done, duration: 14746
+B<< step: 1
+B<< best action;B[ia]best count: 75053
+B<< memory release time: 784
+B<< = J9
+B<< 
+W>> play B J9
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :14.53
+W<< time_limit :14.53
+W<< time_limit :14.53
+W<< time_limit :14.53
+W<< total_count: 240412
+W<< total_count: 276560
+W<< total_count: 241043
+W<< total_count: 237831
+W<< = J1
+W<< 
+B>> play W J1
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 174945 simulation done, duration: 14325
+B<< MCTS: 175105 simulation done, duration: 14325
+B<< MCTS: 176617 simulation done, duration: 14325
+B<< MCTS: 176074 simulation done, duration: 14325
+B<< MCTS: 176916 simulation done, duration: 14325
+B<< MCTS: 174014 simulation done, duration: 14325
+B<< MCTS: 179703 simulation done, duration: 14325
+B<< MCTS: 180038 simulation done, duration: 14325
+B<< MCTS: 180381 simulation done, duration: 14325
+B<< MCTS: 178014 simulation done, duration: 14325
+B<< MCTS: 176613 simulation done, duration: 14325
+B<< MCTS: 173847 simulation done, duration: 14325
+B<< MCTS: 179341 simulation done, duration: 14325
+B<< MCTS: 175394 simulation done, duration: 14325
+B<< MCTS: 178964 simulation done, duration: 14325
+B<< MCTS: 176151 simulation done, duration: 14325
+B<< step: 2
+B<< best action;B[ad]best count: 62931
+B<< memory release time: 805
+B<< = A6
+B<< 
+W>> play B A6
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :14.06
+W<< time_limit :14.06
+W<< time_limit :14.06
+W<< time_limit :14.06
+W<< total_count: 240177
+W<< total_count: 236058
+W<< total_count: 277492
+W<< total_count: 246247
+W<< = F1
+W<< 
+B>> play W F1
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 168907 simulation done, duration: 13903
+B<< MCTS: 172446 simulation done, duration: 13903
+B<< MCTS: 176288 simulation done, duration: 13903
+B<< MCTS: 174683 simulation done, duration: 13903
+B<< MCTS: 172762 simulation done, duration: 13903
+B<< MCTS: 172479 simulation done, duration: 13903
+B<< MCTS: 174462 simulation done, duration: 13903
+B<< MCTS: 175292 simulation done, duration: 13903
+B<< MCTS: 173205 simulation done, duration: 13903
+B<< MCTS: 173630 simulation done, duration: 13903
+B<< MCTS: 172764 simulation done, duration: 13903
+B<< MCTS: 175532 simulation done, duration: 13903
+B<< MCTS: 175540 simulation done, duration: 13903
+B<< MCTS: 174035 simulation done, duration: 13903
+B<< MCTS: 174263 simulation done, duration: 13903
+B<< MCTS: 169870 simulation done, duration: 13903
+B<< step: 3
+B<< best action;B[if]best count: 60623
+B<< memory release time: 643
+B<< = J4
+B<< 
+W>> play B J4
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :13.59
+W<< time_limit :13.59
+W<< time_limit :13.59
+W<< time_limit :13.59
+W<< total_count: 240863
+W<< total_count: 268158
+W<< total_count: 235544
+W<< total_count: 237120
+W<< = D3
+W<< 
+B>> play W D3
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 170869 simulation done, duration: 13482
+B<< MCTS: 171869 simulation done, duration: 13482
+B<< MCTS: 168090 simulation done, duration: 13482
+B<< MCTS: 171387 simulation done, duration: 13482
+B<< MCTS: 167644 simulation done, duration: 13482
+B<< MCTS: 169753 simulation done, duration: 13482
+B<< MCTS: 173600 simulation done, duration: 13482
+B<< MCTS: 170064 simulation done, duration: 13482
+B<< MCTS: 169365 simulation done, duration: 13482
+B<< MCTS: 167629 simulation done, duration: 13482
+B<< MCTS: 166445 simulation done, duration: 13482
+B<< MCTS: 166653 simulation done, duration: 13482
+B<< MCTS: 170968 simulation done, duration: 13482
+B<< MCTS: 166485 simulation done, duration: 13482
+B<< MCTS: 171376 simulation done, duration: 13482
+B<< MCTS: 170443 simulation done, duration: 13482
+B<< step: 4
+B<< best action;B[ce]best count: 69848
+B<< memory release time: 618
+B<< = C5
+B<< 
+W>> play B C5
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :13.12time_limit :
+W<< time_limit :13.1213.12
+W<< 
+W<< time_limit :13.12
+W<< total_count: 227438
+W<< total_count: total_count: 231066267340
+W<< 
+W<< total_count: 230384
+W<< = E2
+W<< 
+B>> play W E2
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 164994 simulation done, duration: 13061
+B<< MCTS: 166538 simulation done, duration: 13061
+B<< MCTS: 162715 simulation done, duration: 13061
+B<< MCTS: 166352 simulation done, duration: 13061
+B<< MCTS: 165695 simulation done, duration: 13061
+B<< MCTS: 165898 simulation done, duration: 13061
+B<< MCTS: 164432 simulation done, duration: 13061
+B<< MCTS: 164908 simulation done, duration: 13061
+B<< MCTS: 162503 simulation done, duration: 13061
+B<< MCTS: 162246 simulation done, duration: 13061
+B<< MCTS: 165530 simulation done, duration: 13061
+B<< MCTS: 163511 simulation done, duration: 13061
+B<< MCTS: 162244 simulation done, duration: 13061
+B<< MCTS: 165262 simulation done, duration: 13061
+B<< MCTS: 164271 simulation done, duration: 13061
+B<< MCTS: 164433 simulation done, duration: 13061
+B<< step: 5
+B<< best action;B[eg]best count: 154701
+B<< memory release time: 659
+B<< = E3
+B<< 
+W>> play B E3
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :12.65
+W<< time_limit :12.65
+W<< time_limit :time_limit :12.65
+W<< 12.65
+W<< total_count: 241362
+W<< total_count: 230439
+W<< total_count: 268308
+W<< total_count: 246161
+W<< = D1
+W<< 
+B>> play W D1
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 165081 simulation done, duration: 12639
+B<< MCTS: 163974 simulation done, duration: 12639
+B<< MCTS: 164867 simulation done, duration: 12639
+B<< MCTS: 163285 simulation done, duration: 12639
+B<< MCTS: 162825 simulation done, duration: 12639
+B<< MCTS: 162675 simulation done, duration: 12639
+B<< MCTS: 164149 simulation done, duration: 12639
+B<< MCTS: 161878 simulation done, duration: 12639
+B<< MCTS: 159689 simulation done, duration: 12639
+B<< MCTS: 162979 simulation done, duration: 12639
+B<< MCTS: 157326 simulation done, duration: 12639
+B<< MCTS: 163981 simulation done, duration: 12639
+B<< MCTS: 163545 simulation done, duration: 12639
+B<< MCTS: 164000 simulation done, duration: 12639
+B<< MCTS: 163980 simulation done, duration: 12639
+B<< MCTS: 161102 simulation done, duration: 12639
+B<< step: 6
+B<< best action;B[gi]best count: 223418
+B<< memory release time: 603
+B<< = G1
+B<< 
+W>> play B G1
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :12.18
+W<< time_limit :time_limit :12.18time_limit :
+W<< 12.18
+W<< 12.18
+W<< total_count: total_count: 244451257852
+W<< 
+W<< total_count: total_count: 222785
+W<< 235047
+W<< = G3
+W<< 
+B>> play W G3
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 166506 simulation done, duration: 12218
+B<< MCTS: 164154 simulation done, duration: 12218
+B<< MCTS: 160666 simulation done, duration: 12218
+B<< MCTS: 160963 simulation done, duration: 12218
+B<< MCTS: 163540 simulation done, duration: 12218
+B<< MCTS: 162740 simulation done, duration: 12218
+B<< MCTS: 161442 simulation done, duration: 12218
+B<< MCTS: 159569 simulation done, duration: 12218
+B<< MCTS: 160803 simulation done, duration: 12218
+B<< MCTS: 161596 simulation done, duration: 12218
+B<< MCTS: 162897 simulation done, duration: 12218
+B<< MCTS: 162804 simulation done, duration: 12218
+B<< MCTS: 162453 simulation done, duration: 12218
+B<< MCTS: 159866 simulation done, duration: 12218
+B<< MCTS: 158602 simulation done, duration: 12218
+B<< MCTS: 162094 simulation done, duration: 12218
+B<< step: 7
+B<< best action;B[ih]best count: 125053
+B<< memory release time: 600
+B<< = J2
+B<< 
+W>> play B J2
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :11.71
+W<< time_limit :time_limit :11.71
+W<< 11.71
+W<< time_limit :11.71
+W<< total_count: 237437
+W<< total_count: 219377
+W<< total_count: 253321
+W<< total_count: 238554
+W<< = F2
+W<< 
+B>> play W F2
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 159280 simulation done, duration: 11797
+B<< MCTS: 155709 simulation done, duration: 11797
+B<< MCTS: 157768 simulation done, duration: 11797
+B<< MCTS: 154798 simulation done, duration: 11797
+B<< MCTS: 155605 simulation done, duration: 11797
+B<< MCTS: 154554 simulation done, duration: 11797
+B<< MCTS: 156923 simulation done, duration: 11797
+B<< MCTS: 153954 simulation done, duration: 11797
+B<< MCTS: 153978 simulation done, duration: 11797
+B<< MCTS: 155922 simulation done, duration: 11797
+B<< MCTS: 155573 simulation done, duration: 11797
+B<< MCTS: 158957 simulation done, duration: 11797
+B<< MCTS: 156813 simulation done, duration: 11797
+B<< MCTS: 154713 simulation done, duration: 11797
+B<< MCTS: 155975 simulation done, duration: 11797
+B<< MCTS: 158255 simulation done, duration: 11797
+B<< step: 8
+B<< best action;B[dh]best count: 171151
+B<< memory release time: 639
+B<< = D2
+B<< 
+W>> play B D2
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :11.24
+W<< time_limit :11.24
+W<< time_limit :time_limit :11.2411.24
+W<< 
+W<< total_count: 242952
+W<< total_count: 219994
+W<< total_count: 248917
+W<< total_count: 233734
+W<< = G5
+W<< 
+B>> play W G5
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 158731 simulation done, duration: 11376
+B<< MCTS: 154123 simulation done, duration: 11376
+B<< MCTS: 156278 simulation done, duration: 11376
+B<< MCTS: 159584 simulation done, duration: 11376
+B<< MCTS: 159180 simulation done, duration: 11376
+B<< MCTS: 154329 simulation done, duration: 11376
+B<< MCTS: 159487 simulation done, duration: 11376
+B<< MCTS: 159758 simulation done, duration: 11376
+B<< MCTS: 159288 simulation done, duration: 11376
+B<< MCTS: 155823 simulation done, duration: 11376
+B<< MCTS: 157790 simulation done, duration: 11376
+B<< MCTS: 157952 simulation done, duration: 11376
+B<< MCTS: 156486 simulation done, duration: 11376
+B<< MCTS: 157129 simulation done, duration: 11376
+B<< MCTS: 158023 simulation done, duration: 11376
+B<< MCTS: 156635 simulation done, duration: 11376
+B<< step: 9
+B<< best action;B[gf]best count: 304610
+B<< memory release time: 594
+B<< = G4
+B<< 
+W>> play B G4
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :10.77
+W<< time_limit :10.77
+W<< time_limit :10.77
+W<< time_limit :10.77
+W<< total_count: 235911
+W<< total_count: 220206
+W<< total_count: 247731
+W<< total_count: 240923
+W<< = J3
+W<< 
+B>> play W J3
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 159643 simulation done, duration: 10954
+B<< MCTS: 158065 simulation done, duration: 10954
+B<< MCTS: 156006 simulation done, duration: 10954
+B<< MCTS: 159338 simulation done, duration: 10954
+B<< MCTS: 158706 simulation done, duration: 10954
+B<< MCTS: 158035 simulation done, duration: 10954
+B<< MCTS: 161206 simulation done, duration: 10954
+B<< MCTS: 158902 simulation done, duration: 10954
+B<< MCTS: 161746 simulation done, duration: 10954
+B<< MCTS: 160177 simulation done, duration: 10954
+B<< MCTS: 158288 simulation done, duration: 10954
+B<< MCTS: 155692 simulation done, duration: 10954
+B<< MCTS: 157260 simulation done, duration: 10954
+B<< MCTS: 157261 simulation done, duration: 10954
+B<< MCTS: 158284 simulation done, duration: 10954
+B<< MCTS: 160692 simulation done, duration: 10954
+B<< step: 10
+B<< best action;B[af]best count: 113121
+B<< memory release time: 625
+B<< = A4
+B<< 
+W>> play B A4
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :time_limit :10.3
+W<< 10.3
+W<< time_limit :time_limit :10.3
+W<< 10.3
+W<< total_count: 235272
+W<< total_count: 246939
+W<< total_count: 214200
+W<< total_count: 225737
+W<< = C9
+W<< 
+B>> play W C9
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 154531 simulation done, duration: 10533
+B<< MCTS: 151123 simulation done, duration: 10533
+B<< MCTS: 155961 simulation done, duration: 10533
+B<< MCTS: 156813 simulation done, duration: 10533
+B<< MCTS: 155338 simulation done, duration: 10533
+B<< MCTS: 155204 simulation done, duration: 10533
+B<< MCTS: 151798 simulation done, duration: 10533
+B<< MCTS: 153949 simulation done, duration: 10533
+B<< MCTS: 152699 simulation done, duration: 10533
+B<< MCTS: 157538 simulation done, duration: 10533
+B<< MCTS: 154334 simulation done, duration: 10533
+B<< MCTS: 157898 simulation done, duration: 10533
+B<< MCTS: 154931 simulation done, duration: 10533
+B<< MCTS: 151067 simulation done, duration: 10533
+B<< MCTS: 152068 simulation done, duration: 10533
+B<< MCTS: 149110 simulation done, duration: 10533
+B<< step: 11
+B<< best action;B[be]best count: 161822
+B<< memory release time: 610
+B<< = B5
+B<< 
+W>> play B B5
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :9.83
+W<< time_limit :9.83
+W<< time_limit :time_limit :9.83
+W<< 9.83
+W<< total_count: 221573
+W<< total_count: 208322
+W<< total_count: 237624
+W<< total_count: 234647
+W<< = B6
+W<< 
+B>> play W B6
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 152650 simulation done, duration: 10112
+B<< MCTS: 148076 simulation done, duration: 10112
+B<< MCTS: 147300 simulation done, duration: 10112
+B<< MCTS: 151248 simulation done, duration: 10112
+B<< MCTS: 150230 simulation done, duration: 10112
+B<< MCTS: 154315 simulation done, duration: 10112
+B<< MCTS: 149535 simulation done, duration: 10112
+B<< MCTS: 149559 simulation done, duration: 10112
+B<< MCTS: 150380 simulation done, duration: 10112
+B<< MCTS: 145562 simulation done, duration: 10112
+B<< MCTS: 151643 simulation done, duration: 10112
+B<< MCTS: 148780 simulation done, duration: 10112
+B<< MCTS: 150036 simulation done, duration: 10112
+B<< MCTS: 143084 simulation done, duration: 10112
+B<< MCTS: 145160 simulation done, duration: 10112
+B<< MCTS: 154420 simulation done, duration: 10112
+B<< step: 12
+B<< best action;B[bg]best count: 251176
+B<< memory release time: 610
+B<< = B3
+B<< 
+W>> play B B3
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :time_limit :9.36
+W<< time_limit :9.36
+W<< 9.36
+W<< time_limit :9.36
+W<< total_count: 240833
+W<< total_count: total_count: 217613
+W<< 234223total_count: 
+W<< 222650
+W<< = B4
+W<< 
+B>> play W B4
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 152016 simulation done, duration: 9690
+B<< MCTS: 154920 simulation done, duration: 9690
+B<< MCTS: 149635 simulation done, duration: 9690
+B<< MCTS: 148834 simulation done, duration: 9690
+B<< MCTS: 150873 simulation done, duration: 9690
+B<< MCTS: 153268 simulation done, duration: 9690
+B<< MCTS: 152860 simulation done, duration: 9690
+B<< MCTS: 150159 simulation done, duration: 9690
+B<< MCTS: 151018 simulation done, duration: 9690
+B<< MCTS: 149909 simulation done, duration: 9690
+B<< MCTS: 147314 simulation done, duration: 9690
+B<< MCTS: 153605 simulation done, duration: 9690
+B<< MCTS: 154477 simulation done, duration: 9690
+B<< MCTS: 151055 simulation done, duration: 9690
+B<< MCTS: 152777 simulation done, duration: 9690
+B<< MCTS: 149740 simulation done, duration: 9690
+B<< step: 13
+B<< best action;B[bi]best count: 155212
+B<< memory release time: 628
+B<< = B1
+B<< 
+W>> play B B1
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :8.89
+W<< time_limit :8.89time_limit :
+W<< 8.89
+W<< time_limit :8.89
+W<< total_count: 232512
+W<< total_count: 242899
+W<< total_count: 215233
+W<< total_count: 238054
+W<< = A8
+W<< 
+B>> play W A8
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 146811 simulation done, duration: 9269
+B<< MCTS: 149898 simulation done, duration: 9269
+B<< MCTS: 148898 simulation done, duration: 9269
+B<< MCTS: 150054 simulation done, duration: 9269
+B<< MCTS: 154144 simulation done, duration: 9269
+B<< MCTS: 149409 simulation done, duration: 9269
+B<< MCTS: 153526 simulation done, duration: 9269
+B<< MCTS: 149431 simulation done, duration: 9269
+B<< MCTS: 146660 simulation done, duration: 9269
+B<< MCTS: 150533 simulation done, duration: 9269
+B<< MCTS: 148479 simulation done, duration: 9269
+B<< MCTS: 151980 simulation done, duration: 9269
+B<< MCTS: 153092 simulation done, duration: 9269
+B<< MCTS: 148287 simulation done, duration: 9269
+B<< MCTS: 149003 simulation done, duration: 9269
+B<< MCTS: 150668 simulation done, duration: 9269
+B<< step: 14
+B<< best action;B[id]best count: 174424
+B<< memory release time: 634
+B<< = J6
+B<< 
+W>> play B J6
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :8.42
+W<< time_limit :time_limit :8.42
+W<< time_limit :8.42
+W<< 8.42
+W<< total_count: 233273
+W<< total_count: total_count: 236167211982
+W<< 
+W<< total_count: 218560
+W<< = J7
+W<< 
+B>> play W J7
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 151277 simulation done, duration: 8848
+B<< MCTS: 146088 simulation done, duration: 8848
+B<< MCTS: 147563 simulation done, duration: 8848
+B<< MCTS: 143760 simulation done, duration: 8848
+B<< MCTS: 147545 simulation done, duration: 8848
+B<< MCTS: 148485 simulation done, duration: 8848
+B<< MCTS: 146094 simulation done, duration: 8848
+B<< MCTS: 149188 simulation done, duration: 8848
+B<< MCTS: 147004 simulation done, duration: 8848
+B<< MCTS: 144120 simulation done, duration: 8848
+B<< MCTS: 145232 simulation done, duration: 8848
+B<< MCTS: 147864 simulation done, duration: 8848
+B<< MCTS: 149960 simulation done, duration: 8848
+B<< MCTS: 146571 simulation done, duration: 8848
+B<< MCTS: 147725 simulation done, duration: 8848
+B<< MCTS: 148993 simulation done, duration: 8848
+B<< step: 15
+B<< best action;B[cc]best count: 204737
+B<< memory release time: 553
+B<< = C7
+B<< 
+W>> play B C7
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :7.95
+W<< time_limit :time_limit :7.95
+W<< time_limit :7.95
+W<< 7.95
+W<< total_count: 220771
+W<< total_count: 234691
+W<< total_count: 206429
+W<< total_count: 224118
+W<< = D7
+W<< 
+B>> play W D7
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 146993 simulation done, duration: 8426
+B<< MCTS: 142863 simulation done, duration: 8426
+B<< MCTS: 148185 simulation done, duration: 8426
+B<< MCTS: 143694 simulation done, duration: 8426
+B<< MCTS: 143170 simulation done, duration: 8426
+B<< MCTS: 144966 simulation done, duration: 8426
+B<< MCTS: 141566 simulation done, duration: 8426
+B<< MCTS: 143528 simulation done, duration: 8426
+B<< MCTS: 144909 simulation done, duration: 8426
+B<< MCTS: 143751 simulation done, duration: 8426
+B<< MCTS: 141045 simulation done, duration: 8426
+B<< MCTS: 143941 simulation done, duration: 8426
+B<< MCTS: 147198 simulation done, duration: 8426
+B<< MCTS: 136992 simulation done, duration: 8426
+B<< MCTS: 144982 simulation done, duration: 8426
+B<< MCTS: 144516 simulation done, duration: 8426
+B<< step: 16
+B<< best action;B[bc]best count: 424896
+B<< memory release time: 543
+B<< = B7
+B<< 
+W>> play B B7
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :7.48
+W<< time_limit :7.48
+W<< time_limit :time_limit :7.48
+W<< 7.48
+W<< total_count: 213836
+W<< total_count: 226484
+W<< total_count: 227371
+W<< total_count: 221572
+W<< = A7
+W<< 
+B>> play W A7
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 140835 simulation done, duration: 8005
+B<< MCTS: 144985 simulation done, duration: 8005
+B<< MCTS: 140910 simulation done, duration: 8005
+B<< MCTS: 145429 simulation done, duration: 8005
+B<< MCTS: 140473 simulation done, duration: 8005
+B<< MCTS: 143080 simulation done, duration: 8005
+B<< MCTS: 145105 simulation done, duration: 8005
+B<< MCTS: 143941 simulation done, duration: 8005
+B<< MCTS: 139647 simulation done, duration: 8005
+B<< MCTS: 141463 simulation done, duration: 8005
+B<< MCTS: 145995 simulation done, duration: 8005
+B<< MCTS: 141974 simulation done, duration: 8005
+B<< MCTS: 144002 simulation done, duration: 8005
+B<< MCTS: 143763 simulation done, duration: 8005
+B<< MCTS: 144304 simulation done, duration: 8005
+B<< MCTS: 143542 simulation done, duration: 8005
+B<< step: 17
+B<< best action;B[bh]best count: 279942
+B<< memory release time: 559
+B<< = B2
+B<< 
+W>> play B B2
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :7.01
+W<< time_limit :7.01
+W<< time_limit :time_limit :7.01
+W<< 7.01
+W<< total_count: 218204
+W<< total_count: total_count: 225646
+W<< 221373
+W<< total_count: 225036
+W<< = E9
+W<< 
+B>> play W E9
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 132545 simulation done, duration: 7584
+B<< MCTS: 140281 simulation done, duration: 7584
+B<< MCTS: 137157 simulation done, duration: 7584
+B<< MCTS: 138217 simulation done, duration: 7584
+B<< MCTS: 132485 simulation done, duration: 7584
+B<< MCTS: 133073 simulation done, duration: 7584
+B<< MCTS: 135584 simulation done, duration: 7584
+B<< MCTS: 136683 simulation done, duration: 7584
+B<< MCTS: 136191 simulation done, duration: 7584
+B<< MCTS: 129952 simulation done, duration: 7584
+B<< MCTS: 132726 simulation done, duration: 7584
+B<< MCTS: 132309 simulation done, duration: 7584
+B<< MCTS: 136182 simulation done, duration: 7584
+B<< MCTS: 135212 simulation done, duration: 7584
+B<< MCTS: 138883 simulation done, duration: 7584
+B<< MCTS: 136197 simulation done, duration: 7584
+B<< step: 18
+B<< best action;B[da]best count: 345860
+B<< memory release time: 513
+B<< = D9
+B<< 
+W>> play B D9
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :6.54
+W<< time_limit :6.54
+W<< time_limit :time_limit :6.54
+W<< 6.54
+W<< total_count: 216266
+W<< total_count: 218456
+W<< total_count: 217942
+W<< total_count: 221799
+W<< = H9
+W<< 
+B>> play W H9
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 127450 simulation done, duration: 7163
+B<< MCTS: 130483 simulation done, duration: 7163
+B<< MCTS: 119567 simulation done, duration: 7163
+B<< MCTS: 119222 simulation done, duration: 7163
+B<< MCTS: 130748 simulation done, duration: 7163
+B<< MCTS: 124749 simulation done, duration: 7163
+B<< MCTS: 119767 simulation done, duration: 7163
+B<< MCTS: 120031 simulation done, duration: 7163
+B<< MCTS: 128487 simulation done, duration: 7163
+B<< MCTS: 124632 simulation done, duration: 7163
+B<< MCTS: 124186 simulation done, duration: 7163
+B<< MCTS: 124544 simulation done, duration: 7163
+B<< MCTS: 128095 simulation done, duration: 7163
+B<< MCTS: 126988 simulation done, duration: 7163
+B<< MCTS: 129832 simulation done, duration: 7163
+B<< MCTS: 122772 simulation done, duration: 7163
+B<< step: 19
+B<< best action;B[ag]best count: 699742
+B<< memory release time: 551
+B<< = A3
+B<< 
+W>> play B A3
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :6.07
+W<< time_limit :6.07
+W<< time_limit :6.07time_limit :
+W<< 6.07
+W<< total_count: 215355
+W<< total_count: 204416
+W<< total_count: 206829
+W<< total_count: 204485
+W<< = F7
+W<< 
+B>> play W F7
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 120212 simulation done, duration: 6741
+B<< MCTS: 116227 simulation done, duration: 6741
+B<< MCTS: 102594 simulation done, duration: 6741
+B<< MCTS: 102849 simulation done, duration: 6741
+B<< MCTS: 116998 simulation done, duration: 6741
+B<< MCTS: 110995 simulation done, duration: 6741
+B<< MCTS: 102541 simulation done, duration: 6741
+B<< MCTS: 106021 simulation done, duration: 6741
+B<< MCTS: 116279 simulation done, duration: 6742
+B<< MCTS: 106794 simulation done, duration: 6741
+B<< MCTS: 109603 simulation done, duration: 6741
+B<< MCTS: 118764 simulation done, duration: 6741
+B<< MCTS: 113037 simulation done, duration: 6741
+B<< MCTS: 119912 simulation done, duration: 6741
+B<< MCTS: 118761 simulation done, duration: 6741
+B<< MCTS: 108847 simulation done, duration: 6741
+B<< step: 20
+B<< best action;B[fa]best count: 330574
+B<< memory release time: 460
+B<< = F9
+B<< 
+W>> play B F9
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :time_limit :5.65.6
+W<< 
+W<< time_limit :5.6
+W<< time_limit :5.6
+W<< total_count: 209407
+W<< total_count: 195444
+W<< total_count: 194298
+W<< total_count: 196864
+W<< = G7
+W<< 
+B>> play W G7
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 104683 simulation done, duration: 6320
+B<< MCTS: 108349 simulation done, duration: 6320
+B<< MCTS: 100434 simulation done, duration: 6320
+B<< MCTS: 97667 simulation done, duration: 6320
+B<< MCTS: 97934 simulation done, duration: 6320
+B<< MCTS: 106477 simulation done, duration: 6320
+B<< MCTS: 109865 simulation done, duration: 6320
+B<< MCTS: 115556 simulation done, duration: 6320
+B<< MCTS: 115983 simulation done, duration: 6320
+B<< MCTS: 105870 simulation done, duration: 6320
+B<< MCTS: 94239 simulation done, duration: 6320
+B<< MCTS: 108350 simulation done, duration: 6320
+B<< MCTS: 110868 simulation done, duration: 6320
+B<< MCTS: 98215 simulation done, duration: 6320
+B<< MCTS: 102910 simulation done, duration: 6320
+B<< MCTS: 114525 simulation done, duration: 6320
+B<< step: 21
+B<< best action;B[hd]best count: 410202
+B<< memory release time: 350
+B<< = H6
+B<< 
+W>> play B H6
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :5.13
+W<< time_limit :5.13
+W<< time_limit :time_limit :5.13
+W<< 5.13
+W<< total_count: 199591
+W<< total_count: 196973
+W<< total_count: 192587
+W<< total_count: 197916
+W<< = J5
+W<< 
+B>> play W J5
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 99437 simulation done, duration: 5899
+B<< MCTS: 102407 simulation done, duration: 5899
+B<< MCTS: 101711 simulation done, duration: 5899
+B<< MCTS: 110477 simulation done, duration: 5899
+B<< MCTS: 95610 simulation done, duration: 5899
+B<< MCTS: 98836 simulation done, duration: 5899
+B<< MCTS: 102030 simulation done, duration: 5899
+B<< MCTS: 116677 simulation done, duration: 5899
+B<< MCTS: 98145 simulation done, duration: 5899
+B<< MCTS: 104270 simulation done, duration: 5899
+B<< MCTS: 96029 simulation done, duration: 5899
+B<< MCTS: 110840 simulation done, duration: 5899
+B<< MCTS: 93999 simulation done, duration: 5899
+B<< MCTS: 98997 simulation done, duration: 5899
+B<< MCTS: 107886 simulation done, duration: 5899
+B<< MCTS: 102116 simulation done, duration: 5899
+B<< step: 22
+B<< best action;B[ec]best count: 547713
+B<< memory release time: 295
+B<< = E7
+B<< 
+W>> play B E7
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :4.66
+W<< time_limit :4.66
+W<< time_limit :4.66
+W<< time_limit :4.66
+W<< total_count: 191915
+W<< total_count: 187327
+W<< total_count: 186907
+W<< total_count: 185949
+W<< = C1
+W<< 
+B>> play W C1
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 111725 simulation done, duration: 5477
+B<< MCTS: 111561 simulation done, duration: 5477
+B<< MCTS: 113045 simulation done, duration: 5477
+B<< MCTS: 111024 simulation done, duration: 5477
+B<< MCTS: 103061 simulation done, duration: 5477
+B<< MCTS: 114557 simulation done, duration: 5477
+B<< MCTS: 110084 simulation done, duration: 5477
+B<< MCTS: 107765 simulation done, duration: 5477
+B<< MCTS: 104831 simulation done, duration: 5477
+B<< MCTS: 110138 simulation done, duration: 5477
+B<< MCTS: 110916 simulation done, duration: 5477
+B<< MCTS: 112312 simulation done, duration: 5477
+B<< MCTS: 104385 simulation done, duration: 5477
+B<< MCTS: 108776 simulation done, duration: 5477
+B<< MCTS: 104012 simulation done, duration: 5477
+B<< MCTS: 108962 simulation done, duration: 5477
+B<< step: 23
+B<< best action;B[gb]best count: 984881
+B<< memory release time: 317
+B<< = G8
+B<< 
+W>> play B G8
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :time_limit :4.19
+W<< time_limit :4.19
+W<< time_limit :4.19
+W<< 4.19
+W<< total_count: 178394
+W<< total_count: total_count: 180683
+W<< 182734
+W<< total_count: 179669
+W<< = C8
+W<< 
+B>> play W C8
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 107310 simulation done, duration: 5056
+B<< MCTS: 112783 simulation done, duration: 5056
+B<< MCTS: 111986 simulation done, duration: 5056
+B<< MCTS: 108873 simulation done, duration: 5056
+B<< MCTS: 111603 simulation done, duration: 5056
+B<< MCTS: 110390 simulation done, duration: 5056
+B<< MCTS: 111656 simulation done, duration: 5056
+B<< MCTS: 106566 simulation done, duration: 5056
+B<< MCTS: 114780 simulation done, duration: 5056
+B<< MCTS: 107075 simulation done, duration: 5056
+B<< MCTS: 112823 simulation done, duration: 5056
+B<< MCTS: 116358 simulation done, duration: 5056
+B<< MCTS: 101819 simulation done, duration: 5056
+B<< MCTS: 108252 simulation done, duration: 5056
+B<< MCTS: 108283 simulation done, duration: 5056
+B<< MCTS: 111718 simulation done, duration: 5056
+B<< step: 24
+B<< best action;B[ba]best count: 1594403
+B<< memory release time: 377
+B<< = B9
+B<< 
+W>> play B B9
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :3.72
+W<< time_limit :3.72
+W<< time_limit :time_limit :3.723.72
+W<< 
+W<< total_count: 176764
+W<< total_count: 169818
+W<< total_count: total_count: 173113173188
+W<< 
+W<< = C4
+W<< 
+B>> play W C4
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 119511 simulation done, duration: 4635
+B<< MCTS: 110898 simulation done, duration: 4635
+B<< MCTS: 122952 simulation done, duration: 4635
+B<< MCTS: 101342 simulation done, duration: 4635
+B<< MCTS: 113315 simulation done, duration: 4635
+B<< MCTS: 117031 simulation done, duration: 4635
+B<< MCTS: 117630 simulation done, duration: 4635
+B<< MCTS: 122515 simulation done, duration: 4635
+B<< MCTS: 114086 simulation done, duration: 4635
+B<< MCTS: 106053 simulation done, duration: 4635
+B<< MCTS: 121342 simulation done, duration: 4635
+B<< MCTS: 124015 simulation done, duration: 4635
+B<< MCTS: 109736 simulation done, duration: 4635
+B<< MCTS: 106239 simulation done, duration: 4635
+B<< MCTS: 110895 simulation done, duration: 4635
+B<< MCTS: 118990 simulation done, duration: 4635
+B<< step: 25
+B<< best action;B[ch]best count: 1807099
+B<< memory release time: 332
+B<< = C2
+B<< 
+W>> play B C2
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :3.25
+W<< time_limit :3.25
+W<< time_limit :time_limit :3.25
+W<< 3.25
+W<< total_count: 203041
+W<< total_count: 190665
+W<< total_count: 193008
+W<< total_count: 192222
+W<< = G6
+W<< 
+B>> play W G6
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 124034 simulation done, duration: 4213
+B<< MCTS: 140682 simulation done, duration: 4213
+B<< MCTS: 136662 simulation done, duration: 4213
+B<< MCTS: 130605 simulation done, duration: 4213
+B<< MCTS: 125023 simulation done, duration: 4213
+B<< MCTS: 131615 simulation done, duration: 4213
+B<< MCTS: 133428 simulation done, duration: 4213
+B<< MCTS: 119857 simulation done, duration: 4213
+B<< MCTS: 126924 simulation done, duration: 4213
+B<< MCTS: 136577 simulation done, duration: 4213
+B<< MCTS: 126878 simulation done, duration: 4213
+B<< MCTS: 124765 simulation done, duration: 4213
+B<< MCTS: 132597 simulation done, duration: 4213
+B<< MCTS: 130578 simulation done, duration: 4213
+B<< MCTS: 121594 simulation done, duration: 4213
+B<< MCTS: 144447 simulation done, duration: 4213
+B<< step: 26
+B<< best action;B[hb]best count: 2082052
+B<< memory release time: 35
+B<< = H8
+B<< 
+W>> play B H8
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :2.78
+W<< time_limit :2.78
+W<< time_limit :time_limit :2.78
+W<< 2.78
+W<< total_count: 198303
+W<< total_count: 190389
+W<< total_count: 190596
+W<< total_count: 196843
+W<< = F8
+W<< 
+B>> play W F8
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 126208 simulation done, duration: 3792
+B<< MCTS: 137151 simulation done, duration: 3792
+B<< MCTS: 136847 simulation done, duration: 3792
+B<< MCTS: 136667 simulation done, duration: 3792
+B<< MCTS: 133539 simulation done, duration: 3792
+B<< MCTS: 132135 simulation done, duration: 3792
+B<< MCTS: 138587 simulation done, duration: 3792
+B<< MCTS: 121167 simulation done, duration: 3792
+B<< MCTS: 134359 simulation done, duration: 3792
+B<< MCTS: 132010 simulation done, duration: 3792
+B<< MCTS: 134546 simulation done, duration: 3792
+B<< MCTS: 136234 simulation done, duration: 3792
+B<< MCTS: 125564 simulation done, duration: 3792
+B<< MCTS: 132738 simulation done, duration: 3792
+B<< MCTS: 138746 simulation done, duration: 3792
+B<< MCTS: 120189 simulation done, duration: 3792
+B<< step: 27
+B<< best action;B[hc]best count: 1700642
+B<< memory release time: 2
+B<< = H7
+B<< 
+W>> play B H7
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :2.31
+W<< time_limit :2.31
+W<< time_limit :2.31
+W<< time_limit :2.31
+W<< total_count: 179141
+W<< total_count: 176855
+W<< total_count: 172375
+W<< total_count: 177687
+W<< = H3
+W<< 
+B>> play W H3
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 122247 simulation done, duration: 3371
+B<< MCTS: 122065 simulation done, duration: 3371
+B<< MCTS: 121309 simulation done, duration: 3371
+B<< MCTS: 124021 simulation done, duration: 3371
+B<< MCTS: 121195 simulation done, duration: 3371
+B<< MCTS: 114168 simulation done, duration: 3371
+B<< MCTS: 124221 simulation done, duration: 3371
+B<< MCTS: 114480 simulation done, duration: 3371
+B<< MCTS: 112128 simulation done, duration: 3371
+B<< MCTS: 118025 simulation done, duration: 3371
+B<< MCTS: 116549 simulation done, duration: 3371
+B<< MCTS: 123680 simulation done, duration: 3371
+B<< MCTS: 113585 simulation done, duration: 3371
+B<< MCTS: 123726 simulation done, duration: 3371
+B<< MCTS: 113652 simulation done, duration: 3371
+B<< MCTS: 121757 simulation done, duration: 3371
+B<< step: 28
+B<< best action;B[hf]best count: 659812
+B<< memory release time: 0
+B<< = H4
+B<< 
+W>> play B H4
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :1.84
+W<< time_limit :1.84
+W<< time_limit :1.84
+W<< time_limit :1.84
+W<< total_count: 142609
+W<< total_count: 143648
+W<< total_count: 141208
+W<< total_count: 140871
+W<< = H1
+W<< 
+B>> play W H1
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 88665 simulation done, duration: 2950
+B<< MCTS: 104824 simulation done, duration: 2950
+B<< MCTS: 84336 simulation done, duration: 2950
+B<< MCTS: 105408 simulation done, duration: 2950
+B<< MCTS: 109951 simulation done, duration: 2950
+B<< MCTS: 87090 simulation done, duration: 2950
+B<< MCTS: 84120 simulation done, duration: 2950
+B<< MCTS: 107696 simulation done, duration: 2950
+B<< MCTS: 104894 simulation done, duration: 2950
+B<< MCTS: 94705 simulation done, duration: 2951
+B<< MCTS: 108646 simulation done, duration: 2950
+B<< MCTS: 98679 simulation done, duration: 2950
+B<< MCTS: 119594 simulation done, duration: 2950
+B<< MCTS: 86447 simulation done, duration: 2950
+B<< MCTS: 100717 simulation done, duration: 2950
+B<< MCTS: 89143 simulation done, duration: 2950
+B<< step: 29
+B<< best action;B[gh]best count: 787460
+B<< memory release time: 0
+B<< = G2
+B<< 
+W>> play B G2
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :1.37
+W<< time_limit :1.37
+W<< time_limit :time_limit :1.37
+W<< 1.37
+W<< total_count: 108938
+W<< total_count: 109273
+W<< total_count: 107966
+W<< total_count: 109053
+W<< = E1
+W<< 
+B>> play W E1
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 90882 simulation done, duration: 2528
+B<< MCTS: 78027 simulation done, duration: 2528
+B<< MCTS: 79744 simulation done, duration: 2528
+B<< MCTS: 86587 simulation done, duration: 2528
+B<< MCTS: 93885 simulation done, duration: 2528
+B<< MCTS: 75917 simulation done, duration: 2528
+B<< MCTS: 86026 simulation done, duration: 2528
+B<< MCTS: 76371 simulation done, duration: 2528
+B<< MCTS: 75177 simulation done, duration: 2528
+B<< MCTS: 84719 simulation done, duration: 2528
+B<< MCTS: 85496 simulation done, duration: 2528
+B<< MCTS: 72812 simulation done, duration: 2528
+B<< MCTS: 96062 simulation done, duration: 2528
+B<< MCTS: 91160 simulation done, duration: 2528
+B<< MCTS: 76284 simulation done, duration: 2528
+B<< MCTS: 84520 simulation done, duration: 2528
+B<< step: 30
+B<< best action;B[ae]best count: 1333669
+B<< memory release time: 0
+B<< = A5
+B<< 
+W>> play B A5
+W<< = 
+W<< 
+W>> genmove w
+W<< time_limit :time_limit :11
+W<< time_limit :
+W<< 1
+W<< time_limit :1
+W<< total_count: 79696
+W<< total_count: 79228total_count: 78697
+W<< 
+W<< total_count: 76771
+W<< = resign
+W<< 
+B>> quit
+B<< reset agent
+B<< reset agent
+W>> quit

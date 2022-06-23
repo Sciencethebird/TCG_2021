@@ -1,0 +1,160 @@
+B>> protocol_version
+B<< HollowNoGo-Demo: ./nogo --shell --name=Hollow --white=search=MCTS N=10000 worker=16 exploration=0.5 --black=search=MCTS N=10000 worker=16 exploration=0.5 
+B<< 
+B<< = 2
+B<< 
+B>> name
+B<< = Hollow
+B<< 
+B>> version
+B<< = 2021
+B<< 
+B>> list_commands
+B<< = play
+B<< genmove
+B<< clear_board
+B<< showboard
+B<< boardsize
+B<< name
+B<< version
+B<< protocol_version
+B<< list_commands
+B<< quit
+B<< 
+B<< 
+W>> protocol_version
+W<< HollowNoGo-Demo: /home/sciencethebird/Desktop/TCG_2021/Project_4/pj-4-judge-v1/./nogo --shell --name=Hollow-White --white=search=MCTS total_time=280 worker=16 exploration=0.5 
+W<< 
+W<< 280, 0.421296
+W<< time: 15
+W<< time: 14
+W<< time: 14
+W<< time: 13
+W<< time: 13
+W<< time: 13
+W<< time: 12
+W<< time: 12
+W<< time: 11
+W<< time: 11
+W<< time: 10
+W<< time: 10
+W<< time: 10
+W<< time: 9
+W<< time: 9
+W<< time: 8
+W<< time: 8
+W<< time: 8
+W<< time: 7
+W<< time: 7
+W<< time: 6
+W<< time: 6
+W<< time: 5
+W<< time: 5
+W<< time: 5
+W<< time: 4
+W<< time: 4
+W<< time: 3
+W<< time: 3
+W<< time: 2
+W<< time: 2
+W<< time: 2
+W<< time: 1
+W<< time: 1
+W<< time: 0
+W<< time: 0
+W<< = 2
+W<< 
+W>> name
+W<< = Hollow-White
+W<< 
+W>> version
+W<< = 2021
+W<< 
+W>> list_commands
+W<< = play
+W<< genmove
+W<< clear_board
+W<< showboard
+W<< boardsize
+W<< name
+W<< version
+W<< protocol_version
+W<< list_commands
+W<< quit
+W<< 
+W<< 
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+============================================
+Game 0
+============================================
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 1031
+B<< MCTS: 10001 simulation done, duration: 1079
+B<< MCTS: 10001 simulation done, duration: 1080
+B<< MCTS: 10001 simulation done, duration: 1080
+B<< MCTS: 10001 simulation done, duration: 1082
+B<< MCTS: 10001 simulation done, duration: 1083
+B<< MCTS: 10001 simulation done, duration: 1083
+B<< MCTS: 10001 simulation done, duration: 1084
+B<< MCTS: 10001 simulation done, duration: 1085
+B<< MCTS: 10001 simulation done, duration: 1088
+B<< MCTS: 10001 simulation done, duration: 1095
+B<< MCTS: 10001 simulation done, duration: 1154
+B<< MCTS: 10001 simulation done, duration: 1210
+B<< MCTS: 10001 simulation done, duration: 1214
+B<< MCTS: 10001 simulation done, duration: 1363
+B<< MCTS: 10001 simulation done, duration: 1364
+B<< = J9
+B<< 
+W>> play B J9
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 145 simulation done, duration: 16
+W<< MCTS: 132 simulation done, duration: 16
+W<< MCTS: 202 simulation done, duration: 16
+W<< MCTS: 144 simulation done, duration: 16
+W<< MCTS: 168 simulation done, duration: 16
+W<< MCTS: 176 simulation done, duration: 16
+W<< MCTS: 209 simulation done, duration: 16
+W<< MCTS: 214 simulation done, duration: 16
+W<< MCTS: 136 simulation done, duration: 16
+W<< MCTS: 150 simulation done, duration: 16
+W<< MCTS: 156 simulation done, duration: 16
+W<< MCTS: 171 simulation done, duration: 16
+W<< MCTS: 215 simulation done, duration: 16
+W<< MCTS: 124 simulation done, duration: 16
+W<< MCTS: 292 simulation done, duration: 16
+W<< MCTS: 250 simulation done, duration: 16
+W<< step: 0
+W<< best action;W[ad]best count: 54
+W<< memory release time: 1
+W<< = A6
+W<< 
+B>> play W A6
+B<< = 
+B<< 
+B>> genmove b

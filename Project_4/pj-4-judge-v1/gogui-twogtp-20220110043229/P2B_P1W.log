@@ -1,0 +1,1416 @@
+B>> protocol_version
+B<< HollowNoGo-Demo: ./nogo --shell --name=Hollow --white=search=MCTS N=10000 worker=16 exploration=0.5 --black=search=MCTS N=10000 worker=16 exploration=0.5 
+B<< 
+B<< = 2
+B<< 
+B>> name
+B<< = Hollow
+B<< 
+B>> version
+B<< = 2021
+B<< 
+B>> list_commands
+B<< = play
+B<< genmove
+B<< clear_board
+B<< showboard
+B<< boardsize
+B<< name
+B<< version
+B<< protocol_version
+B<< list_commands
+B<< quit
+B<< 
+B<< 
+W>> protocol_version
+W<< HollowNoGo-Demo: /home/sciencethebird/Desktop/TCG_2021/Project_4/pj-4-judge-v1/./nogo --shell --name=Hollow-White --white=search=MCTS N=10000 worker=16 exploration=0.5 
+W<< 
+W<< = 2
+W<< 
+W>> name
+W<< = Hollow-White
+W<< 
+W>> version
+W<< = 2021
+W<< 
+W>> list_commands
+W<< = play
+W<< genmove
+W<< clear_board
+W<< showboard
+W<< boardsize
+W<< name
+W<< version
+W<< protocol_version
+W<< list_commands
+W<< quit
+W<< 
+W<< 
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+============================================
+Game 0
+============================================
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 925
+B<< MCTS: 10001 simulation done, duration: 1004
+B<< MCTS: 10001 simulation done, duration: 1008
+B<< MCTS: 10001 simulation done, duration: 1009
+B<< MCTS: 10001 simulation done, duration: 1009
+B<< MCTS: 10001 simulation done, duration: 1010
+B<< MCTS: 10001 simulation done, duration: 1010
+B<< MCTS: 10001 simulation done, duration: 1015
+B<< MCTS: 10001 simulation done, duration: 1015
+B<< MCTS: 10001 simulation done, duration: 1017
+B<< MCTS: 10001 simulation done, duration: 1035
+B<< MCTS: 10001 simulation done, duration: 1052
+B<< MCTS: 10001 simulation done, duration: 1111
+B<< MCTS: 10001 simulation done, duration: 1165
+B<< MCTS: 10001 simulation done, duration: 1245
+B<< MCTS: 10001 simulation done, duration: 1247
+B<< = J8
+B<< 
+W>> play B J8
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 789
+W<< MCTS: 10001 simulation done, duration: 792
+W<< MCTS: 10001 simulation done, duration: 796
+W<< MCTS: 10001 simulation done, duration: 799
+W<< MCTS: 10001 simulation done, duration: 799
+W<< MCTS: 10001 simulation done, duration: 799
+W<< MCTS: 10001 simulation done, duration: 800
+W<< MCTS: 10001 simulation done, duration: 800
+W<< MCTS: 10001 simulation done, duration: 787
+W<< MCTS: 10001 simulation done, duration: 803
+W<< MCTS: 10001 simulation done, duration: 810
+W<< MCTS: 10001 simulation done, duration: 810
+W<< MCTS: 10001 simulation done, duration: 826
+W<< MCTS: 10001 simulation done, duration: 837
+W<< MCTS: 10001 simulation done, duration: 835
+W<< MCTS: 10001 simulation done, duration: 832
+W<< = J7
+W<< 
+B>> play W J7
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 958
+B<< MCTS: 10001 simulation done, duration: 1005
+B<< MCTS: 10001 simulation done, duration: 1009
+B<< MCTS: 10001 simulation done, duration: 1009
+B<< MCTS: 10001 simulation done, duration: 1012
+B<< MCTS: 10001 simulation done, duration: 1043
+B<< MCTS: 10001 simulation done, duration: 1048
+B<< MCTS: 10001 simulation done, duration: 1048
+B<< MCTS: 10001 simulation done, duration: 1050
+B<< MCTS: 10001 simulation done, duration: 1061
+B<< MCTS: 10001 simulation done, duration: 1062
+B<< MCTS: 10001 simulation done, duration: 1068
+B<< MCTS: 10001 simulation done, duration: 1071
+B<< MCTS: 10001 simulation done, duration: 1091
+B<< MCTS: 10001 simulation done, duration: 1261
+B<< MCTS: 10001 simulation done, duration: 1267
+B<< = E7
+B<< 
+W>> play B E7
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 772
+W<< MCTS: 10001 simulation done, duration: 780
+W<< MCTS: 10001 simulation done, duration: 779
+W<< MCTS: 10001 simulation done, duration: 778
+W<< MCTS: 10001 simulation done, duration: 780
+W<< MCTS: 10001 simulation done, duration: 780
+W<< MCTS: 10001 simulation done, duration: 786
+W<< MCTS: 10001 simulation done, duration: 786
+W<< MCTS: 10001 simulation done, duration: 786
+W<< MCTS: 10001 simulation done, duration: 777
+W<< MCTS: 10001 simulation done, duration: 789
+W<< MCTS: 10001 simulation done, duration: 792
+W<< MCTS: 10001 simulation done, duration: 793
+W<< MCTS: 10001 simulation done, duration: 797
+W<< MCTS: 10001 simulation done, duration: 783
+W<< MCTS: 10001 simulation done, duration: 805
+W<< = A4
+W<< 
+B>> play W A4
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 980
+B<< MCTS: 10001 simulation done, duration: 997
+B<< MCTS: 10001 simulation done, duration: 1006
+B<< MCTS: 10001 simulation done, duration: 1018
+B<< MCTS: 10001 simulation done, duration: 1018
+B<< MCTS: 10001 simulation done, duration: 1020
+B<< MCTS: 10001 simulation done, duration: 1046
+B<< MCTS: 10001 simulation done, duration: 1057
+B<< MCTS: 10001 simulation done, duration: 1058
+B<< MCTS: 10001 simulation done, duration: 1063
+B<< MCTS: 10001 simulation done, duration: 1067
+B<< MCTS: 10001 simulation done, duration: 1079
+B<< MCTS: 10001 simulation done, duration: 1082
+B<< MCTS: 10001 simulation done, duration: 1085
+B<< MCTS: 10001 simulation done, duration: 1090
+B<< MCTS: 10001 simulation done, duration: 1109
+B<< = A9
+B<< 
+W>> play B A9
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 763
+W<< MCTS: 10001 simulation done, duration: 770
+W<< MCTS: 10001 simulation done, duration: 772
+W<< MCTS: 10001 simulation done, duration: 772
+W<< MCTS: 10001 simulation done, duration: 773
+W<< MCTS: 10001 simulation done, duration: 774
+W<< MCTS: 10001 simulation done, duration: 775
+W<< MCTS: 10001 simulation done, duration: 780
+W<< MCTS: 10001 simulation done, duration: 780
+W<< MCTS: 10001 simulation done, duration: 783
+W<< MCTS: 10001 simulation done, duration: 783
+W<< MCTS: 10001 simulation done, duration: 778
+W<< MCTS: 10001 simulation done, duration: 792
+W<< MCTS: 10001 simulation done, duration: 799
+W<< MCTS: 10001 simulation done, duration: 814
+W<< MCTS: 10001 simulation done, duration: 835
+W<< = J9
+W<< 
+B>> play W J9
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 1001
+B<< MCTS: 10001 simulation done, duration: 1016
+B<< MCTS: 10001 simulation done, duration: 1016
+B<< MCTS: 10001 simulation done, duration: 1021
+B<< MCTS: 10001 simulation done, duration: 1024
+B<< MCTS: 10001 simulation done, duration: 1025
+B<< MCTS: 10001 simulation done, duration: 1027
+B<< MCTS: 10001 simulation done, duration: 1029
+B<< MCTS: 10001 simulation done, duration: 1030
+B<< MCTS: 10001 simulation done, duration: 1038
+B<< MCTS: 10001 simulation done, duration: 1049
+B<< MCTS: 10001 simulation done, duration: 1058
+B<< MCTS: 10001 simulation done, duration: 1076
+B<< MCTS: 10001 simulation done, duration: 1105
+B<< MCTS: 10001 simulation done, duration: 1227
+B<< MCTS: 10001 simulation done, duration: 1241
+B<< = G1
+B<< 
+W>> play B G1
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 757
+W<< MCTS: 10001 simulation done, duration: 758
+W<< MCTS: 10001 simulation done, duration: 757
+W<< MCTS: 10001 simulation done, duration: 759
+W<< MCTS: 10001 simulation done, duration: 761
+W<< MCTS: 10001 simulation done, duration: 761
+W<< MCTS: 10001 simulation done, duration: 761
+W<< MCTS: 10001 simulation done, duration: 761
+W<< MCTS: 10001 simulation done, duration: 762
+W<< MCTS: 10001 simulation done, duration: 764
+W<< MCTS: 10001 simulation done, duration: 764
+W<< MCTS: 10001 simulation done, duration: 760
+W<< MCTS: 10001 simulation done, duration: 772
+W<< MCTS: 10001 simulation done, duration: 777
+W<< MCTS: 10001 simulation done, duration: 771
+W<< MCTS: 10001 simulation done, duration: 791
+W<< = G6
+W<< 
+B>> play W G6
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 1010
+B<< MCTS: 10001 simulation done, duration: 1018
+B<< MCTS: 10001 simulation done, duration: 1018
+B<< MCTS: 10001 simulation done, duration: 1018
+B<< MCTS: 10001 simulation done, duration: 1019
+B<< MCTS: 10001 simulation done, duration: 1020
+B<< MCTS: 10001 simulation done, duration: 1021
+B<< MCTS: 10001 simulation done, duration: 1023
+B<< MCTS: 10001 simulation done, duration: 1024
+B<< MCTS: 10001 simulation done, duration: 1025
+B<< MCTS: 10001 simulation done, duration: 1059
+B<< MCTS: 10001 simulation done, duration: 1061
+B<< MCTS: 10001 simulation done, duration: 1070
+B<< MCTS: 10001 simulation done, duration: 1105
+B<< MCTS: 10001 simulation done, duration: 1236
+B<< MCTS: 10001 simulation done, duration: 1240
+B<< = G5
+B<< 
+W>> play B G5
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 742
+W<< MCTS: 10001 simulation done, duration: 742
+W<< MCTS: 10001 simulation done, duration: 743
+W<< MCTS: 10001 simulation done, duration: 742
+W<< MCTS: 10001 simulation done, duration: 746
+W<< MCTS: 10001 simulation done, duration: 746
+W<< MCTS: 10001 simulation done, duration: 746
+W<< MCTS: 10001 simulation done, duration: 744
+W<< MCTS: 10001 simulation done, duration: 748
+W<< MCTS: 10001 simulation done, duration: 748
+W<< MCTS: 10001 simulation done, duration: 748
+W<< MCTS: 10001 simulation done, duration: 748
+W<< MCTS: 10001 simulation done, duration: 754
+W<< MCTS: 10001 simulation done, duration: 755
+W<< MCTS: 10001 simulation done, duration: 744
+W<< MCTS: 10001 simulation done, duration: 780
+W<< = C4
+W<< 
+B>> play W C4
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 907
+B<< MCTS: 10001 simulation done, duration: 1000
+B<< MCTS: 10001 simulation done, duration: 1002
+B<< MCTS: 10001 simulation done, duration: 1009
+B<< MCTS: 10001 simulation done, duration: 1011
+B<< MCTS: 10001 simulation done, duration: 1012
+B<< MCTS: 10001 simulation done, duration: 1012
+B<< MCTS: 10001 simulation done, duration: 1012
+B<< MCTS: 10001 simulation done, duration: 1042
+B<< MCTS: 10001 simulation done, duration: 1048
+B<< MCTS: 10001 simulation done, duration: 1049
+B<< MCTS: 10001 simulation done, duration: 1052
+B<< MCTS: 10001 simulation done, duration: 1056
+B<< MCTS: 10001 simulation done, duration: 1123
+B<< MCTS: 10001 simulation done, duration: 1203
+B<< MCTS: 10001 simulation done, duration: 1223
+B<< = A5
+B<< 
+W>> play B A5
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 727
+W<< MCTS: 10001 simulation done, duration: 729
+W<< MCTS: 10001 simulation done, duration: 724
+W<< MCTS: 10001 simulation done, duration: 734
+W<< MCTS: 10001 simulation done, duration: 734
+W<< MCTS: 10001 simulation done, duration: 735
+W<< MCTS: 10001 simulation done, duration: 734
+W<< MCTS: 10001 simulation done, duration: 736
+W<< MCTS: 10001 simulation done, duration: 735
+W<< MCTS: 10001 simulation done, duration: 736
+W<< MCTS: 10001 simulation done, duration: 737
+W<< MCTS: 10001 simulation done, duration: 737
+W<< MCTS: 10001 simulation done, duration: 738
+W<< MCTS: 10001 simulation done, duration: 739
+W<< MCTS: 10001 simulation done, duration: 723
+W<< MCTS: 10001 simulation done, duration: 745
+W<< = A1
+W<< 
+B>> play W A1
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 908
+B<< MCTS: 10001 simulation done, duration: 952
+B<< MCTS: 10001 simulation done, duration: 991
+B<< MCTS: 10001 simulation done, duration: 991
+B<< MCTS: 10001 simulation done, duration: 996
+B<< MCTS: 10001 simulation done, duration: 997
+B<< MCTS: 10001 simulation done, duration: 1034
+B<< MCTS: 10001 simulation done, duration: 1040
+B<< MCTS: 10001 simulation done, duration: 1048
+B<< MCTS: 10001 simulation done, duration: 1048
+B<< MCTS: 10001 simulation done, duration: 1049
+B<< MCTS: 10001 simulation done, duration: 1050
+B<< MCTS: 10001 simulation done, duration: 1150
+B<< MCTS: 10001 simulation done, duration: 1151
+B<< MCTS: 10001 simulation done, duration: 1259
+B<< MCTS: 10001 simulation done, duration: 1264
+B<< = C9
+B<< 
+W>> play B C9
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 722
+W<< MCTS: 10001 simulation done, duration: 723
+W<< MCTS: 10001 simulation done, duration: 725
+W<< MCTS: 10001 simulation done, duration: 726
+W<< MCTS: 10001 simulation done, duration: 726
+W<< MCTS: 10001 simulation done, duration: 719
+W<< MCTS: 10001 simulation done, duration: 728
+W<< MCTS: 10001 simulation done, duration: 720
+W<< MCTS: 10001 simulation done, duration: 734
+W<< MCTS: 10001 simulation done, duration: 737
+W<< MCTS: 10001 simulation done, duration: 739
+W<< MCTS: 10001 simulation done, duration: 740
+W<< MCTS: 10001 simulation done, duration: 739
+W<< MCTS: 10001 simulation done, duration: 745
+W<< MCTS: 10001 simulation done, duration: 746
+W<< MCTS: 10001 simulation done, duration: 758
+W<< = A8
+W<< 
+B>> play W A8
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 986
+B<< MCTS: 10001 simulation done, duration: 989
+B<< MCTS: 10001 simulation done, duration: 991
+B<< MCTS: 10001 simulation done, duration: 992
+B<< MCTS: 10001 simulation done, duration: 992
+B<< MCTS: 10001 simulation done, duration: 993
+B<< MCTS: 10001 simulation done, duration: 1019
+B<< MCTS: 10001 simulation done, duration: 1021
+B<< MCTS: 10001 simulation done, duration: 1027
+B<< MCTS: 10001 simulation done, duration: 1027
+B<< MCTS: 10001 simulation done, duration: 1034
+B<< MCTS: 10001 simulation done, duration: 1043
+B<< MCTS: 10001 simulation done, duration: 1051
+B<< MCTS: 10001 simulation done, duration: 1073
+B<< MCTS: 10001 simulation done, duration: 1180
+B<< MCTS: 10001 simulation done, duration: 1186
+B<< = A3
+B<< 
+W>> play B A3
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 707
+W<< MCTS: 10001 simulation done, duration: 709
+W<< MCTS: 10001 simulation done, duration: 709
+W<< MCTS: 10001 simulation done, duration: 709
+W<< MCTS: 10001 simulation done, duration: 710
+W<< MCTS: 10001 simulation done, duration: 711
+W<< MCTS: 10001 simulation done, duration: 714
+W<< MCTS: 10001 simulation done, duration: 697
+W<< MCTS: 10001 simulation done, duration: 721
+W<< MCTS: 10001 simulation done, duration: 722
+W<< MCTS: 10001 simulation done, duration: 725
+W<< MCTS: 10001 simulation done, duration: 734
+W<< MCTS: 10001 simulation done, duration: 736
+W<< MCTS: 10001 simulation done, duration: 740
+W<< MCTS: 10001 simulation done, duration: 759
+W<< MCTS: 10001 simulation done, duration: 816
+W<< = J1
+W<< 
+B>> play W J1
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 950
+B<< MCTS: 10001 simulation done, duration: 957
+B<< MCTS: 10001 simulation done, duration: 972
+B<< MCTS: 10001 simulation done, duration: 974
+B<< MCTS: 10001 simulation done, duration: 975
+B<< MCTS: 10001 simulation done, duration: 976
+B<< MCTS: 10001 simulation done, duration: 977
+B<< MCTS: 10001 simulation done, duration: 1014
+B<< MCTS: 10001 simulation done, duration: 1017
+B<< MCTS: 10001 simulation done, duration: 1051
+B<< MCTS: 10001 simulation done, duration: 1052
+B<< MCTS: 10001 simulation done, duration: 1070
+B<< MCTS: 10001 simulation done, duration: 1071
+B<< MCTS: 10001 simulation done, duration: 1077
+B<< MCTS: 10001 simulation done, duration: 1277
+B<< MCTS: 10001 simulation done, duration: 1280
+B<< = J2
+B<< 
+W>> play B J2
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 686
+W<< MCTS: 10001 simulation done, duration: 690
+W<< MCTS: 10001 simulation done, duration: 691
+W<< MCTS: 10001 simulation done, duration: 692
+W<< MCTS: 10001 simulation done, duration: 692
+W<< MCTS: 10001 simulation done, duration: 692
+W<< MCTS: 10001 simulation done, duration: 694
+W<< MCTS: 10001 simulation done, duration: 695
+W<< MCTS: 10001 simulation done, duration: 692
+W<< MCTS: 10001 simulation done, duration: 698
+W<< MCTS: 10001 simulation done, duration: 699
+W<< MCTS: 10001 simulation done, duration: 700
+W<< MCTS: 10001 simulation done, duration: 697
+W<< MCTS: 10001 simulation done, duration: 688
+W<< MCTS: 10001 simulation done, duration: 706
+W<< MCTS: 10001 simulation done, duration: 729
+W<< = C6
+W<< 
+B>> play W C6
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 941
+B<< MCTS: 10001 simulation done, duration: 975
+B<< MCTS: 10001 simulation done, duration: 975
+B<< MCTS: 10001 simulation done, duration: 980
+B<< MCTS: 10001 simulation done, duration: 983
+B<< MCTS: 10001 simulation done, duration: 983
+B<< MCTS: 10001 simulation done, duration: 992
+B<< MCTS: 10001 simulation done, duration: 1029
+B<< MCTS: 10001 simulation done, duration: 1030
+B<< MCTS: 10001 simulation done, duration: 1038
+B<< MCTS: 10001 simulation done, duration: 1040
+B<< MCTS: 10001 simulation done, duration: 1042
+B<< MCTS: 10001 simulation done, duration: 1047
+B<< MCTS: 10001 simulation done, duration: 1109
+B<< MCTS: 10001 simulation done, duration: 1210
+B<< MCTS: 10001 simulation done, duration: 1211
+B<< = C5
+B<< 
+W>> play B C5
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 668
+W<< MCTS: 10001 simulation done, duration: 669
+W<< MCTS: 10001 simulation done, duration: 670
+W<< MCTS: 10001 simulation done, duration: 670
+W<< MCTS: 10001 simulation done, duration: 670
+W<< MCTS: 10001 simulation done, duration: 672
+W<< MCTS: 10001 simulation done, duration: 672
+W<< MCTS: 10001 simulation done, duration: 672
+W<< MCTS: 10001 simulation done, duration: 673
+W<< MCTS: 10001 simulation done, duration: 674
+W<< MCTS: 10001 simulation done, duration: 674
+W<< MCTS: 10001 simulation done, duration: 677
+W<< MCTS: 10001 simulation done, duration: 676
+W<< MCTS: 10001 simulation done, duration: 669
+W<< MCTS: 10001 simulation done, duration: 682
+W<< MCTS: 10001 simulation done, duration: 708
+W<< = E3
+W<< 
+B>> play W E3
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 925
+B<< MCTS: 10001 simulation done, duration: 954
+B<< MCTS: 10001 simulation done, duration: 956
+B<< MCTS: 10001 simulation done, duration: 958
+B<< MCTS: 10001 simulation done, duration: 963
+B<< MCTS: 10001 simulation done, duration: 963
+B<< MCTS: 10001 simulation done, duration: 967
+B<< MCTS: 10001 simulation done, duration: 996
+B<< MCTS: 10001 simulation done, duration: 997
+B<< MCTS: 10001 simulation done, duration: 998
+B<< MCTS: 10001 simulation done, duration: 1003
+B<< MCTS: 10001 simulation done, duration: 1003
+B<< MCTS: 10001 simulation done, duration: 1008
+B<< MCTS: 10001 simulation done, duration: 1045
+B<< MCTS: 10001 simulation done, duration: 1174
+B<< MCTS: 10001 simulation done, duration: 1184
+B<< = D3
+B<< 
+W>> play B D3
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 655
+W<< MCTS: 10001 simulation done, duration: 657
+W<< MCTS: 10001 simulation done, duration: 665
+W<< MCTS: 10001 simulation done, duration: 667
+W<< MCTS: 10001 simulation done, duration: 672
+W<< MCTS: 10001 simulation done, duration: 670
+W<< MCTS: 10001 simulation done, duration: 673
+W<< MCTS: 10001 simulation done, duration: 676
+W<< MCTS: 10001 simulation done, duration: 683
+W<< MCTS: 10001 simulation done, duration: 679
+W<< MCTS: 10001 simulation done, duration: 695
+W<< MCTS: 10001 simulation done, duration: 698
+W<< MCTS: 10001 simulation done, duration: 701
+W<< MCTS: 10001 simulation done, duration: 700
+W<< MCTS: 10001 simulation done, duration: 711
+W<< MCTS: 10001 simulation done, duration: 727
+W<< = G4
+W<< 
+B>> play W G4
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 930
+B<< MCTS: 10001 simulation done, duration: 936
+B<< MCTS: 10001 simulation done, duration: 936
+B<< MCTS: 10001 simulation done, duration: 936
+B<< MCTS: 10001 simulation done, duration: 937
+B<< MCTS: 10001 simulation done, duration: 939
+B<< MCTS: 10001 simulation done, duration: 939
+B<< MCTS: 10001 simulation done, duration: 962
+B<< MCTS: 10001 simulation done, duration: 967
+B<< MCTS: 10001 simulation done, duration: 986
+B<< MCTS: 10001 simulation done, duration: 987
+B<< MCTS: 10001 simulation done, duration: 997
+B<< MCTS: 10001 simulation done, duration: 1000
+B<< MCTS: 10001 simulation done, duration: 1018
+B<< MCTS: 10001 simulation done, duration: 1088
+B<< MCTS: 10001 simulation done, duration: 1129
+B<< = E9
+B<< 
+W>> play B E9
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 639
+W<< MCTS: 10001 simulation done, duration: 642
+W<< MCTS: 10001 simulation done, duration: 642
+W<< MCTS: 10001 simulation done, duration: 642
+W<< MCTS: 10001 simulation done, duration: 642
+W<< MCTS: 10001 simulation done, duration: 643
+W<< MCTS: 10001 simulation done, duration: 643
+W<< MCTS: 10001 simulation done, duration: 644
+W<< MCTS: 10001 simulation done, duration: 645
+W<< MCTS: 10001 simulation done, duration: 645
+W<< MCTS: 10001 simulation done, duration: 649
+W<< MCTS: 10001 simulation done, duration: 648
+W<< MCTS: 10001 simulation done, duration: 653
+W<< MCTS: 10001 simulation done, duration: 655
+W<< MCTS: 10001 simulation done, duration: 647
+W<< MCTS: 10001 simulation done, duration: 676
+W<< = D9
+W<< 
+B>> play W D9
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 916
+B<< MCTS: 10001 simulation done, duration: 918
+B<< MCTS: 10001 simulation done, duration: 919
+B<< MCTS: 10001 simulation done, duration: 921
+B<< MCTS: 10001 simulation done, duration: 921
+B<< MCTS: 10001 simulation done, duration: 934
+B<< MCTS: 10001 simulation done, duration: 958
+B<< MCTS: 10001 simulation done, duration: 959
+B<< MCTS: 10001 simulation done, duration: 964
+B<< MCTS: 10001 simulation done, duration: 964
+B<< MCTS: 10001 simulation done, duration: 975
+B<< MCTS: 10001 simulation done, duration: 979
+B<< MCTS: 10001 simulation done, duration: 1041
+B<< MCTS: 10001 simulation done, duration: 1058
+B<< MCTS: 10001 simulation done, duration: 1170
+B<< MCTS: 10001 simulation done, duration: 1170
+B<< = D1
+B<< 
+W>> play B D1
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 622
+W<< MCTS: 10001 simulation done, duration: 622
+W<< MCTS: 10001 simulation done, duration: 624
+W<< MCTS: 10001 simulation done, duration: 624
+W<< MCTS: 10001 simulation done, duration: 624
+W<< MCTS: 10001 simulation done, duration: 618
+W<< MCTS: 10001 simulation done, duration: 627
+W<< MCTS: 10001 simulation done, duration: 630
+W<< MCTS: 10001 simulation done, duration: 633
+W<< MCTS: 10001 simulation done, duration: 635
+W<< MCTS: 10001 simulation done, duration: 635
+W<< MCTS: 10001 simulation done, duration: 637
+W<< MCTS: 10001 simulation done, duration: 644
+W<< MCTS: 10001 simulation done, duration: 644
+W<< MCTS: 10001 simulation done, duration: 662
+W<< MCTS: 10001 simulation done, duration: 664
+W<< = J3
+W<< 
+B>> play W J3
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 869
+B<< MCTS: 10001 simulation done, duration: 899
+B<< MCTS: 10001 simulation done, duration: 906
+B<< MCTS: 10001 simulation done, duration: 907
+B<< MCTS: 10001 simulation done, duration: 908
+B<< MCTS: 10001 simulation done, duration: 910
+B<< MCTS: 10001 simulation done, duration: 913
+B<< MCTS: 10001 simulation done, duration: 913
+B<< MCTS: 10001 simulation done, duration: 917
+B<< MCTS: 10001 simulation done, duration: 922
+B<< MCTS: 10001 simulation done, duration: 943
+B<< MCTS: 10001 simulation done, duration: 949
+B<< MCTS: 10001 simulation done, duration: 1027
+B<< MCTS: 10001 simulation done, duration: 1030
+B<< MCTS: 10001 simulation done, duration: 1137
+B<< MCTS: 10001 simulation done, duration: 1138
+B<< = B1
+B<< 
+W>> play B B1
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 603
+W<< MCTS: 10001 simulation done, duration: 604
+W<< MCTS: 10001 simulation done, duration: 606
+W<< MCTS: 10001 simulation done, duration: 608
+W<< MCTS: 10001 simulation done, duration: 608
+W<< MCTS: 10001 simulation done, duration: 608
+W<< MCTS: 10001 simulation done, duration: 608
+W<< MCTS: 10001 simulation done, duration: 609
+W<< MCTS: 10001 simulation done, duration: 610
+W<< MCTS: 10001 simulation done, duration: 610
+W<< MCTS: 10001 simulation done, duration: 614
+W<< MCTS: 10001 simulation done, duration: 612
+W<< MCTS: 10001 simulation done, duration: 615
+W<< MCTS: 10001 simulation done, duration: 616
+W<< MCTS: 10001 simulation done, duration: 615
+W<< MCTS: 10001 simulation done, duration: 619
+W<< = C1
+W<< 
+B>> play W C1
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 895
+B<< MCTS: 10001 simulation done, duration: 896
+B<< MCTS: 10001 simulation done, duration: 899
+B<< MCTS: 10001 simulation done, duration: 900
+B<< MCTS: 10001 simulation done, duration: 900
+B<< MCTS: 10001 simulation done, duration: 932
+B<< MCTS: 10001 simulation done, duration: 933
+B<< MCTS: 10001 simulation done, duration: 936
+B<< MCTS: 10001 simulation done, duration: 937
+B<< MCTS: 10001 simulation done, duration: 938
+B<< MCTS: 10001 simulation done, duration: 939
+B<< MCTS: 10001 simulation done, duration: 959
+B<< MCTS: 10001 simulation done, duration: 995
+B<< MCTS: 10001 simulation done, duration: 1016
+B<< MCTS: 10001 simulation done, duration: 1125
+B<< MCTS: 10001 simulation done, duration: 1127
+B<< = G9
+B<< 
+W>> play B G9
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 586
+W<< MCTS: 10001 simulation done, duration: 589
+W<< MCTS: 10001 simulation done, duration: 590
+W<< MCTS: 10001 simulation done, duration: 585
+W<< MCTS: 10001 simulation done, duration: 590
+W<< MCTS: 10001 simulation done, duration: 590
+W<< MCTS: 10001 simulation done, duration: 587
+W<< MCTS: 10001 simulation done, duration: 592
+W<< MCTS: 10001 simulation done, duration: 591
+W<< MCTS: 10001 simulation done, duration: 592
+W<< MCTS: 10001 simulation done, duration: 593
+W<< MCTS: 10001 simulation done, duration: 591
+W<< MCTS: 10001 simulation done, duration: 597
+W<< MCTS: 10001 simulation done, duration: 597
+W<< MCTS: 10001 simulation done, duration: 589
+W<< MCTS: 10001 simulation done, duration: 621
+W<< = F9
+W<< 
+B>> play W F9
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 858
+B<< MCTS: 10001 simulation done, duration: 873
+B<< MCTS: 10001 simulation done, duration: 874
+B<< MCTS: 10001 simulation done, duration: 876
+B<< MCTS: 10001 simulation done, duration: 876
+B<< MCTS: 10001 simulation done, duration: 877
+B<< MCTS: 10001 simulation done, duration: 891
+B<< MCTS: 10001 simulation done, duration: 920
+B<< MCTS: 10001 simulation done, duration: 927
+B<< MCTS: 10001 simulation done, duration: 934
+B<< MCTS: 10001 simulation done, duration: 954
+B<< MCTS: 10001 simulation done, duration: 965
+B<< MCTS: 10001 simulation done, duration: 996
+B<< MCTS: 10001 simulation done, duration: 998
+B<< MCTS: 10001 simulation done, duration: 1088
+B<< MCTS: 10001 simulation done, duration: 1117
+B<< = F3
+B<< 
+W>> play B F3
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 559
+W<< MCTS: 10001 simulation done, duration: 567
+W<< MCTS: 10001 simulation done, duration: 568
+W<< MCTS: 10001 simulation done, duration: 572
+W<< MCTS: 10001 simulation done, duration: 575
+W<< MCTS: 10001 simulation done, duration: 574
+W<< MCTS: 10001 simulation done, duration: 578
+W<< MCTS: 10001 simulation done, duration: 580
+W<< MCTS: 10001 simulation done, duration: 587
+W<< MCTS: 10001 simulation done, duration: 588
+W<< MCTS: 10001 simulation done, duration: 604
+W<< MCTS: 10001 simulation done, duration: 595
+W<< MCTS: 10001 simulation done, duration: 615
+W<< MCTS: 10001 simulation done, duration: 619
+W<< MCTS: 10001 simulation done, duration: 656
+W<< MCTS: 10001 simulation done, duration: 667
+W<< = J5
+W<< 
+B>> play W J5
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 837
+B<< MCTS: 10001 simulation done, duration: 851
+B<< MCTS: 10001 simulation done, duration: 854
+B<< MCTS: 10001 simulation done, duration: 857
+B<< MCTS: 10001 simulation done, duration: 858
+B<< MCTS: 10001 simulation done, duration: 860
+B<< MCTS: 10001 simulation done, duration: 897
+B<< MCTS: 10001 simulation done, duration: 900
+B<< MCTS: 10001 simulation done, duration: 902
+B<< MCTS: 10001 simulation done, duration: 902
+B<< MCTS: 10001 simulation done, duration: 904
+B<< MCTS: 10001 simulation done, duration: 920
+B<< MCTS: 10001 simulation done, duration: 929
+B<< MCTS: 10001 simulation done, duration: 972
+B<< MCTS: 10001 simulation done, duration: 1145
+B<< MCTS: 10001 simulation done, duration: 1146
+B<< = J4
+B<< 
+W>> play B J4
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 546
+W<< MCTS: 10001 simulation done, duration: 542
+W<< MCTS: 10001 simulation done, duration: 552
+W<< MCTS: 10001 simulation done, duration: 552
+W<< MCTS: 10001 simulation done, duration: 554
+W<< MCTS: 10001 simulation done, duration: 554
+W<< MCTS: 10001 simulation done, duration: 550
+W<< MCTS: 10001 simulation done, duration: 555
+W<< MCTS: 10001 simulation done, duration: 556
+W<< MCTS: 10001 simulation done, duration: 556
+W<< MCTS: 10001 simulation done, duration: 557
+W<< MCTS: 10001 simulation done, duration: 557
+W<< MCTS: 10001 simulation done, duration: 558
+W<< MCTS: 10001 simulation done, duration: 571
+W<< MCTS: 10001 simulation done, duration: 580
+W<< MCTS: 10001 simulation done, duration: 617
+W<< = A6
+W<< 
+B>> play W A6
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 810
+B<< MCTS: 10001 simulation done, duration: 811
+B<< MCTS: 10001 simulation done, duration: 814
+B<< MCTS: 10001 simulation done, duration: 815
+B<< MCTS: 10001 simulation done, duration: 831
+B<< MCTS: 10001 simulation done, duration: 858
+B<< MCTS: 10001 simulation done, duration: 858
+B<< MCTS: 10001 simulation done, duration: 858
+B<< MCTS: 10001 simulation done, duration: 866
+B<< MCTS: 10001 simulation done, duration: 869
+B<< MCTS: 10001 simulation done, duration: 953
+B<< MCTS: 10001 simulation done, duration: 957
+B<< MCTS: 10001 simulation done, duration: 1054
+B<< MCTS: 10001 simulation done, duration: 1059
+B<< MCTS: 10001 simulation done, duration: 1135
+B<< MCTS: 10001 simulation done, duration: 1138
+B<< = A7
+B<< 
+W>> play B A7
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 527
+W<< MCTS: 10001 simulation done, duration: 529
+W<< MCTS: 10001 simulation done, duration: 526
+W<< MCTS: 10001 simulation done, duration: 530
+W<< MCTS: 10001 simulation done, duration: 530
+W<< MCTS: 10001 simulation done, duration: 531
+W<< MCTS: 10001 simulation done, duration: 527
+W<< MCTS: 10001 simulation done, duration: 531
+W<< MCTS: 10001 simulation done, duration: 532
+W<< MCTS: 10001 simulation done, duration: 534
+W<< MCTS: 10001 simulation done, duration: 535
+W<< MCTS: 10001 simulation done, duration: 535
+W<< MCTS: 10001 simulation done, duration: 536
+W<< MCTS: 10001 simulation done, duration: 538
+W<< MCTS: 10001 simulation done, duration: 540
+W<< MCTS: 10001 simulation done, duration: 534
+W<< = F1
+W<< 
+B>> play W F1
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 757
+B<< MCTS: 10001 simulation done, duration: 769
+B<< MCTS: 10001 simulation done, duration: 774
+B<< MCTS: 10001 simulation done, duration: 780
+B<< MCTS: 10001 simulation done, duration: 807
+B<< MCTS: 10001 simulation done, duration: 812
+B<< MCTS: 10001 simulation done, duration: 813
+B<< MCTS: 10001 simulation done, duration: 816
+B<< MCTS: 10001 simulation done, duration: 833
+B<< MCTS: 10001 simulation done, duration: 838
+B<< MCTS: 10001 simulation done, duration: 842
+B<< MCTS: 10001 simulation done, duration: 867
+B<< MCTS: 10001 simulation done, duration: 868
+B<< MCTS: 10001 simulation done, duration: 892
+B<< MCTS: 10001 simulation done, duration: 1011
+B<< MCTS: 10001 simulation done, duration: 1012
+B<< = H7
+B<< 
+W>> play B H7
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 513
+W<< MCTS: 10001 simulation done, duration: 513
+W<< MCTS: 10001 simulation done, duration: 513
+W<< MCTS: 10001 simulation done, duration: 514
+W<< MCTS: 10001 simulation done, duration: 514
+W<< MCTS: 10001 simulation done, duration: 515
+W<< MCTS: 10001 simulation done, duration: 516
+W<< MCTS: 10001 simulation done, duration: 518
+W<< MCTS: 10001 simulation done, duration: 519
+W<< MCTS: 10001 simulation done, duration: 503
+W<< MCTS: 10001 simulation done, duration: 525
+W<< MCTS: 10001 simulation done, duration: 525
+W<< MCTS: 10001 simulation done, duration: 527
+W<< MCTS: 10001 simulation done, duration: 519
+W<< MCTS: 10001 simulation done, duration: 530
+W<< MCTS: 10001 simulation done, duration: 532
+W<< = D7
+W<< 
+B>> play W D7
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 727
+B<< MCTS: 10001 simulation done, duration: 730
+B<< MCTS: 10001 simulation done, duration: 734
+B<< MCTS: 10001 simulation done, duration: 734
+B<< MCTS: 10001 simulation done, duration: 735
+B<< MCTS: 10001 simulation done, duration: 743
+B<< MCTS: 10001 simulation done, duration: 774
+B<< MCTS: 10001 simulation done, duration: 777
+B<< MCTS: 10001 simulation done, duration: 779
+B<< MCTS: 10001 simulation done, duration: 780
+B<< MCTS: 10001 simulation done, duration: 808
+B<< MCTS: 10001 simulation done, duration: 811
+B<< MCTS: 10001 simulation done, duration: 813
+B<< MCTS: 10001 simulation done, duration: 861
+B<< MCTS: 10001 simulation done, duration: 1017
+B<< MCTS: 10001 simulation done, duration: 1020
+B<< = F7
+B<< 
+W>> play B F7
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 497
+W<< MCTS: 10001 simulation done, duration: 498
+W<< MCTS: 10001 simulation done, duration: 500
+W<< MCTS: 10001 simulation done, duration: 501
+W<< MCTS: 10001 simulation done, duration: 500
+W<< MCTS: 10001 simulation done, duration: 502
+W<< MCTS: 10001 simulation done, duration: 502
+W<< MCTS: 10001 simulation done, duration: 504
+W<< MCTS: 10001 simulation done, duration: 505
+W<< MCTS: 10001 simulation done, duration: 505
+W<< MCTS: 10001 simulation done, duration: 506
+W<< MCTS: 10001 simulation done, duration: 510
+W<< MCTS: 10001 simulation done, duration: 510
+W<< MCTS: 10001 simulation done, duration: 511
+W<< MCTS: 10001 simulation done, duration: 496
+W<< MCTS: 10001 simulation done, duration: 498
+W<< = G7
+W<< 
+B>> play W G7
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 664
+B<< MCTS: 10001 simulation done, duration: 687
+B<< MCTS: 10001 simulation done, duration: 689
+B<< MCTS: 10001 simulation done, duration: 691
+B<< MCTS: 10001 simulation done, duration: 691
+B<< MCTS: 10001 simulation done, duration: 694
+B<< MCTS: 10001 simulation done, duration: 725
+B<< MCTS: 10001 simulation done, duration: 730
+B<< MCTS: 10001 simulation done, duration: 738
+B<< MCTS: 10001 simulation done, duration: 741
+B<< MCTS: 10001 simulation done, duration: 766
+B<< MCTS: 10001 simulation done, duration: 767
+B<< MCTS: 10001 simulation done, duration: 850
+B<< MCTS: 10001 simulation done, duration: 851
+B<< MCTS: 10001 simulation done, duration: 965
+B<< MCTS: 10001 simulation done, duration: 967
+B<< = H6
+B<< 
+W>> play B H6
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 480
+W<< MCTS: 10001 simulation done, duration: 480
+W<< MCTS: 10001 simulation done, duration: 480
+W<< MCTS: 10001 simulation done, duration: 478
+W<< MCTS: 10001 simulation done, duration: 482
+W<< MCTS: 10001 simulation done, duration: 481
+W<< MCTS: 10001 simulation done, duration: 482
+W<< MCTS: 10001 simulation done, duration: 483
+W<< MCTS: 10001 simulation done, duration: 483
+W<< MCTS: 10001 simulation done, duration: 485
+W<< MCTS: 10001 simulation done, duration: 486
+W<< MCTS: 10001 simulation done, duration: 487
+W<< MCTS: 10001 simulation done, duration: 488
+W<< MCTS: 10001 simulation done, duration: 476
+W<< MCTS: 10001 simulation done, duration: 491
+W<< MCTS: 10001 simulation done, duration: 499
+W<< = J6
+W<< 
+B>> play W J6
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 611
+B<< MCTS: 10001 simulation done, duration: 648
+B<< MCTS: 10001 simulation done, duration: 652
+B<< MCTS: 10001 simulation done, duration: 653
+B<< MCTS: 10001 simulation done, duration: 678
+B<< MCTS: 10001 simulation done, duration: 686
+B<< MCTS: 10001 simulation done, duration: 688
+B<< MCTS: 10001 simulation done, duration: 692
+B<< MCTS: 10001 simulation done, duration: 697
+B<< MCTS: 10001 simulation done, duration: 702
+B<< MCTS: 10001 simulation done, duration: 705
+B<< MCTS: 10001 simulation done, duration: 706
+B<< MCTS: 10001 simulation done, duration: 772
+B<< MCTS: 10001 simulation done, duration: 775
+B<< MCTS: 10001 simulation done, duration: 877
+B<< MCTS: 10001 simulation done, duration: 879
+B<< = E8
+B<< 
+W>> play B E8
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 451
+W<< MCTS: 10001 simulation done, duration: 458
+W<< MCTS: 10001 simulation done, duration: 459
+W<< MCTS: 10001 simulation done, duration: 459
+W<< MCTS: 10001 simulation done, duration: 465
+W<< MCTS: 10001 simulation done, duration: 464
+W<< MCTS: 10001 simulation done, duration: 468
+W<< MCTS: 10001 simulation done, duration: 467
+W<< MCTS: 10001 simulation done, duration: 471
+W<< MCTS: 10001 simulation done, duration: 480
+W<< MCTS: 10001 simulation done, duration: 498
+W<< MCTS: 10001 simulation done, duration: 500
+W<< MCTS: 10001 simulation done, duration: 504
+W<< MCTS: 10001 simulation done, duration: 514
+W<< MCTS: 10001 simulation done, duration: 516
+W<< MCTS: 10001 simulation done, duration: 515
+W<< = H1
+W<< 
+B>> play W H1
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 616
+B<< MCTS: 10001 simulation done, duration: 618
+B<< MCTS: 10001 simulation done, duration: 618
+B<< MCTS: 10001 simulation done, duration: 639
+B<< MCTS: 10001 simulation done, duration: 640
+B<< MCTS: 10001 simulation done, duration: 653
+B<< MCTS: 10001 simulation done, duration: 654
+B<< MCTS: 10001 simulation done, duration: 658
+B<< MCTS: 10001 simulation done, duration: 658
+B<< MCTS: 10001 simulation done, duration: 659
+B<< MCTS: 10001 simulation done, duration: 660
+B<< MCTS: 10001 simulation done, duration: 680
+B<< MCTS: 10001 simulation done, duration: 738
+B<< MCTS: 10001 simulation done, duration: 740
+B<< MCTS: 10001 simulation done, duration: 840
+B<< MCTS: 10001 simulation done, duration: 842
+B<< = C7
+B<< 
+W>> play B C7
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 439
+W<< MCTS: 10001 simulation done, duration: 442
+W<< MCTS: 10001 simulation done, duration: 441
+W<< MCTS: 10001 simulation done, duration: 443
+W<< MCTS: 10001 simulation done, duration: 442
+W<< MCTS: 10001 simulation done, duration: 442
+W<< MCTS: 10001 simulation done, duration: 445
+W<< MCTS: 10001 simulation done, duration: 440
+W<< MCTS: 10001 simulation done, duration: 447
+W<< MCTS: 10001 simulation done, duration: 449
+W<< MCTS: 10001 simulation done, duration: 449
+W<< MCTS: 10001 simulation done, duration: 451
+W<< MCTS: 10001 simulation done, duration: 449
+W<< MCTS: 10001 simulation done, duration: 454
+W<< MCTS: 10001 simulation done, duration: 462
+W<< MCTS: 10001 simulation done, duration: 480
+W<< = H9
+W<< 
+B>> play W H9
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 535
+B<< MCTS: 10001 simulation done, duration: 564
+B<< MCTS: 10001 simulation done, duration: 564
+B<< MCTS: 10001 simulation done, duration: 569
+B<< MCTS: 10001 simulation done, duration: 598
+B<< MCTS: 10001 simulation done, duration: 601
+B<< MCTS: 10001 simulation done, duration: 603
+B<< MCTS: 10001 simulation done, duration: 605
+B<< MCTS: 10001 simulation done, duration: 606
+B<< MCTS: 10001 simulation done, duration: 606
+B<< MCTS: 10001 simulation done, duration: 621
+B<< MCTS: 10001 simulation done, duration: 624
+B<< MCTS: 10001 simulation done, duration: 678
+B<< MCTS: 10001 simulation done, duration: 682
+B<< MCTS: 10001 simulation done, duration: 794
+B<< MCTS: 10001 simulation done, duration: 797
+B<< = B5
+B<< 
+W>> play B B5
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 427
+W<< MCTS: 10001 simulation done, duration: 430
+W<< MCTS: 10001 simulation done, duration: 432
+W<< MCTS: 10001 simulation done, duration: 433
+W<< MCTS: 10001 simulation done, duration: 434
+W<< MCTS: 10001 simulation done, duration: 437
+W<< MCTS: 10001 simulation done, duration: 437
+W<< MCTS: 10001 simulation done, duration: 439
+W<< MCTS: 10001 simulation done, duration: 429
+W<< MCTS: 10001 simulation done, duration: 441
+W<< MCTS: 10001 simulation done, duration: 443
+W<< MCTS: 10001 simulation done, duration: 443
+W<< MCTS: 10001 simulation done, duration: 437
+W<< MCTS: 10001 simulation done, duration: 447
+W<< MCTS: 10001 simulation done, duration: 428
+W<< MCTS: 10001 simulation done, duration: 457
+W<< = A2
+W<< 
+B>> play W A2
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 510
+B<< MCTS: 10001 simulation done, duration: 519
+B<< MCTS: 10001 simulation done, duration: 521
+B<< MCTS: 10001 simulation done, duration: 524
+B<< MCTS: 10001 simulation done, duration: 562
+B<< MCTS: 10001 simulation done, duration: 564
+B<< MCTS: 10001 simulation done, duration: 567
+B<< MCTS: 10001 simulation done, duration: 567
+B<< MCTS: 10001 simulation done, duration: 572
+B<< MCTS: 10001 simulation done, duration: 577
+B<< MCTS: 10001 simulation done, duration: 623
+B<< MCTS: 10001 simulation done, duration: 624
+B<< MCTS: 10001 simulation done, duration: 642
+B<< MCTS: 10001 simulation done, duration: 661
+B<< MCTS: 10001 simulation done, duration: 731
+B<< MCTS: 10001 simulation done, duration: 731
+B<< = C3
+B<< 
+W>> play B C3
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 415
+W<< MCTS: 10001 simulation done, duration: 416
+W<< MCTS: 10001 simulation done, duration: 417
+W<< MCTS: 10001 simulation done, duration: 417
+W<< MCTS: 10001 simulation done, duration: 417
+W<< MCTS: 10001 simulation done, duration: 417
+W<< MCTS: 10001 simulation done, duration: 420
+W<< MCTS: 10001 simulation done, duration: 422
+W<< MCTS: 10001 simulation done, duration: 424
+W<< MCTS: 10001 simulation done, duration: 425
+W<< MCTS: 10001 simulation done, duration: 428
+W<< MCTS: 10001 simulation done, duration: 429
+W<< MCTS: 10001 simulation done, duration: 430
+W<< MCTS: 10001 simulation done, duration: 433
+W<< MCTS: 10001 simulation done, duration: 439
+W<< MCTS: 10001 simulation done, duration: 454
+W<< = D2
+W<< 
+B>> play W D2
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 445
+B<< MCTS: 10001 simulation done, duration: 447
+B<< MCTS: 10001 simulation done, duration: 454
+B<< MCTS: 10001 simulation done, duration: 454
+B<< MCTS: 10001 simulation done, duration: 460
+B<< MCTS: 10001 simulation done, duration: 463
+B<< MCTS: 10001 simulation done, duration: 499
+B<< MCTS: 10001 simulation done, duration: 502
+B<< MCTS: 10001 simulation done, duration: 520
+B<< MCTS: 10001 simulation done, duration: 520
+B<< MCTS: 10001 simulation done, duration: 540
+B<< MCTS: 10001 simulation done, duration: 541
+B<< MCTS: 10001 simulation done, duration: 602
+B<< MCTS: 10001 simulation done, duration: 602
+B<< MCTS: 10001 simulation done, duration: 636
+B<< MCTS: 10001 simulation done, duration: 637
+B<< = B7
+B<< 
+W>> play B B7
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 378
+W<< MCTS: 10001 simulation done, duration: 380
+W<< MCTS: 10001 simulation done, duration: 380
+W<< MCTS: 10001 simulation done, duration: 382
+W<< MCTS: 10001 simulation done, duration: 385
+W<< MCTS: 10001 simulation done, duration: 386
+W<< MCTS: 10001 simulation done, duration: 386
+W<< MCTS: 10001 simulation done, duration: 387
+W<< MCTS: 10001 simulation done, duration: 385
+W<< MCTS: 10001 simulation done, duration: 392
+W<< MCTS: 10001 simulation done, duration: 393
+W<< MCTS: 10001 simulation done, duration: 381
+W<< MCTS: 10001 simulation done, duration: 412
+W<< MCTS: 10001 simulation done, duration: 432
+W<< MCTS: 10001 simulation done, duration: 435
+W<< MCTS: 10001 simulation done, duration: 441
+W<< = B4
+W<< 
+B>> play W B4
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 363
+B<< MCTS: 10001 simulation done, duration: 374
+B<< MCTS: 10001 simulation done, duration: 375
+B<< MCTS: 10001 simulation done, duration: 375
+B<< MCTS: 10001 simulation done, duration: 380
+B<< MCTS: 10001 simulation done, duration: 381
+B<< MCTS: 10001 simulation done, duration: 433
+B<< MCTS: 10001 simulation done, duration: 433
+B<< MCTS: 10001 simulation done, duration: 434
+B<< MCTS: 10001 simulation done, duration: 434
+B<< MCTS: 10001 simulation done, duration: 482
+B<< MCTS: 10001 simulation done, duration: 496
+B<< MCTS: 10001 simulation done, duration: 505
+B<< MCTS: 10001 simulation done, duration: 507
+B<< MCTS: 10001 simulation done, duration: 522
+B<< MCTS: 10001 simulation done, duration: 523
+B<< = C8
+B<< 
+W>> play B C8
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 325
+W<< MCTS: 10001 simulation done, duration: 325
+W<< MCTS: 10001 simulation done, duration: 329
+W<< MCTS: 10001 simulation done, duration: 332
+W<< MCTS: 10001 simulation done, duration: 334
+W<< MCTS: 10001 simulation done, duration: 335
+W<< MCTS: 10001 simulation done, duration: 338
+W<< MCTS: 10001 simulation done, duration: 340
+W<< MCTS: 10001 simulation done, duration: 340
+W<< MCTS: 10001 simulation done, duration: 342
+W<< MCTS: 10001 simulation done, duration: 343
+W<< MCTS: 10001 simulation done, duration: 345
+W<< MCTS: 10001 simulation done, duration: 349
+W<< MCTS: 10001 simulation done, duration: 349
+W<< MCTS: 10001 simulation done, duration: 340
+W<< MCTS: 10001 simulation done, duration: 353
+W<< = B8
+W<< 
+B>> play W B8
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 355
+B<< MCTS: 10001 simulation done, duration: 378
+B<< MCTS: 10001 simulation done, duration: 383
+B<< MCTS: 10001 simulation done, duration: 383
+B<< MCTS: 10001 simulation done, duration: 384
+B<< MCTS: 10001 simulation done, duration: 385
+B<< MCTS: 10001 simulation done, duration: 386
+B<< MCTS: 10001 simulation done, duration: 409
+B<< MCTS: 10001 simulation done, duration: 409
+B<< MCTS: 10001 simulation done, duration: 411
+B<< MCTS: 10001 simulation done, duration: 411
+B<< MCTS: 10001 simulation done, duration: 424
+B<< MCTS: 10001 simulation done, duration: 430
+B<< MCTS: 10001 simulation done, duration: 432
+B<< MCTS: 10001 simulation done, duration: 455
+B<< MCTS: 10001 simulation done, duration: 454
+B<< = F2
+B<< 
+W>> play B F2
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 281
+W<< MCTS: 10001 simulation done, duration: 283
+W<< MCTS: 10001 simulation done, duration: 285
+W<< MCTS: 10001 simulation done, duration: 286
+W<< MCTS: 10001 simulation done, duration: 286
+W<< MCTS: 10001 simulation done, duration: 287
+W<< MCTS: 10001 simulation done, duration: 288
+W<< MCTS: 10001 simulation done, duration: 291
+W<< MCTS: 10001 simulation done, duration: 293
+W<< MCTS: 10001 simulation done, duration: 291
+W<< MCTS: 10001 simulation done, duration: 297
+W<< MCTS: 10001 simulation done, duration: 301
+W<< MCTS: 10001 simulation done, duration: 301
+W<< MCTS: 10001 simulation done, duration: 285
+W<< MCTS: 10001 simulation done, duration: 300
+W<< MCTS: 10001 simulation done, duration: 297
+W<< = C2
+W<< 
+B>> play W C2
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 302
+B<< MCTS: 10001 simulation done, duration: 308
+B<< MCTS: 10001 simulation done, duration: 317
+B<< MCTS: 10001 simulation done, duration: 318
+B<< MCTS: 10001 simulation done, duration: 323
+B<< MCTS: 10001 simulation done, duration: 351
+B<< MCTS: 10001 simulation done, duration: 353
+B<< MCTS: 10001 simulation done, duration: 353
+B<< MCTS: 10001 simulation done, duration: 355
+B<< MCTS: 10001 simulation done, duration: 356
+B<< MCTS: 10001 simulation done, duration: 378
+B<< MCTS: 10001 simulation done, duration: 378
+B<< MCTS: 10001 simulation done, duration: 391
+B<< MCTS: 10001 simulation done, duration: 391
+B<< MCTS: 10001 simulation done, duration: 393
+B<< MCTS: 10001 simulation done, duration: 393
+B<< = H4
+B<< 
+W>> play B H4
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 279
+W<< MCTS: 10001 simulation done, duration: 282
+W<< MCTS: 10001 simulation done, duration: 284
+W<< MCTS: 10001 simulation done, duration: 285
+W<< MCTS: 10001 simulation done, duration: 285
+W<< MCTS: 10001 simulation done, duration: 286
+W<< MCTS: 10001 simulation done, duration: 287
+W<< MCTS: 10001 simulation done, duration: 287
+W<< MCTS: 10001 simulation done, duration: 286
+W<< MCTS: 10001 simulation done, duration: 289
+W<< MCTS: 10001 simulation done, duration: 288
+W<< MCTS: 10001 simulation done, duration: 291
+W<< MCTS: 10001 simulation done, duration: 292
+W<< MCTS: 10001 simulation done, duration: 278
+W<< MCTS: 10001 simulation done, duration: 297
+W<< MCTS: 10001 simulation done, duration: 298
+W<< = F8
+W<< 
+B>> play W F8
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 253
+B<< MCTS: 10001 simulation done, duration: 276
+B<< MCTS: 10001 simulation done, duration: 277
+B<< MCTS: 10001 simulation done, duration: 281
+B<< MCTS: 10001 simulation done, duration: 282
+B<< MCTS: 10001 simulation done, duration: 307
+B<< MCTS: 10001 simulation done, duration: 321
+B<< MCTS: 10001 simulation done, duration: 324
+B<< MCTS: 10001 simulation done, duration: 325
+B<< MCTS: 10001 simulation done, duration: 325
+B<< MCTS: 10001 simulation done, duration: 337
+B<< MCTS: 10001 simulation done, duration: 337
+B<< MCTS: 10001 simulation done, duration: 354
+B<< MCTS: 10001 simulation done, duration: 354
+B<< MCTS: 10001 simulation done, duration: 354
+B<< MCTS: 10001 simulation done, duration: 354
+B<< = G2
+B<< 
+W>> play B G2
+W<< = 
+W<< 
+W>> genmove w
+W<< MCTS: 10001 simulation done, duration: 280
+W<< MCTS: 10001 simulation done, duration: 281
+W<< MCTS: 10001 simulation done, duration: 282
+W<< MCTS: 10001 simulation done, duration: 283
+W<< MCTS: 10001 simulation done, duration: 288
+W<< MCTS: 10001 simulation done, duration: 289
+W<< MCTS: 10001 simulation done, duration: 289
+W<< MCTS: 10001 simulation done, duration: 291
+W<< MCTS: 10001 simulation done, duration: 292
+W<< MCTS: 10001 simulation done, duration: 294
+W<< MCTS: 10001 simulation done, duration: 295
+W<< MCTS: 10001 simulation done, duration: 296
+W<< MCTS: 10001 simulation done, duration: 296
+W<< MCTS: 10001 simulation done, duration: 298
+W<< MCTS: 10001 simulation done, duration: 299
+W<< MCTS: 10001 simulation done, duration: 291
+W<< = G3
+W<< 
+B>> play W G3
+B<< = 
+B<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 285
+B<< MCTS: 10001 simulation done, duration: 288
+B<< MCTS: 10001 simulation done, duration: 288
+B<< MCTS: 10001 simulation done, duration: 289
+B<< MCTS: 10001 simulation done, duration: 290
+B<< MCTS: 10001 simulation done, duration: 290
+B<< MCTS: 10001 simulation done, duration: 291
+B<< MCTS: 10001 simulation done, duration: 291
+B<< MCTS: 10001 simulation done, duration: 298
+B<< MCTS: 10001 simulation done, duration: 302
+B<< MCTS: 10001 simulation done, duration: 345
+B<< MCTS: 10001 simulation done, duration: 345
+B<< MCTS: 10001 simulation done, duration: 346
+B<< MCTS: 10001 simulation done, duration: 346
+B<< MCTS: 10001 simulation done, duration: 345
+B<< MCTS: 10001 simulation done, duration: 346
+B<< = resign
+B<< 
+B>> quit
+W>> quit

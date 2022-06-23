@@ -1,0 +1,356 @@
+B>> protocol_version
+B<< HollowNoGo-Demo: ./nogo --shell --name=Hollow --white=search=MCTS N=10000 worker=1 exploration=0.5 --black=search=MCTS N=10000 worker=1 exploration=0.5 
+B<< 
+B<< = 2
+B<< 
+B>> name
+B<< = Hollow
+B<< 
+B>> version
+B<< = 2021
+B<< 
+B>> list_commands
+B<< = play
+B<< genmove
+B<< clear_board
+B<< showboard
+B<< boardsize
+B<< name
+B<< version
+B<< protocol_version
+B<< list_commands
+B<< quit
+B<< 
+B<< 
+W>> protocol_version
+W<< HollowNoGo-Demo: /home/sciencethebird/Desktop/TCG_2021/Project_4/pj-4-judge-v1/./nogo --shell --name=Hollow-White --white=search=MCTS N=10000 worker=1 exploration=0.5 
+W<< 
+W<< = 2
+W<< 
+W>> name
+W<< = Hollow-White
+W<< 
+W>> version
+W<< = 2021
+W<< 
+W>> list_commands
+W<< = play
+W<< genmove
+W<< clear_board
+W<< showboard
+W<< boardsize
+W<< name
+W<< version
+W<< protocol_version
+W<< list_commands
+W<< quit
+W<< 
+W<< 
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+============================================
+Game 0
+============================================
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 1061
+B<< action: ;B[ai] , ac: 91
+B<< action: ;B[ah] , ac: 182
+B<< action: ;B[ag] , ac: 294
+B<< action: ;B[af] , ac: 154
+B<< action: ;B[ae] , ac: 146
+B<< action: ;B[ad] , ac: 176
+B<< action: ;B[ac] , ac: 144
+B<< action: ;B[ab] , ac: 56
+B<< action: ;B[aa] , ac: 237
+B<< action: ;B[bi] , ac: 199
+B<< action: ;B[bh] , ac: 67
+B<< action: ;B[bg] , ac: 75
+B<< action: ;B[bf] , ac: 225
+B<< action: ;B[be] , ac: 132
+B<< action: ;B[bd] , ac: 106
+B<< action: ;B[bc] , ac: 47
+B<< action: ;B[bb] , ac: 51
+B<< action: ;B[ba] , ac: 172
+B<< action: ;B[ci] , ac: 33
+B<< action: ;B[ch] , ac: 130
+B<< action: ;B[cg] , ac: 103
+B<< action: ;B[cf] , ac: 252
+B<< action: ;B[ce] , ac: 120
+B<< action: ;B[cd] , ac: 162
+B<< action: ;B[cc] , ac: 147
+B<< action: ;B[cb] , ac: 127
+B<< action: ;B[ca] , ac: 149
+B<< action: ;B[di] , ac: 178
+B<< action: ;B[dh] , ac: 212
+B<< action: ;B[dg] , ac: 206
+B<< action: ;B[dc] , ac: 62
+B<< action: ;B[db] , ac: 142
+B<< action: ;B[da] , ac: 110
+B<< action: ;B[ei] , ac: 142
+B<< action: ;B[eh] , ac: 201
+B<< action: ;B[eg] , ac: 141
+B<< action: ;B[ec] , ac: 159
+B<< action: ;B[eb] , ac: 154
+B<< action: ;B[ea] , ac: 80
+B<< action: ;B[fi] , ac: 60
+B<< action: ;B[fh] , ac: 110
+B<< action: ;B[fg] , ac: 202
+B<< action: ;B[fc] , ac: 101
+B<< action: ;B[fb] , ac: 142
+B<< action: ;B[fa] , ac: 232
+B<< action: ;B[gi] , ac: 117
+B<< action: ;B[gh] , ac: 103
+B<< action: ;B[gg] , ac: 54
+B<< action: ;B[gf] , ac: 282
+B<< action: ;B[ge] , ac: 162
+B<< action: ;B[gd] , ac: 146
+B<< action: ;B[gc] , ac: 64
+B<< action: ;B[gb] , ac: 106
+B<< action: ;B[ga] , ac: 106
+B<< action: ;B[hi] , ac: 103
+B<< action: ;B[hh] , ac: 164
+B<< action: ;B[hg] , ac: 41
+B<< action: ;B[hf] , ac: 67
+B<< action: ;B[he] , ac: 76
+B<< action: ;B[hd] , ac: 184
+B<< action: ;B[hc] , ac: 202
+B<< action: ;B[hb] , ac: 179
+B<< action: ;B[ha] , ac: 75
+B<< action: ;B[ii] , ac: 132
+B<< action: ;B[ih] , ac: 209
+B<< action: ;B[ig] , ac: 142
+B<< action: ;B[if] , ac: 118
+B<< action: ;B[ie] , ac: 134
+B<< action: ;B[id] , ac: 187
+B<< action: ;B[ic] , ac: 142
+B<< action: ;B[ib] , ac: 237
+B<< action: ;B[ia] , ac: 58
+B<< = A3
+B<< 
+W>> play B A3
+W<< = 
+W<< 
+W>> genmove w
+W<< best action;W[dc]best count: 165
+W<< = resign
+W<< 
+============================================
+Game 1
+============================================
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 1029
+B<< action: ;B[ai] , ac: 93
+B<< action: ;B[ah] , ac: 56
+B<< action: ;B[ag] , ac: 128
+B<< action: ;B[af] , ac: 159
+B<< action: ;B[ae] , ac: 186
+B<< action: ;B[ad] , ac: 104
+B<< action: ;B[ac] , ac: 112
+B<< action: ;B[ab] , ac: 344
+B<< action: ;B[aa] , ac: 224
+B<< action: ;B[bi] , ac: 92
+B<< action: ;B[bh] , ac: 134
+B<< action: ;B[bg] , ac: 138
+B<< action: ;B[bf] , ac: 168
+B<< action: ;B[be] , ac: 117
+B<< action: ;B[bd] , ac: 174
+B<< action: ;B[bc] , ac: 121
+B<< action: ;B[bb] , ac: 178
+B<< action: ;B[ba] , ac: 159
+B<< action: ;B[ci] , ac: 90
+B<< action: ;B[ch] , ac: 248
+B<< action: ;B[cg] , ac: 159
+B<< action: ;B[cf] , ac: 211
+B<< action: ;B[ce] , ac: 101
+B<< action: ;B[cd] , ac: 144
+B<< action: ;B[cc] , ac: 191
+B<< action: ;B[cb] , ac: 151
+B<< action: ;B[ca] , ac: 117
+B<< action: ;B[di] , ac: 191
+B<< action: ;B[dh] , ac: 209
+B<< action: ;B[dg] , ac: 215
+B<< action: ;B[dc] , ac: 86
+B<< action: ;B[db] , ac: 90
+B<< action: ;B[da] , ac: 295
+B<< action: ;B[ei] , ac: 149
+B<< action: ;B[eh] , ac: 295
+B<< action: ;B[eg] , ac: 35
+B<< action: ;B[ec] , ac: 139
+B<< action: ;B[eb] , ac: 202
+B<< action: ;B[ea] , ac: 99
+B<< action: ;B[fi] , ac: 58
+B<< action: ;B[fh] , ac: 29
+B<< action: ;B[fg] , ac: 243
+B<< action: ;B[fc] , ac: 112
+B<< action: ;B[fb] , ac: 27
+B<< action: ;B[fa] , ac: 77
+B<< action: ;B[gi] , ac: 272
+B<< action: ;B[gh] , ac: 122
+B<< action: ;B[gg] , ac: 114
+B<< action: ;B[gf] , ac: 148
+B<< action: ;B[ge] , ac: 136
+B<< action: ;B[gd] , ac: 69
+B<< action: ;B[gc] , ac: 138
+B<< action: ;B[gb] , ac: 166
+B<< action: ;B[ga] , ac: 151
+B<< action: ;B[hi] , ac: 86
+B<< action: ;B[hh] , ac: 171
+B<< action: ;B[hg] , ac: 79
+B<< action: ;B[hf] , ac: 156
+B<< action: ;B[he] , ac: 45
+B<< action: ;B[hd] , ac: 41
+B<< action: ;B[hc] , ac: 171
+B<< action: ;B[hb] , ac: 209
+B<< action: ;B[ha] , ac: 59
+B<< action: ;B[ii] , ac: 133
+B<< action: ;B[ih] , ac: 63
+B<< action: ;B[ig] , ac: 70
+B<< action: ;B[if] , ac: 192
+B<< action: ;B[ie] , ac: 45
+B<< action: ;B[id] , ac: 105
+B<< action: ;B[ic] , ac: 163
+B<< action: ;B[ib] , ac: 116
+B<< action: ;B[ia] , ac: 131
+B<< = A8
+B<< 
+W>> play B A8
+W<< = 
+W<< 
+W>> genmove w
+W<< best action;W[ia]best count: 215
+W<< = resign
+W<< 
+============================================
+Game 2
+============================================
+B>> boardsize 9
+B<< = 
+B<< 
+B>> clear_board
+B<< = 
+B<< 
+W>> boardsize 9
+W<< = 
+W<< 
+W>> clear_board
+W<< = 
+W<< 
+B>> genmove b
+B<< MCTS: 10001 simulation done, duration: 1029
+B<< action: ;B[ai] , ac: 102
+B<< action: ;B[ah] , ac: 109
+B<< action: ;B[ag] , ac: 135
+B<< action: ;B[af] , ac: 205
+B<< action: ;B[ae] , ac: 39
+B<< action: ;B[ad] , ac: 115
+B<< action: ;B[ac] , ac: 178
+B<< action: ;B[ab] , ac: 74
+B<< action: ;B[aa] , ac: 49
+B<< action: ;B[bi] , ac: 132
+B<< action: ;B[bh] , ac: 155
+B<< action: ;B[bg] , ac: 94
+B<< action: ;B[bf] , ac: 90
+B<< action: ;B[be] , ac: 121
+B<< action: ;B[bd] , ac: 187
+B<< action: ;B[bc] , ac: 226
+B<< action: ;B[bb] , ac: 200
+B<< action: ;B[ba] , ac: 126
+B<< action: ;B[ci] , ac: 192
+B<< action: ;B[ch] , ac: 138
+B<< action: ;B[cg] , ac: 234
+B<< action: ;B[cf] , ac: 111
+B<< action: ;B[ce] , ac: 123
+B<< action: ;B[cd] , ac: 164
+B<< action: ;B[cc] , ac: 198
+B<< action: ;B[cb] , ac: 234
+B<< action: ;B[ca] , ac: 138
+B<< action: ;B[di] , ac: 177
+B<< action: ;B[dh] , ac: 138
+B<< action: ;B[dg] , ac: 208
+B<< action: ;B[dc] , ac: 180
+B<< action: ;B[db] , ac: 74
+B<< action: ;B[da] , ac: 128
+B<< action: ;B[ei] , ac: 41
+B<< action: ;B[eh] , ac: 58
+B<< action: ;B[eg] , ac: 99
+B<< action: ;B[ec] , ac: 51
+B<< action: ;B[eb] , ac: 125
+B<< action: ;B[ea] , ac: 233
+B<< action: ;B[fi] , ac: 96
+B<< action: ;B[fh] , ac: 150
+B<< action: ;B[fg] , ac: 145
+B<< action: ;B[fc] , ac: 150
+B<< action: ;B[fb] , ac: 96
+B<< action: ;B[fa] , ac: 74
+B<< action: ;B[gi] , ac: 164
+B<< action: ;B[gh] , ac: 198
+B<< action: ;B[gg] , ac: 81
+B<< action: ;B[gf] , ac: 198
+B<< action: ;B[ge] , ac: 125
+B<< action: ;B[gd] , ac: 92
+B<< action: ;B[gc] , ac: 183
+B<< action: ;B[gb] , ac: 306
+B<< action: ;B[ga] , ac: 229
+B<< action: ;B[hi] , ac: 153
+B<< action: ;B[hh] , ac: 95
+B<< action: ;B[hg] , ac: 234
+B<< action: ;B[hf] , ac: 52
+B<< action: ;B[he] , ac: 31
+B<< action: ;B[hd] , ac: 193
+B<< action: ;B[hc] , ac: 83
+B<< action: ;B[hb] , ac: 177
+B<< action: ;B[ha] , ac: 203
+B<< action: ;B[ii] , ac: 115
+B<< action: ;B[ih] , ac: 71
+B<< action: ;B[ig] , ac: 116
+B<< action: ;B[if] , ac: 62
+B<< action: ;B[ie] , ac: 239
+B<< action: ;B[id] , ac: 92
+B<< action: ;B[ic] , ac: 109
+B<< action: ;B[ib] , ac: 155
+B<< action: ;B[ia] , ac: 153
+B<< = G8
+B<< 
+W>> play B G8
+W<< = 
+W<< 
+W>> genmove w
+W<< best action;W[ca]best count: 200
+W<< = resign
+W<< 
+B>> quit
+W>> quit
